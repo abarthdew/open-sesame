@@ -244,11 +244,11 @@ FX hedge, sector reallocation) — does NOT issue individual buy/sell orders.
 ### Examples
 
 ```text
-/open-sesame [mode: macro][period: 7d][question: Short-term flow impact around 6/12 SpaceX IPO]
+/open-sesame [macro][7d][Short-term flow impact around 6/12 SpaceX IPO]
 
-/open-sesame [mode: macro][period: 30d][question: Portfolio check before 6/17 FOMC]
+/open-sesame [macro][30d][Portfolio check before 6/17 FOMC]
 
-/open-sesame [mode: macro][period: 90d][question: Structural impact if US-China tariffs restart]
+/open-sesame [macro][90d][Structural impact if US-China tariffs restart]
 ```
 
 ---
@@ -268,11 +268,11 @@ References the current portfolio to avoid duplication/concentration.
 ### Examples
 
 ```text
-/open-sesame [mode: scan][theme: AI infrastructure][question: Find ETFs or stocks that do not overlap with my portfolio]
+/open-sesame [scan][AI infrastructure][Find ETFs or stocks that do not overlap with my portfolio]
 
-/open-sesame [mode: scan][theme: US defense][question: Prefer FX hedge benefits]
+/open-sesame [scan][US defense][Prefer FX hedge benefits]
 
-/open-sesame [mode: scan][theme: healthcare][question: Defensive stocks with low semiconductor correlation]
+/open-sesame [scan][healthcare][Defensive stocks with low semiconductor correlation]
 ```
 
 ---
