@@ -68,19 +68,19 @@ Run from the project directory:
 
 ```bash
 # Multi-agent analysis (recommended)
-/open-sesame [mode: multi][analysis target: SK hynix (000660)][question: Should I add to my position now?]
+/open-sesame [multi][SK hynix (000660)][Should I add to my position now?]
 
 # Quick single-agent opinion
-/open-sesame [mode: single][analysis target: NVDA][question: Should I hold through the earnings release tomorrow?]
+/open-sesame [single][NVDA][Should I hold through the earnings release tomorrow?]
 
 # Portfolio rebalance check
-/open-sesame [mode: rebalance][question: Review my current portfolio allocation.]
+/open-sesame [rebalance][Review my current portfolio allocation.]
 
 # Sector scan for new candidates
-/open-sesame [mode: scan][theme: AI infrastructure][question: Find ETFs or stocks that do not overlap with my current portfolio]
+/open-sesame [scan][AI infrastructure][Find ETFs or stocks that do not overlap with my current portfolio]
 
 # Macro analysis
-/open-sesame [mode: macro][period: 30d][question: Portfolio check before FOMC]
+/open-sesame [macro][30d][Portfolio check before FOMC]
 ```
 
 The agent reads your actual portfolio (avg price, P&L, cash ratio) from the local DB and applies the scoring framework in `ADVISOR.md`.
