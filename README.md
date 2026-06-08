@@ -35,6 +35,8 @@ git clone https://github.com/abarthdew/open-sesame.git
 cd open-sesame
 ```
 
+> Fill in `history/portfolio.toml` with your holdings before running the dashboard.
+
 ### 2. Install
 
 ```bash
@@ -57,6 +59,8 @@ Edit `history/portfolio.toml` with your holdings. The sample file has the correc
 python3 app.py
 # → http://localhost:5000
 ```
+
+> Make sure `.env` is filled in — without it, the dashboard won't display prices or briefing data correctly.
 
 ---
 
@@ -155,22 +159,7 @@ See `schedule/ROUTINES.md` for full setup instructions and cron expressions.
 
 ## File Structure
 
-```
-open-sesame/
-├── app.py                    # Flask server
-├── ADVISOR.md                # Advisor prompt & scoring rules
-├── history/
-│   ├── portfolio.toml        # Your holdings (edit this)
-│   ├── events.toml           # Event calendar
-│   └── api_cache.json        # Weekly briefing cache (auto)
-├── data/
-│   ├── db.py                 # SQLite schema & queries
-│   └── fetcher.py            # pykrx / yfinance fetcher
-├── briefing/                 # Slack briefing generator
-├── static/ & templates/      # Dashboard frontend
-├── formats/                  # Advisor report templates
-└── .github/workflows/        # GitHub Actions automation
-```
+See [CLAUDE.md](CLAUDE.md#file-structure) for the full file structure.
 
 ---
 

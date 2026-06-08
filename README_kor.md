@@ -35,6 +35,8 @@ git clone https://github.com/abarthdew/open-sesame.git
 cd open-sesame
 ```
 
+> 대시보드를 실행하기 전에 `history/portfolio.toml` 파일에 보유 종목을 입력하세요.
+
 ### 2. 설치
 
 ```bash
@@ -57,6 +59,8 @@ cp .env.example .env
 python3 app.py
 # → http://localhost:5000
 ```
+
+> `.env` 환경 변수를 입력하지 않으면 시세 및 브리핑 데이터가 대시보드에 표시되지 않습니다.
 
 ---
 
@@ -155,22 +159,7 @@ python3 -m briefing.briefing weekly    # 주간 회고
 
 ## 파일 구조
 
-```
-open-sesame/
-├── app.py                    # Flask 서버
-├── ADVISOR.md                # 자문 프롬프트 & 채점 규칙
-├── history/
-│   ├── portfolio.toml        # 보유 종목 (직접 편집)
-│   ├── events.toml           # 이벤트 캘린더
-│   └── api_cache.json        # 주간 브리핑 캐시 (자동)
-├── data/
-│   ├── db.py                 # SQLite 스키마 & 쿼리
-│   └── fetcher.py            # pykrx / yfinance 시세 조회
-├── briefing/                 # Slack 브리핑 생성기
-├── static/ & templates/      # 대시보드 프론트엔드
-├── formats/                  # 자문 리포트 템플릿
-└── .github/workflows/        # GitHub Actions 자동화
-```
+전체 파일 구조는 [CLAUDE_kor.md](CLAUDE_kor.md#파일-구조)를 참조하세요.
 
 ---
 
