@@ -1,4 +1,4 @@
-// ── 마이페이지 ────────────────────────────────────────────────────────────────
+// ── My page ────────────────────────────────────────────────────────────────────
 const ACCOUNT_COLORS = [
   '#378ADD','#1D9E75','#E67E22','#9B59B6',
   '#E74C3C','#1ABC9C','#F39C12','#7F8C8D','#BDC3C7',
@@ -33,8 +33,8 @@ async function loadMypage() {
 }
 
 async function queryMypage() {
-  document.getElementById('mypage-table').innerHTML = '<div class="loading">로딩 중…</div>';
-  document.getElementById('trades-table').innerHTML = '<div class="loading">로딩 중…</div>';
+  document.getElementById('mypage-table').innerHTML = '<div class="loading">Loading…</div>';
+  document.getElementById('trades-table').innerHTML = '<div class="loading">Loading…</div>';
   const data = await fetchMypage();
   renderMypageTable(data);
   renderMypageBar(data);
@@ -45,34 +45,34 @@ async function queryMypage() {
 
 async function reloadSnapshots() {
   const btn = document.querySelector('#mypage .refresh-btn');
-  btn.textContent = '처리 중…'; btn.disabled = true;
+  btn.textContent = 'Processing…'; btn.disabled = true;
   const res = await fetch('/api/mypage/reload', { method: 'POST' });
   const data = await res.json();
   if (!res.ok) {
     const msg = data.error === 'date_missing'
-      ? 'portfolio.toml의 [meta] updated 날짜가 없습니다'
-      : `날짜 형식 오류: ${data.error}`;
+      ? 'No [meta] updated date in portfolio.toml'
+      : `Date format error: ${data.error}`;
     document.getElementById('mypage-table').innerHTML =
       `<div class="loading" style="color:#ff6b6b">${msg}</div>`;
-    btn.textContent = '재로드'; btn.disabled = false;
+    btn.textContent = 'Reload'; btn.disabled = false;
     return;
   }
   mypageLoaded = false;
-  document.getElementById('mypage-table').innerHTML = '<div class="loading">로딩 중…</div>';
+  document.getElementById('mypage-table').innerHTML = '<div class="loading">Loading…</div>';
   await loadMypage();
-  btn.textContent = '재로드'; btn.disabled = false;
+  btn.textContent = 'Reload'; btn.disabled = false;
 }
 
 function renderMypageTable(data) {
   const { dates, accounts, totals, salary, spending, tax, net_savings, delta } = data;
   if (!dates.length) {
     document.getElementById('mypage-table').innerHTML =
-      '<p style="color:var(--text3);font-size:13px">데이터 없음. data/account_history.toml을 편집한 후 재로드하세요.</p>';
+      '<p style="color:var(--text3);font-size:13px">No data. Edit data/account_history.toml, then reload.</p>';
     return;
   }
 
   let html = `<table class="snap-table"><thead><tr>
-    <th>계좌</th>${dates.map(d => `<th>${fmtDate(d)}</th>`).join('')}
+    <th>Account</th>${dates.map(d => `<th>${fmtDate(d)}</th>`).join('')}
   </tr></thead><tbody>`;
 
   accounts.forEach((acct) => {
@@ -80,7 +80,7 @@ function renderMypageTable(data) {
       `<td>${v > 0 ? fmt(v) : '-'}</td>`).join('')}</tr>`;
   });
 
-  html += `<tr class="total-row"><td>총합</td>${totals.map(t => `<td>${fmt(t)}</td>`).join('')}</tr>`;
+  html += `<tr class="total-row"><td>Total</td>${totals.map(t => `<td>${fmt(t)}</td>`).join('')}</tr>`;
 
   const deltaCell = (i) => {
     if (i !== dates.length - 1 || !delta) return '<td>-</td>';
@@ -88,18 +88,18 @@ function renderMypageTable(data) {
     const cls  = delta.amount >= 0 ? 'pos' : 'neg';
     return `<td class="${cls}">${sign}${fmt(delta.amount)} (${sign}${delta.pct}%)</td>`;
   };
-  html += `<tr class="meta-row"><td>등락</td>${dates.map((_, i) => deltaCell(i)).join('')}</tr>`;
+  html += `<tr class="meta-row"><td>Change</td>${dates.map((_, i) => deltaCell(i)).join('')}</tr>`;
 
-  html += `<tr class="meta-row"><td>월 급여</td>${salary.map(v =>
+  html += `<tr class="meta-row"><td>Salary</td>${salary.map(v =>
     `<td>${v > 0 ? fmt(v) : '-'}</td>`).join('')}</tr>`;
 
-  html += `<tr class="meta-row"><td>소비 금액</td>${spending.map(v =>
+  html += `<tr class="meta-row"><td>Spending</td>${spending.map(v =>
     `<td>${v > 0 ? fmt(v) : '-'}</td>`).join('')}</tr>`;
 
-  html += `<tr class="meta-row"><td>세금</td>${(tax || []).map(v =>
+  html += `<tr class="meta-row"><td>Tax</td>${(tax || []).map(v =>
     `<td>${v > 0 ? fmt(v) : '-'}</td>`).join('')}</tr>`;
 
-  html += `<tr class="meta-row"><td>순 저축</td>${net_savings.map(v => {
+  html += `<tr class="meta-row"><td>Net Savings</td>${net_savings.map(v => {
     if (v === 0) return '<td>-</td>';
     const cls = v > 0 ? 'pos' : 'neg';
     return `<td class="${cls}">${v > 0 ? '+' : ''}${fmt(v)}</td>`;
@@ -119,7 +119,7 @@ function renderMypageBar(data) {
     x: dates.map(fmtDate),
     y: acct.values,
     marker: { color: ACCOUNT_COLORS[i % ACCOUNT_COLORS.length] },
-    hovertemplate: `<b>${acct.name}</b><br>%{y:,.0f}원<extra></extra>`,
+    hovertemplate: `<b>${acct.name}</b><br>₩%{y:,.0f}<extra></extra>`,
   }));
 
   Plotly.newPlot('mypage-bar', traces, {
@@ -149,15 +149,15 @@ function renderTrades(data) {
   const el = document.getElementById('trades-table');
   const { trades, total_pnl } = data;
   if (!trades || !trades.length) {
-    el.innerHTML = '<p style="color:var(--text3);font-size:13px;padding:8px 0">매도 내역이 없습니다. portfolio.toml에 [[trades]] 항목을 추가하세요.</p>';
+    el.innerHTML = '<p style="color:var(--text3);font-size:13px;padding:8px 0">No trade records. Add [[trades]] entries to portfolio.toml.</p>';
     return;
   }
 
-  const fmtPrice = (v, market) => market === 'US' ? `$${v.toLocaleString()}` : `${v.toLocaleString()}원`;
+  const fmtPrice = (v, market) => market === 'US' ? `$${v.toLocaleString()}` : `₩${v.toLocaleString()}`;
 
   let html = `<table class="snap-table"><thead><tr>
-    <th>매도일</th><th>계좌</th><th>종목</th><th>수량</th>
-    <th>매입가</th><th>매도가</th><th>실현손익</th><th>세금</th><th>순손익</th><th>수익률</th>
+    <th>Date</th><th>Account</th><th>Ticker</th><th>Qty</th>
+    <th>Buy Price</th><th>Sell Price</th><th>Gross P&amp;L</th><th>Tax</th><th>Net P&amp;L</th><th>Return</th>
   </tr></thead><tbody>`;
 
   for (const t of trades) {
@@ -183,7 +183,7 @@ function renderTrades(data) {
   const totalCls  = pctClass(total_pnl);
   const totalSign = total_pnl >= 0 ? '+' : '';
   html += `<tr class="total-row">
-    <td colspan="7">총 순손익 (세후)</td>
+    <td colspan="7">Total Net P&amp;L (after tax)</td>
     <td></td>
     <td class="${totalCls}">${totalSign}${fmt(total_pnl)}</td>
     <td>-</td>
@@ -200,29 +200,29 @@ function renderMypageLine(data) {
   const xs = dates.map(fmtDate);
   const traces = [
     {
-      name: '총합', x: xs, y: totals, yaxis: 'y',
+      name: 'Total', x: xs, y: totals, yaxis: 'y',
       line: { color: '#378ADD', width: 2.5 },
-      hovertemplate: '총합: %{y:,.0f}원<extra></extra>',
+      hovertemplate: 'Total: ₩%{y:,.0f}<extra></extra>',
     },
     {
-      name: '월 급여', x: xs, y: salary, yaxis: 'y2',
+      name: 'Salary', x: xs, y: salary, yaxis: 'y2',
       line: { color: '#1D9E75', width: 1.5, dash: 'dot' },
-      hovertemplate: '월 급여: %{y:,.0f}원<extra></extra>',
+      hovertemplate: 'Salary: ₩%{y:,.0f}<extra></extra>',
     },
     {
-      name: '소비 금액', x: xs, y: spending, yaxis: 'y2',
+      name: 'Spending', x: xs, y: spending, yaxis: 'y2',
       line: { color: '#D85A30', width: 1.5, dash: 'dot' },
-      hovertemplate: '소비: %{y:,.0f}원<extra></extra>',
+      hovertemplate: 'Spending: ₩%{y:,.0f}<extra></extra>',
     },
     {
-      name: '세금', x: xs, y: tax || xs.map(() => 0), yaxis: 'y2',
+      name: 'Tax', x: xs, y: tax || xs.map(() => 0), yaxis: 'y2',
       line: { color: '#E67E22', width: 1.5, dash: 'dot' },
-      hovertemplate: '세금: %{y:,.0f}원<extra></extra>',
+      hovertemplate: 'Tax: ₩%{y:,.0f}<extra></extra>',
     },
     {
-      name: '순 저축', x: xs, y: net_savings, yaxis: 'y2',
+      name: 'Net Savings', x: xs, y: net_savings, yaxis: 'y2',
       line: { color: '#9B59B6', width: 2 },
-      hovertemplate: '순저축: %{y:,.0f}원<extra></extra>',
+      hovertemplate: 'Net savings: ₩%{y:,.0f}<extra></extra>',
     },
   ];
 

@@ -1,4 +1,4 @@
-// ── 이벤트 캘린더 ────────────────────────────────────────────────────────────
+// ── Event calendar ────────────────────────────────────────────────────────────
 function eventsParams() {
   const from = document.getElementById('ev-from').value;
   const to   = document.getElementById('ev-to').value;
@@ -26,7 +26,7 @@ async function renderEvents() {
             </div>
           </div>`;
       }).join('')
-    : '<div style="color:var(--text3);font-size:13px;padding:8px 0">해당 기간에 이벤트가 없습니다.</div>';
+    : '<div style="color:var(--text3);font-size:13px;padding:8px 0">No events for the selected period.</div>';
 }
 
 async function renderNewsSentiment() {
@@ -35,7 +35,7 @@ async function renderNewsSentiment() {
   const el = document.getElementById('news-sentiment-list');
   if (!el) return;
   if (!items.length) {
-    el.innerHTML = '<div style="color:var(--text3);font-size:13px">데이터 없음 (주간 브리핑 실행 후 자동 반영)</div>';
+    el.innerHTML = '<div style="color:var(--text3);font-size:13px">No data — auto-updated after weekly briefing runs</div>';
     return;
   }
   const labelClass = label => {
@@ -73,14 +73,14 @@ async function loadEvents() {
 }
 
 async function queryEvents() {
-  document.getElementById('events-list').innerHTML = '<div class="loading">로딩 중…</div>';
+  document.getElementById('events-list').innerHTML = '<div class="loading">Loading…</div>';
   await renderEvents();
 }
 
 async function reloadEvents() {
   const btn = event.target;
-  btn.textContent = '처리 중…'; btn.disabled = true;
+  btn.textContent = 'Processing…'; btn.disabled = true;
   await fetch('/api/events/reload', { method: 'POST' });
   await renderEvents();
-  btn.textContent = '재로드'; btn.disabled = false;
+  btn.textContent = 'Reload'; btn.disabled = false;
 }

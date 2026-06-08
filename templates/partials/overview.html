@@ -1,40 +1,40 @@
 <div id="overview" class="panel active">
   <div class="section">
     <p class="section-title">
-      총 자산 개요
-      <button class="refresh-btn" onclick="refreshPrices()">가격 새로고침</button>
-      <button class="refresh-btn btn-right" onclick="reloadHoldings(this)">종목 재로드</button>
+      Total Assets
+      <button class="refresh-btn" onclick="refreshPrices()">Refresh Prices</button>
+      <button class="refresh-btn btn-right" onclick="reloadHoldings(this)">Reload Holdings</button>
     </p>
     <div class="cards" id="summary-cards">
-      <div class="loading">로딩 중…</div>
+      <div class="loading">Loading…</div>
     </div>
   </div>
 
   <div class="section">
     <p class="section-title">
-      한국 주식
-      <button class="icon-btn" onclick="toggleRecNote()" title="추천 기준 안내">!</button>
+      KR Stocks
+      <button class="icon-btn" onclick="toggleRecNote()" title="Recommendation guide">!</button>
     </p>
     <div id="rec-note" class="rec-note" style="display:none">
-      <b>추천 기준 (20거래일 기준)</b><br>
-      +20% 이상 → 매도 검토 &nbsp;|&nbsp; -15% 이하 → 매수 검토 &nbsp;|&nbsp; 그 외 → 보유<br>
-      참고 신호입니다. 최종 결정 전 반드시 <b>매수/매도 조건</b> 탭의 체크리스트를 함께 확인하세요.
+      <b>Recommendation basis (20-day)</b><br>
+      +20% or more → Review Sell &nbsp;|&nbsp; -15% or less → Review Buy &nbsp;|&nbsp; otherwise → Hold<br>
+      Reference signal only. Always check the <b>Buy/Sell Signals</b> checklist before making a final decision.
     </div>
-    <div id="kr-holdings"><div class="loading">로딩 중…</div></div>
+    <div id="kr-holdings"><div class="loading">Loading…</div></div>
   </div>
 
   <div class="section">
-    <p class="section-title">미국 주식</p>
-    <div id="us-holdings"><div class="loading">로딩 중…</div></div>
+    <p class="section-title">US Stocks</p>
+    <div id="us-holdings"><div class="loading">Loading…</div></div>
   </div>
 
   <div class="section">
-    <p class="section-title">자산 구성</p>
+    <p class="section-title">Asset Mix</p>
     <div id="treemap"></div>
   </div>
 
   <div class="section">
-    <p class="section-title">자산 비중</p>
-    <div id="weight-bars"><div class="loading">로딩 중…</div></div>
+    <p class="section-title">Asset Weight</p>
+    <div id="weight-bars"><div class="loading">Loading…</div></div>
   </div>
 </div>

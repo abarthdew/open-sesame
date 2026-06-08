@@ -26,7 +26,7 @@ DEBUG_DIR     = Path(__file__).parent / "debug"
 # ── Logging ───────────────────────────────────────────────────────────────────
 
 class _DailyDebugHandler(BaseRotatingHandler):
-    """날짜가 바뀌면 debug/YYYY-MM-DD.debug 파일로 자동 교체."""
+    """Auto-rotates to debug/YYYY-MM-DD.debug when the date changes."""
     def __init__(self, dir_path: Path):
         dir_path.mkdir(exist_ok=True)
         self._dir = dir_path
@@ -98,7 +98,7 @@ def portfolio():
     for h in holdings:
         price = get_price(h["ticker"], h["market"])
         if price is None:
-            price = h["avg_price"]  # 가격 없으면 평단 사용
+            price = h["avg_price"]  # fall back to avg price if no live price
 
         cost = h["avg_price"]
         pct = round((price / cost - 1) * 100, 2) if cost else 0
@@ -145,9 +145,9 @@ def portfolio():
     cash_krw_total = cash_krw + cash_usd * rate
 
     total = kr_total + us_total_krw + cash_krw_total
-    total = max(total, 1)  # zero-division 방지
+    total = max(total, 1)  # prevent zero-division
 
-    # 계좌별 합계 (주식 + 현금)
+    # per-account total (stocks + cash)
     acct_stock_krw = {}
     for item in items:
         val_krw = item["value"] if item["market"] == "KR" else round(item["value"] * rate)

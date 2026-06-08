@@ -1,4 +1,4 @@
-// ── 시그널 ────────────────────────────────────────────────────────────────────
+// ── Signals ────────────────────────────────────────────────────────────────────
 async function loadSignals() {
   loadTriggers();
   const res = await fetch('/api/signals');
@@ -46,7 +46,7 @@ async function loadTriggers() {
 function renderTriggers(triggers) {
   const el = document.getElementById('triggers-list');
   if (!triggers.length) {
-    el.innerHTML = '<p style="color:var(--text3);font-size:13px;padding:4px 0">트리거 없음. 동기화 버튼을 눌러 보고서에서 불러오세요.</p>';
+    el.innerHTML = '<p style="color:var(--text3);font-size:13px;padding:4px 0">No triggers. Press Sync to load from reports.</p>';
     return;
   }
   el.innerHTML = triggers.map(renderTrigger).join('');
@@ -89,11 +89,11 @@ async function toggleTrigger(id, el) {
 
 async function reloadTriggers() {
   const btn = document.getElementById('trigger-sync-btn');
-  btn.textContent = '처리 중…'; btn.disabled = true;
+  btn.textContent = 'Processing…'; btn.disabled = true;
   const res  = await fetch('/api/triggers/reload', { method: 'POST' });
   const data = await res.json();
   await loadTriggers();
-  btn.textContent = '동기화'; btn.disabled = false;
+  btn.textContent = 'Sync'; btn.disabled = false;
 }
 
 // ── FOMO ──────────────────────────────────────────────────────────────────────
@@ -114,12 +114,12 @@ function updateFomoResult() {
   el.style.display = 'block';
   if (fomoBad >= 2) {
     el.style.background = '#faece7'; el.style.color = 'var(--red)';
-    el.textContent = '⚠️ FOMO 신호 있음 — 하루 기다리세요.';
+    el.textContent = '⚠️ FOMO signal detected — wait one day.';
   } else if (fomoGood >= 1 && fomoBad === 0) {
     el.style.background = '#dff0e8'; el.style.color = 'var(--green)';
-    el.textContent = '✓ 조건 충족 — 분할 매수 진행 가능합니다.';
+    el.textContent = '✓ Conditions met — split entry can proceed.';
   } else {
     el.style.background = 'var(--bg2)'; el.style.color = 'var(--text2)';
-    el.textContent = `나쁜 이유 ${fomoBad}개 · 좋은 이유 ${fomoGood}개 — 신중하게 판단하세요.`;
+    el.textContent = `${fomoBad} bad reason(s) · ${fomoGood} good reason(s) — judge carefully.`;
   }
 }
