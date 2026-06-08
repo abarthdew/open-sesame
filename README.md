@@ -118,7 +118,7 @@ Edit `history/portfolio.toml` to update your holdings, then hit **Reload** in th
 
 ---
 
-## 📬 Automated Briefings (GitHub Actions)
+## 🪂 Automated Briefings (GitHub Actions)
 
 `.github/workflows/briefing.yml` sends Slack messages on a schedule.
 
