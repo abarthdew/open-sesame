@@ -118,7 +118,7 @@ Edit `history/portfolio.toml` to update your holdings, then hit **Reload** in th
 
 ---
 
-## 🪂 Automated Briefings (GitHub Actions)
+## 📭 Automated Briefings (GitHub Actions)
 
 `.github/workflows/briefing.yml` sends Slack messages on a schedule.
 
@@ -177,7 +177,7 @@ See `schedule/ROUTINES.md` for full setup instructions and cron expressions.
 
 ---
 
-## 📁 File Structure
+## 💾 File Structure
 
 See [CLAUDE.md](CLAUDE.md#file-structure) for the full file structure.
 
@@ -200,6 +200,6 @@ Issues and PRs welcome. This project is primarily built with and for [Claude Cod
 
 ---
 
-## 📄 License
+## 👩‍🎓 License
 
 MIT
