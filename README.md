@@ -5,7 +5,8 @@
   <td valign="middle">
     <b>AI-powered investment advisor & dashboard for Claude Code</b><br/>  
     KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI command<br/>
-    <b>All features work with Claude Code — no extra setup required!</b>
+    <br/>
+    All features work with <b>✳︎ Claude Code ✳︎</b> — no extra setup required!
   </td>
 </tr></table>
 
