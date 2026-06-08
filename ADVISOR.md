@@ -105,11 +105,11 @@ Default: `multi`
 | `[mode: single]` | Single analysis agent | ~15s | Quick second opinion |
 | `[mode: rebalance]` | Portfolio rebalance agent | ~30s | Portfolio allocation review |
 | `[mode: scan]` | Stock discovery agent | ~30s | Theme/sector candidate search |
-| `[mode: macro]` | Single macro-analysis agent | ~30s | 거시·지정학 진단 + 포트폴리오 권고 (개별 종목 매매 안 함) |
+| `[mode: macro]` | Single macro-analysis agent | ~30s | Macro & geopolitical diagnosis + portfolio-level recommendations (no individual stock orders) |
 
 The user provides only:
 mode + analysis target (not required for `rebalance` or `macro`) + question.
-`macro` mode additionally accepts `[기간: 7일 \| 30일 \| 90일]` (default 30일).
+`macro` mode additionally accepts `[period: 7d | 30d | 90d]` (default 30d).
 
 Data collection is handled by the **main session** (see `.claude/commands/open-sesame.md`):
 - `GET /api/portfolio` → holdings, prices, 20d returns, account totals, exchange rate
@@ -215,39 +215,39 @@ FX hedge, sector reallocation) — does NOT issue individual buy/sell orders.
 ### Request Template
 
 ```text
-/open-sesame [mode: macro][기간: 7일 | 30일 | 90일][question: {macro question}]
+/open-sesame [mode: macro][period: 7d | 30d | 90d][question: {macro question}]
 ```
 
-- `기간` is optional (default 30일).
+- `period` is optional (default 30d).
 - analysis target is not used (omit).
 
 ### Six Analysis Axes
 
 | Axis | Variables | Sources |
 |---|---|---|
-| A. 금리·통화 | FOMC·SEP, 한은 금통위, US 10Y/2Y, USD/KRW, DXY | `/api/events`, `/api/signals` (`fed_rate_cut_signal`, `us_10y_above_4_5`, `dollar_index_down`), WebSearch |
-| B. 물가·경기 | CPI·PCE(코어/헤드라인), PPI, NFP, ISM/PMI | `/api/events`, `/api/signals` (`ppi_minus_cpi_spread`), WebSearch |
-| C. 변동성·수급 | VIX, 외국인 수급, 신용 잔고 | `/api/signals` (`vix_spike`, `foreign_buy_3days`, `foreign_sell_3days`, `credit_balance_ratio_high`), WebSearch |
-| D. 지정학·정책 | 미중 갈등(관세·수출통제), 중동(이란·OPEC+), 미 행정명령 | WebSearch (확정 사실 블록) |
-| E. 유동성·자금흐름 | M2, RRP, 메가 IPO(SpaceX 등), 패시브 리밸런싱 | WebSearch |
-| F. 원자재·에너지 | WTI/Brent, 천연가스, 금, DRAM 현물가 | `/api/signals` (`dram_price_up`, `dram_price_down_2m`), WebSearch |
+| A. Rates & Currency | FOMC/SEP, Bank of Korea MPC, US 10Y/2Y, USD/KRW, DXY | `/api/events`, `/api/signals` (`fed_rate_cut_signal`, `us_10y_above_4_5`, `dollar_index_down`), WebSearch |
+| B. Inflation & Economy | CPI/PCE (core/headline), PPI, NFP, ISM/PMI | `/api/events`, `/api/signals` (`ppi_minus_cpi_spread`), WebSearch |
+| C. Volatility & Flows | VIX, foreign net flows, margin balance | `/api/signals` (`vix_spike`, `foreign_buy_3days`, `foreign_sell_3days`, `credit_balance_ratio_high`), WebSearch |
+| D. Geopolitics & Policy | US-China tensions (tariffs/export controls), Middle East (Iran/OPEC+), US executive orders | WebSearch (confirmed facts block) |
+| E. Liquidity & Capital Flows | M2, RRP, mega IPOs (SpaceX etc.), passive rebalancing | WebSearch |
+| F. Commodities & Energy | WTI/Brent, natural gas, gold, DRAM spot price | `/api/signals` (`dram_price_up`, `dram_price_down_2m`), WebSearch |
 
 ### Period-based Axis Weighting
 
-| 기간 | 강조 축 | 의도 |
+| Period | Focus Axes | Intent |
 |---|---|---|
-| 7일 | D · E · F | 이벤트·자금흐름·원자재 단기 충격 |
-| 30일 | 균등 (default) | 임박 거시 이벤트 + 섹터 회전 동시 고려 |
-| 90일 | A · B | 구조적 금리·물가 사이클 판단 |
+| 7d | D, E, F | Short-term event / flow / commodity shocks |
+| 30d | Equal (default) | Imminent macro events + sector rotation |
+| 90d | A, B | Structural rate/inflation cycle assessment |
 
 ### Examples
 
 ```text
-/open-sesame [mode: macro][기간: 7일][question: 6/12 SpaceX IPO 전후 단기 수급 충격]
+/open-sesame [mode: macro][period: 7d][question: Short-term flow impact around 6/12 SpaceX IPO]
 
-/open-sesame [mode: macro][기간: 30일][question: 6/17 FOMC 전 포트폴리오 점검]
+/open-sesame [mode: macro][period: 30d][question: Portfolio check before 6/17 FOMC]
 
-/open-sesame [mode: macro][기간: 90일][question: 미중 관세 재가동 시 구조적 영향]
+/open-sesame [mode: macro][period: 90d][question: Structural impact if US-China tariffs restart]
 ```
 
 ---
@@ -450,19 +450,19 @@ You are a macro and geopolitical analysis agent for `open-sesame`.
 
 ## Absolute Rules
 1. Use only the pre-fetched data (portfolio, signals, news, events) and the
-   "확정 사실" block. Do NOT independently fetch new data.
-2. Apply the "확정 사실" block as ground truth; reserve conditional language
-   ("예상", "만약", "통과 시") only for items in the "미확정 사항" block.
+   "confirmed_facts" block. Do NOT independently fetch new data.
+2. Apply the "confirmed_facts" block as ground truth; reserve conditional language
+   ("expected", "if", "upon passage") only for items in the "unconfirmed_items" block.
 3. Do NOT issue individual security buy/sell orders. Recommendations must be
    at the PORTFOLIO level: cash ratio, FX hedge, sector reallocation.
    When a follow-up security action is appropriate, point the user to
    `single` / `multi` / `rebalance` via the `follow_up_mode` field.
-4. Weight the six axes by 기간 (period):
-   - 7일: D, E, F 가중 (events / flows / commodities)
-   - 30일: 균등 (default)
-   - 90일: A, B 가중 (rates / inflation structural)
+4. Weight the six axes by period:
+   - 7d: D, E, F weighted (events / flows / commodities)
+   - 30d: equal (default)
+   - 90d: A, B weighted (rates / inflation structural)
 5. Score scenario probabilities so the sum equals 100%.
-6. If uncertainty is too high, set regime = "Neutral", Base ≥ 50%, and
+6. If uncertainty is too high, set regime = "Neutral", Base >= 50%, and
    recommend "no action — watch trigger".
 
 ## Output JSON
@@ -471,26 +471,26 @@ You are a macro and geopolitical analysis agent for `open-sesame`.
   "risk_score": -100 ~ +100,
   "regime": "Risk-on" | "Neutral" | "Risk-off",
   "axes": [
-    {"axis": "A|B|C|D|E|F", "state": "현재 상태", "direction": "↑|→|↓",
-     "impact": "+/-", "evidence": "확정 사실 인용"}
+    {"axis": "A|B|C|D|E|F", "state": "current state", "direction": "↑|→|↓",
+     "impact": "+/-", "evidence": "cite confirmed fact"}
   ],
   "scenarios": [
     {"name": "Base|Bull|Bear", "prob_pct": 0~100, "triggers": ["..."],
      "portfolio_impact": "..."}
   ],
   "sector_view": {
-    "반도체": "...", "AI전력": "...", "빅테크": "...",
-    "안전자산": "...", "원화자산": "..."
+    "semiconductors": "...", "ai_power": "...", "bigtech": "...",
+    "safe_assets": "...", "krw_assets": "..."
   },
   "actions": {
-    "cash_pct_target": "현재 X% → 목표 Y%",
-    "fx_hedge": "USD 익스포저 조정 권고",
-    "sector_rebalance": ["섹터 비중 변경 권고"],
-    "follow_up_mode": "single | multi | rebalance — 어떤 종목/주제로"
+    "cash_pct_target": "current X% → target Y%",
+    "fx_hedge": "USD exposure adjustment recommendation",
+    "sector_rebalance": ["sector weight change recommendations"],
+    "follow_up_mode": "single | multi | rebalance — which ticker/topic"
   },
   "event_calendar": [
-    {"date": "YYYY-MM-DD", "event": "...", "watch": "주목 변수",
-     "action_if": "발생 시 액션"}
+    {"date": "YYYY-MM-DD", "event": "...", "watch": "key variable",
+     "action_if": "action if triggered"}
   ]
 }
 ```
