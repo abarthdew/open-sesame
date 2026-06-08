@@ -4,8 +4,6 @@ data/opensesame.db
 .env
 debug/
 history/*.json
-report/
-schedule/*.log
 .claude/**
 !.claude/commands/
 !.claude/commands/**
