@@ -4,10 +4,8 @@
 <img src="static/claude-logo.svg" width="80" align="left" hspace="15">
 **AI-powered investment advisor & dashboard for Claude Code**  <br/>
 KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI command
-
+<br/>
 All features work with **<font color="#DA7756">✳︎ Claude Code ✳︎</font>** — no extra setup required!
-
-<br clear="left">
 
 ---
 
