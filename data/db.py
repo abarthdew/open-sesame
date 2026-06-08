@@ -125,14 +125,14 @@ CREATE TABLE IF NOT EXISTS triggers (
 """
 
 SEED_SIGNALS = [
-    ("sell", "D램 현물가 2개월 연속 하락",             "→ dramexchange.com 매월 초 확인"),
-    ("sell", "증권사 목표주가 하향 3곳 이상 동시",      "→ 단순 상향은 후행 지표, 하향만 의미있음"),
-    ("sell", "분기 영업이익 전분기 대비 감소 확인",     "→ 하이닉스 2분기 실적 8월 발표"),
-    ("sell", "외국인 순매도 3거래일 이상 연속 대규모",  "→ 단기 차익실현인지 구조적 이탈인지 구분 필요"),
-    ("sell", "CXMT 범용 D램 시장점유율 급등 뉴스",      "→ HBM과 무관하지만 투자심리 영향"),
-    ("buy",  "코스피 현재 대비 15% 이상 하락 → 현금 30% 투입", "→ 약 4,950만원 · 하이닉스+삼성전자 분할 매수"),
-    ("buy",  "코스피 현재 대비 30% 이상 하락 → 추가 30%",      "→ 잔여 40%는 항상 보유 유지"),
-    ("buy",  "이란 협상 결렬 + 시장 급락 시",                   "→ 가장 강력한 매수 기회 · 3회 분할 진입"),
+    ("sell", "DRAM spot price falls for 2 consecutive months",              "→ Check dramexchange.com at the start of each month"),
+    ("sell", "3+ brokerages simultaneously downgrade target price",         "→ Upgrades are lagging indicators; only downgrades matter"),
+    ("sell", "Quarterly operating profit confirmed down QoQ",               "→ SK Hynix Q2 earnings announced in August"),
+    ("sell", "Large foreign net selling for 3+ consecutive trading days",   "→ Distinguish short-term profit-taking vs. structural outflow"),
+    ("sell", "News of CXMT rapidly gaining share in commodity DRAM",        "→ Unrelated to HBM but affects investor sentiment"),
+    ("buy",  "KOSPI drops 15%+ from current level → deploy 30% cash",      "→ ~₩49.5M · buy SK Hynix + Samsung Electronics in tranches"),
+    ("buy",  "KOSPI drops 30%+ from current level → deploy additional 30%", "→ Keep remaining 40% always in reserve"),
+    ("buy",  "Iran talks collapse + market crash",                           "→ Strongest buy opportunity · enter in 3 tranches"),
 ]
 
 
