@@ -3,6 +3,8 @@
 **AI-powered investment advisor & dashboard for Claude Code**  
 KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI command
 
+![Open Sesame Dashboard](static/open-sesame-main.png)
+
 ---
 
 ## What It Does
