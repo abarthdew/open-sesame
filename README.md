@@ -194,7 +194,7 @@ See [CLAUDE.md](CLAUDE.md#file-structure) for the full file structure.
 
 ---
 
-## 🤝 Contributing
+## 🔶 Contributing
 
 Issues and PRs welcome. This project is primarily built with and for [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
 
