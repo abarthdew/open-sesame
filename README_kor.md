@@ -68,19 +68,19 @@ python3 app.py
 
 ```bash
 # 멀티 에이전트 분석 (권장)
-/open-sesame [mode: multi][분석 대상: SK하이닉스 (000660)][질문: 추가 매수 타이밍인지 판단해줘.]
+/open-sesame [multi][SK하이닉스 (000660)][추가 매수 타이밍인지 판단해줘.]
 
 # 빠른 단일 에이전트 의견
-/open-sesame [mode: single][분석 대상: NVDA][질문: 실적 발표 전날, 보유 유지해도 될까?]
+/open-sesame [single][NVDA][실적 발표 전날, 보유 유지해도 될까?]
 
 # 포트폴리오 리밸런싱 점검
-/open-sesame [mode: rebalance][질문: 현재 포트폴리오 비중 점검해줘.]
+/open-sesame [rebalance][현재 포트폴리오 비중 점검해줘.]
 
 # 신규 후보 섹터 탐색
-/open-sesame [mode: scan][테마: AI 인프라][질문: 현재 포트폴리오와 겹치지 않는 ETF나 개별주 후보를 찾아줘]
+/open-sesame [scan][AI 인프라][현재 포트폴리오와 겹치지 않는 ETF나 개별주 후보를 찾아줘]
 
 # 거시 분석
-/open-sesame [mode: macro][기간: 30일][질문: FOMC 전 포트폴리오 점검]
+/open-sesame [macro][30일][FOMC 전 포트폴리오 점검]
 ```
 
 에이전트는 로컬 DB에서 실제 포트폴리오(평단가, 손익, 현금 비중)를 읽고 `ADVISOR.md`의 채점 프레임워크를 적용합니다.
