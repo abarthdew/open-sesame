@@ -242,11 +242,11 @@ agentTeams가 활성화되어 있으므로 Claude가 Agent 도구로 Bull/Bear �
 ### 예시
 
 ```text
-/open-sesame [mode: macro][기간: 7일][질문: 6/12 SpaceX IPO 전후 단기 수급 충격]
+/open-sesame [macro][7일][6/12 SpaceX IPO 전후 단기 수급 충격]
 
-/open-sesame [mode: macro][기간: 30일][질문: 6/17 FOMC 전 포트폴리오 점검]
+/open-sesame [macro][30일][6/17 FOMC 전 포트폴리오 점검]
 
-/open-sesame [mode: macro][기간: 90일][질문: 미중 관세 재가동 시 구조적 영향]
+/open-sesame [macro][90일][미중 관세 재가동 시 구조적 영향]
 ```
 
 ---
@@ -266,11 +266,11 @@ agentTeams가 활성화되어 있으므로 Claude가 Agent 도구로 Bull/Bear �
 ### 예시
 
 ```text
-/open-sesame [mode: scan][테마: AI 인프라][질문: 현재 포트폴리오와 겹치지 않는 ETF나 개별주 후보를 찾아줘]
+/open-sesame [scan][AI 인프라][현재 포트폴리오와 겹치지 않는 ETF나 개별주 후보를 찾아줘]
 
-/open-sesame [mode: scan][테마: 미국 방산][질문: 환헤지 수혜 우선]
+/open-sesame [scan][미국 방산][환헤지 수혜 우선]
 
-/open-sesame [mode: scan][테마: 헬스케어][질문: 반도체 상관관계가 낮은 방어주]
+/open-sesame [scan][헬스케어][반도체 상관관계가 낮은 방어주]
 ```
 
 ---
