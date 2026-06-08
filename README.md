@@ -1,7 +1,6 @@
 # ✦✳︎✦✳︎✦ Open Sesame ✦✳︎✦✳︎✦
 
 <img src="static/favicon.png" width="80" align="left" hspace="10">
-<img src="static/claude-mascot.svg" width="80" align="left" hspace="10">
 <img src="static/claude-logo.svg" width="80" align="left" hspace="15">
 
 **AI-powered investment advisor & dashboard for Claude Code**  
@@ -10,8 +9,6 @@ KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI com
 All features work with **✳︎ <font color="#DA7756">Claude Code</font> ✳︎** — no extra setup required!
 
 <br clear="left">
-
-![Open Sesame Dashboard](static/open-sesame-main.png)
 
 ---
 
@@ -114,6 +111,8 @@ Analysis logs are saved to `report/[YYYY-MM-DD][mode][title].log` (gitignored).
 ---
 
 ## 📊 Dashboard
+
+![Open Sesame Dashboard](static/open-sesame-main.png)
 
 | Tab | Description |
 |---|---|
