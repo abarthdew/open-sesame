@@ -122,6 +122,30 @@ python3 -m briefing.briefing weekly    # Weekly review
 
 ---
 
+## Scheduled Routines (Claude Code Routines)
+
+`schedule/` contains prompt files for **Claude Code Remote Agents** — cloud-based agents that run automatically on a schedule, without your local machine.
+
+Each `*_routines.md` file is a self-contained agent prompt: fetch prices, search news, generate a report, commit and push to GitHub.
+
+| Routine | Trigger | Output |
+|---|---|---|
+| `kr_close_routines.md` | Weekdays 16:10 KST | `schedule/[date][single][KR-close-daily].log` |
+| `kr_mid_routines.md` | Weekdays 11:40 KST | `schedule/[date][single][KR-midday].log` |
+| `us_close_routines.md` | Weekdays 06:40 KST | `schedule/[date][single][US-close-daily].log` |
+| `event_cal_routines.md` | Sundays 18:00 KST | `history/events.toml` (overwritten) |
+
+**To register a routine:**
+1. Open **https://claude.ai/code/routines**
+2. Click **New Routine**, paste the `.md` file contents as the prompt
+3. Set the cron schedule and connect your GitHub repo
+
+Update the ticker list inside each routine file to match your actual holdings before registering.
+
+See `schedule/ROUTINES.md` for full setup instructions and cron expressions.
+
+---
+
 ## File Structure
 
 ```

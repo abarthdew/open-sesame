@@ -122,6 +122,30 @@ python3 -m briefing.briefing weekly    # 주간 회고
 
 ---
 
+## 예약 루틴 (Claude Code Routines)
+
+`schedule/` 디렉토리는 **Claude Code 원격 에이전트**의 프롬프트 파일을 담고 있습니다 — 로컬 머신 없이 클라우드에서 스케줄에 따라 자동 실행되는 에이전트입니다.
+
+각 `*_routines.md` 파일은 독립적인 에이전트 프롬프트입니다: 시세 조회, 뉴스 탐색, 보고서 생성, GitHub 커밋 및 push까지 모두 포함합니다.
+
+| 루틴 | 실행 시점 | 출력 |
+|---|---|---|
+| `kr_close_routines.md` | 평일 KST 16:10 | `schedule/[날짜][single][KR장마감_일일시황].log` |
+| `kr_mid_routines.md` | 평일 KST 11:40 | `schedule/[날짜][single][KR장중_시황].log` |
+| `us_close_routines.md` | 평일 KST 06:40 | `schedule/[날짜][single][US장마감_일일시황].log` |
+| `event_cal_routines.md` | 일요일 KST 18:00 | `history/events.toml` (덮어쓰기) |
+
+**루틴 등록 방법:**
+1. **https://claude.ai/code/routines** 접속
+2. **New Routine** 클릭, `.md` 파일 전체 내용을 프롬프트로 붙여넣기
+3. cron 스케줄 설정 및 GitHub 저장소 연결
+
+등록 전에 각 루틴 파일의 티커 목록을 실제 보유 종목에 맞게 업데이트하세요.
+
+전체 설정 방법 및 cron 표현식은 `schedule/ROUTINES_kor.md`를 참조하세요.
+
+---
+
 ## 파일 구조
 
 ```
