@@ -1,0 +1,305 @@
+Date/Time: 2026-06-06
+Mode: multi
+Target: Semiconductors overall (SK Hynix 000660 / Samsung Electronics 005930 /
+        KODEX Semiconductor 091160 / NVDA)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+User Question
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Around 2026-06-05, semiconductor stocks fell across the board in both Korea
+and the US — SOXL in particular posted its second-largest single-day decline
+in history. Is semiconductor momentum over, or is this:
+① The US government buying OpenAI stock for a basic income program →
+   artificially depressing prices, or
+② Cash being drained for the SpaceX IPO?
+Need fact-checking and a judgment call.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Portfolio Context (as of 2026-06-06)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Ticker               | Qty | Acct    | Avg Cost    | Current      | Return   | 20d Return  | Signal
+  ─────────────────────────────────────────────────────────────────────────────────────────
+  SK Hynix (000660)    |  ** | ISA     | 768,347 KRW | 2,070,000KRW | +169.41% | +25.15%     | sell
+  Samsung Elec (005930)|  ** | RP      | 167,835 KRW |   329,000KRW |  +96.03% | +21.18%     | sell
+  KODEX Semi (091160)  |  ** | RP      |  84,446 KRW |   157,180KRW |  +86.13% | +10.61%     | hold
+  NVDA                 |  ** | Overseas|      $182.20 |      $205.10 |  +12.57% |  -3.03%     | hold
+
+  Semiconductor total exposure: ~***.***MKRW (approx. 32% of total assets)
+  Largest single name: SK Hynix alone 25.5% (approaching 30% single-stock rule)
+  Cash ratio:          50.4% (***,***,***KRW)
+  KR equity weight:    39.2%
+  US equity weight:    10.3%
+  FX Rate (USD/KRW):   1,558.84
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Market & Geopolitical Analysis / Fact-Check (WebSearch verified)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Analysis
+
+    ① 2026-06-05 Decline Triggers (confirmed):
+       - Direct cause: Broadcom Q2 accounting results missed + AI chip Q3
+         guidance of $16B announced below expectations
+       - Shock transmission: NVDA -6%, Micron -4%, Qualcomm/Intel/AMD -3%+,
+         Samsung Electronics -6.4%, SK Hynix -9%+
+       - ~$923B wiped from top-10 semiconductor market cap (NVDA alone $280B)
+       - KOSPI intraday -6%+, heavy foreign selling, partial sidecar circuit
+         reported
+       - Secondary trigger: NVDA Rubin platform SOCAMM memory downgrade rumor
+         (NVL72 rack memory: 55TB → 28TB reduction claim) — unconfirmed by NVDA
+         ※ unconfirmed
+
+    ② SOXL "second-largest historical decline" claim (※ needs verification):
+       - Fact: SOXL closing price 2026-06-05 $191.44 (vs. previous $262.70,
+         approx. -27%)
+       - Additional fact: SOXL -20.9% single-day decline also reported on
+         2026-05-12
+       - "Second-largest in history" exact ranking cannot be directly verified —
+         but the COVID-shock-level volatility is confirmed as fact. With a 3×
+         leveraged ETF, concern about permanent NAV impairment (volatility decay)
+         is valid.
+
+    ③ Conspiracy Theory ① US Government Buying OpenAI — False or Unconfirmed:
+       - WebSearch found no official policy confirmation.
+       - What was confirmed: Sam Altman proposed "collective ownership of AI"
+         (the public becomes shareholders in the AI industry) as an alternative
+         to UBI. Different structure from government buying.
+       - Conclusion: "artificial price suppression" hypothesis cannot be adopted
+         as an investment thesis. The 6/5 decline is explained by the clear
+         fundamental trigger of Broadcom's guidance.
+       - Paradoxical implication: the fact that the conspiracy is false
+         strengthens the bearish case — it means this is not irrational panic
+         but a normal bear entry driven by consensus downgrade.
+
+    ④ Conspiracy Theory ② SpaceX IPO Cash Drain — Circumstantially Confirmed:
+       - SpaceX IPO targeting 2026-06-12, raising $75B (556.6M shares @ $135),
+         largest IPO in history ($1.75T valuation).
+       - JPMorgan estimate: $2T valuation + 50% free float → passive funds
+         would need to sell ~$950B of major tech stocks to rebalance —
+         explicit "siphon effect."
+       - Conclusion: a fundamentals-unrelated structural capital outflow trigger
+         is real. The 6/5 plunge can be interpreted as the first wave of
+         front-running. With 2nd-wave supply post-6/12 and lock-up/secondary
+         overhang, short-term bounces risk being dead-cat bounces.
+
+    ⑤ Fundamentals vs. Supply/Demand Collision:
+       - HBM cycle peak is assessed at H2 2026 — Samsung Q2 prelim 7/8,
+         Samsung formal 7/23, SK Hynix 7/29, NVDA 8/26 earnings pipeline
+         imminent.
+       - Cumulative gains of SK Hynix +169% / Samsung +96% represent a premium
+         atop the "HBM supercycle in perpetuity" assumption. Broadcom guidance +
+         Rubin memory downgrade rumor are the first signals that shake that
+         assumption.
+
+    ⑥ FX effect: USD/KRW 1,558.84 — foreign-selling-driven KRW weakness
+       paradoxically supports KR exporters' next-quarter earnings. Samsung Q2
+       preliminary earnings surprise potential remains intact (7/8).
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Signal Scoring (per ADVISOR.md)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Signal                    | Score | Basis
+  ─────────────────────────────────────────────────────────────────
+  capex_cut_signal          |  -20  | Broadcom Q3 AI chip $16B guidance miss
+                            |       | → big tech CapEx peak signal (tentative)
+  foreign_sell_3days        |    0  | 6/5 day 1 — -25 fires if 6/8~9 confirmed
+  analyst_downgrade_3       |    0  | unconfirmed (※ monitor next **wks)
+  dram_price_down_2m        |    0  | DRAM spot early June unconfirmed
+                            |       | (※ needs confirmation)
+  vix_spike                 |    0  | SOXL -27% plunge but signal unchecked
+  fed_rate_cut_signal       |    0  | undetermined before 6/17 FOMC
+  fomo_day                  |    0  | declining trend — not triggered (fomo_blocked=false)
+  ─────────────────────────────────────────────────────────────────
+  Total                     |  -20  | Moderate sell signal boundary
+                            |       | (risk of expanding to -45~-70 if
+                            |       |  additional triggers fire)
+
+  ※ Active signals are unchecked. capex_cut_signal provisionally -20 based
+    on Broadcom guidance interpretation. foreign_sell_3days can add -25 based
+    on 6/8~9 results.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BULL CASE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. HBM cycle peak is H2 2026. Samsung Q2 prelim 7/8 · Samsung formal 7/23 ·
+   SK Hynix 7/29 · NVDA 8/26 earnings lineup awaits in 6~8 weeks — classic
+   "fear selling before earnings" pattern.
+
+2. Broadcom Q3 AI chip guidance $16B is strong YoY growth. Selling was
+   a short-term reaction to missed expectations. Rubin SOCAMM downgrade
+   can reverse immediately if NVDA officially denies it.
+
+3. USD/KRW 1,558.84 is a Korean export margin booster. Foreign-selling-driven
+   KRW weakness paradoxically raises Samsung Q2 preliminary earnings surprise
+   probability (7/8).
+
+4. Cash 50.4% (180.6MKRW) provides ample staged-buy capacity. Can expand
+   KODEX Semiconductor (rec=hold) weight from 30 → 40~45%. ETF structure
+   avoids individual stock risk.
+
+5. SpaceX IPO siphon effect is fundamentals-unrelated one-time technical
+   selling. Supply/demand normalization possible within 1~2 weeks post-6/12.
+   Selling reason is non-fundamental → interprets as buying opportunity.
+
+6. 6/17 FOMC SEP dovish possibility (if CPI/PCE decelerates).
+   V-shape possible off SOXL -27% base.
+
+7. 20-day momentum still positive (SK Hynix +25.15%, Samsung +21.18%,
+   KODEX +10.61%). Trend not broken by a single day's decline.
+   Interpretable as a correction within an uptrend.
+
+8. +169%/+96% cost-basis safety margin is thick. Can hold the core position
+   through the HBM4 cycle (2026~2027). rec=sell signal interpreted as
+   short-term profit-taking signal.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BEAR CASE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Broadcom guidance miss is the first signal that AI infrastructure investment
+   has peaked. In a single day on 6/5, ~$923B evaporated from top-10 semis
+   market cap (NVDA alone $280B) — capex_cut_signal(-20) trigger candidate.
+
+2. SOXL -27% plunge is permanent NAV impairment (volatility decay) for a 3×
+   levered ETF. If "second-largest in history" is confirmed, it's COVID-level
+   volatility. V-shaped recoveries are rare.
+
+3. SpaceX IPO siphon effect is a structural capital outflow trigger.
+   JPMorgan $950B rebalancing → mechanical selling spread over weeks. 6/5 is
+   wave 1; wave 2 post-6/12 + lock-up/secondary overhang — short-term bounces
+   risk dead-cat.
+
+4. NVDA Rubin SOCAMM downgrade rumor is potentially a decisive HBM peak-out
+   signal. If memory content halved, consensus for SK Hynix/Samsung/Micron
+   HBM 2026~2027 fully repriced.
+   +169%/+96% is a premium atop "HBM supercycle in perpetuity" — that
+   assumption is now being shaken.
+
+5. Portfolio concentration at threshold: SK Hynix solo 25.5% (approaching
+   30% rule), semiconductor combined 32%. rec=sell is explicit.
+   Deferring profit-taking = paying opportunity cost daily.
+   -10% price move = **,***,***KRW loss exposure.
+
+6. Possible structural shift in foreign flow. 6/5 KOSPI -6%+ + heavy foreign
+   selling + partial circuit breaker. foreign_sell_3days(-25) trigger: 6/5 is
+   day 1. Fires if 6/8~9 confirmed.
+
+7. 12-week macro event asymmetry all-downside: 6/10 CPI, 6/17 FOMC, 6/25 PCE,
+   7/8/23 Samsung, 7/29 SK Hynix+FOMC, 8/26 NVDA — 7 consecutive event risks.
+   Post-profit-taking re-entry strategy is statistically superior.
+
+8. Conspiracy Theory ① officially unconfirmed → 6/5 decline is a fundamental
+   repricing from Broadcom guidance, not artificial manipulation. Not irrational
+   panic but consensus downgrade = normal bear entry.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Arbiter Final Verdict
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  action:     partial_sell (partial profit-taking, maintain core position)
+  confidence: 68%
+
+  Core rationale:
+    First signals shaking the "HBM cycle in perpetuity" assumption (Broadcom
+    guidance + Rubin memory downgrade rumor) + portfolio concentration at
+    threshold + 12-week consecutive event downside asymmetry.
+    Conspiracy Theory ① is false or unconfirmed → the fact that 6/5 was
+    fundamental repricing actually strengthens the bear case.
+    Conspiracy Theory ② is circumstantially confirmed → risk of 2nd-wave
+    supply post-6/12. +169%/+96% cost-basis safety margin is thick, so
+    maintain core position, but reducing weight is statistically superior.
+
+  Conspiracy theory fact-check results:
+    ┌─────────────────────────────────────────┬──────────────────┬─────────────────┐
+    │ Claim                                   │ Verification     │ Investment implication│
+    ├─────────────────────────────────────────┼──────────────────┼─────────────────┤
+    │ US gov. buying OpenAI (for UBI)          │ False/unconfirmed│ Strengthens bear │
+    │ SpaceX IPO cash drain → capital outflow  │ Circum. confirmed│ 2nd-wave supply  │
+    │ SOXL 2nd-largest historical decline      │ Rank unconfirmed │ COVID-level vol. │
+    │ Rubin SOCAMM memory downgrade            │ Rumor (undenied) │ HBM assumption   │
+    │ Broadcom Q3 AI guidance $16B            │ Fact confirmed   │ CapEx peak 1st   │
+    └─────────────────────────────────────────┴──────────────────┴─────────────────┘
+
+  Short-term event risks (10 days ~ 12 weeks):
+    ┌────────────────────────────────────┬──────────┬────────────────────────────┐
+    │ Event                              │ Timing   │ Impact                     │
+    ├────────────────────────────────────┼──────────┼────────────────────────────┤
+    │ Foreign selling 3-day confirmation │ 6/8~6/9  │ foreign_sell_3days(-25)    │
+    │ US May CPI                         │ 6/10     │ miss → partial recovery    │
+    │ SpaceX IPO launch                  │ 6/12     │ passive 2nd-wave risk       │
+    │ FOMC + SEP                         │ 6/17     │ dot-plot tone decisive     │
+    │ US May PCE                         │ 6/25     │ Sep cut prob re-priced     │
+    │ Samsung Q2 preliminary results     │ 7/8      │ HBM shipments confirmed    │
+    │ NVDA Rubin SOCAMM official stance  │ TBD      │ big reversal if denied     │
+    │ NVDA Q2 FY27 earnings              │ 8/26     │ final AI cycle confirmation │
+    └────────────────────────────────────┴──────────┴────────────────────────────┘
+
+  Position-level recommendations (based on current holdings):
+
+    SK Hynix (**shs, +169.41%, solo 25.5%):
+      → Profit-take 1/3 (~**shs). Reduce weight to 15~17%.
+      → Statistically superior choice using cost-basis safety margin.
+         Core **shs maintained to ride the HBM4 cycle.
+
+    Samsung Electronics (**shs, +96.03%):
+      → 1/4 partial sell before 7/8 preliminary results (~**shs).
+         Consensus re-rating risk > earnings beat expected value.
+
+    KODEX Semiconductor (**shs, +86.13%, rec=hold):
+      → Maintain current weight. Additional buy only after 6/17 FOMC
+         dovish signal confirmed.
+      → ETF structure diversifies individual stock risk; immediate reduction
+         unnecessary.
+
+    NVDA (**shs, +12.57%):
+      → Halt new buying until Rubin SOCAMM denial is officially confirmed.
+      → Consider 1/4 reduction of current position before 8/26 Q2 results
+         (~**shs).
+
+  Proceeds allocation:
+    → Hold as cash; preserve as dry powder for KODEX Semiconductor staged
+       buying after 6/17 FOMC dovish signal.
+    → Or re-entry after price stabilization post SpaceX IPO 2nd-wave supply
+       on or around 6/12.
+
+  Re-entry conditions:
+    → Resume staged buying when 2 or more of the following 3 conditions are
+      simultaneously met:
+      ⓐ 6/17 FOMC dovish signal + dot plot explicitly marks Sep cut
+      ⓑ NVDA Rubin SOCAMM downgrade officially denied
+      ⓒ Foreign net buying for 3 consecutive days (foreign_buy_3days +20)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+NEXT TRIGGERS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+    ① 6/8~6/9 foreign selling 3-day streak confirmed →
+       foreign_sell_3days(-25) fires
+       → SK Hynix additional 1/4 sell, KODEX Semi weight reduction begins
+    ② 6/10 US May CPI: miss → partial reversal / beat → additional sell
+    ③ 6/12 SpaceX IPO launch → monitor passive fund 2nd-wave rebalancing supply
+    ④ 6/17 FOMC + SEP: dovish signal → V-shape base; hawkish → -30 additional
+    ⑤ NVDA Rubin SOCAMM downgrade official stance: denial → major NVDA reversal
+    ⑥ 7/8 Samsung Q2 preliminary results: confirm HBM shipment trend
+    ⑦ Price levels:
+       - SK Hynix breaks below 20-day MA (~2,000,000KRW) → additional 1/4 sell
+       - KODEX Semiconductor 20d momentum turns negative → begin weight reduction
+       - NVDA breaks below $190 → additional 1/4 trim
+    ⑧ 8/26 NVDA Q2 FY27 earnings: final AI cycle confirmation event
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sources (WebSearch verified)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- SOXL price/intraday move: finance.yahoo.com/quote/SOXL/, tipranks.com
+- SOXL 5/12 -20.9% decline report: fool.com (2026-05-12)
+- Semiconductor 6/5 selloff cause (Broadcom Q3 $16B): cnbc.com, tradingkey.com, yahoo.com
+- KOSPI -6%+ intraday, circuit breaker report: tradingkey.com ("Black Friday")
+- NVDA Rubin SOCAMM downgrade rumor (NVL72 55TB→28TB): tradingkey.com
+- Sam Altman UBI alternative "collective ownership of AI": futurism.com, slashdot.org
+- UBI policy status (no direct evidence of US gov. OpenAI purchase): kihasa.re.kr
+- SpaceX IPO 2026-06-12 target, $75B raise, $1.75T valuation: fool.com, capital.com
+- SpaceX siphon effect JPMorgan $950B estimate: tradingkey.com, morningstar.com

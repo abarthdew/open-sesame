@@ -1,0 +1,202 @@
+Date/Time: 2026-06-05 16:00 KST
+Mode: single
+Target: All KR holdings (RP / ISA / Pension / IRP accounts)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+User Question
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+KR market close daily report — review holding price moves and
+market shock factors.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Portfolio Context (as of 2026-06-05)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Ticker                                        | Qty | Acct    | Avg(KRW)  | Close(KRW) | Daily(%) | Cost Ret(%) | 20d(%)
+  ──────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Samsung Electronics (005930)                  |  ** | RP      |   167,835 |    329,000 |   -6.40  |    +96.03   |  +23.7
+  SK Hynix (000660)                             |  ** | ISA     |   768,347 |  2,070,000 |   -9.92  |   +169.41   |  +29.3
+  KODEX Semiconductor (091160)                  |  ** | RP      |    84,446 |    157,180 |   -6.61  |    +86.13   |  +12.3
+  KODEX AI Power Core Infra (487240)            | ** | RP      |    52,082 |     43,355 |   -5.09  |    -16.76   |  -30.5
+  PLUS Global Humanoid Robot Active (0035T0)    | ** | RP      |    21,795 |     25,010 |   -2.27  |    +14.75   |  +14.3
+  ACE KRX Gold Spot (411060)                    |  ** | RP      |    34,865 |     30,165 |   +0.17  |    -13.48   |   +0.2
+  TIGER US NASDAQ 100 (133690)                  |  ** | Pension |   145,221 |    205,500 |   -0.36  |    +41.51   |  +13.0
+  TIGER US NASDAQ 100 (133690)                  |  ** | IRP     |   165,294 |    205,500 |   -0.36  |    +24.32   |  +13.0
+  TIGER US S&P500 (360750)                      | ** | Pension |    19,697 |     28,845 |   +0.86  |    +46.44   |   +9.7
+  TIGER US S&P500 (360750)                      |  ** | IRP     |    24,795 |     28,845 |   +0.86  |    +16.33   |   +9.7
+  ACE US S&P500/UST Blended 50 (438080)         |  ** | IRP     |    14,146 |     15,495 |   +0.94  |     +9.54   |   +8.1
+  ACE US NASDAQ100/UST Blended 50 (438100)      |  ** | IRP     |    15,135 |     17,055 |   +0.12  |    +12.69   |   +9.5
+
+  KR holdings market value total: approx. ***,***,***KRW
+    - Semiconductors (005930+000660+091160): approx. ***,***,***KRW (76.6%)
+    - AI Power (487240): approx. **,***,***KRW (4.9%)
+    - Robotics (0035T0): approx. **,***,***KRW (1.6%)
+    - Gold spot (411060): 30,165KRW (0.02%)
+    - Overseas index ETF (Pension/IRP): approx. **,***,***KRW (16.9%)
+
+  Investable cash (KRW):
+    - RP **,***,***  /  Commercial paper ***,***,***  /  ISA **,***,***  /
+      Pension ***,***  /  IRP ***,***
+    - Total approx. ***,***,***KRW
+
+  Cash ratio: ***,***,*** / (***,***,*** + ***,***,***) ≈ 52.1% (sufficient)
+  Sector concentration: Semiconductors 76.6% (holdings basis) — single sector
+                        overweight
+  FX Rate (USD/KRW): outside scope of this report (KR close snapshot;
+                     FX data not used)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Market / Geopolitical Analysis & Fact-Check
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Analysis
+    ① Index close
+       - KOSPI 8,160.59pt (-5.54%) / KOSDAQ 1,002.44pt (-4.50%) — both major
+         indices fell sharply
+       - KOSPI dipped to ~8,083 intraday (-6%+); program-sell sidecar fired
+         immediately after open (Source: MoneyToday/FinancialNews, 6/5)
+    ② Triggers — Broadcom shock + sustained foreign selling
+       - Broadcom's AI semiconductor guidance fell below market expectations,
+         triggering broad selling in US chip stocks → cascading to KR large-cap
+         semis (FinancialNews, Dailyan)
+       - Foreigners recorded net selling for 20 consecutive sessions, sustaining
+         supply pressure
+    ③ Holdings impact — Semiconductor sector took the concentrated hit
+       - Samsung Electronics -6.40% (329,000KRW), SK Hynix -9.92% (2,070,000KRW),
+         KODEX Semiconductor -6.61% (157,180KRW). With 76.6% of held assets in
+         semiconductors, the full daily shock was absorbed
+       - However, cost-basis returns across the board remain strongly positive
+         (+86~+169%) — giving back a portion of cumulative gains
+    ④ AI power — Only holding trading below cost basis
+       - KODEX AI Power Core Infra -5.09% (43,355KRW), cost return -16.76%,
+         20d -30.5%
+       - Was among top weekly ETF gainers at +16.5% in mid-April (per
+         TheValueNews Week 4-5) but entered a profit-taking cycle in June.
+         No specific catalyst found in search — attributed to general
+         "AI infra near-term profit-taking + market risk-off" flow
+    ⑤ Overseas index ETF / gold spot
+       - Pension/IRP US index ETFs +/-0.4 ~ +0.9% (minor moves reflecting
+         prior US session). Decoupled from KR semiconductor shock
+       - ACE KRX Gold Spot +0.17% — minimal safe-haven role but holding
+         the line
+    ⑥ Foreign flow / margin data — outside this session's data scope; final
+       figures require next trading day KRX disclosure
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Signal Scoring (per ADVISOR.md)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Signal                       | Score | Basis
+  ──────────────────────────────────────────────────────────────
+  foreign_sell_3days           |   -25 | Foreigners 20 consecutive sessions
+                               |       | net selling (FinancialNews, 6/5)
+  capex_cut_signal             |   -20 | Broadcom AI chip guidance miss →
+                               |       | big tech AI CapEx re-assessment
+                               |       | concern; broad US chip selloff
+  hbm_supply_bottleneck        |   +20 | SK Securities target raised
+                               |       | 2M→3MKRW; HBM leadership position
+                               |       | and AI server memory demand strength
+                               |       | maintained (from prior report)
+  kospi_drop_15pct             |     0 | Single-day -5.54%; -15% trigger not met
+  fomo_day                     |     0 | n/a (declining market)
+  ──────────────────────────────────────────────────────────────
+  Total                        |   -25 | Neutral~weak sell signal (near boundary
+                               |       | of -29~+29 range; watch bias)
+
+  ※ vix_spike, dram_price_down_2m, analyst_downgrade_3 etc. — confirmed data
+     unavailable in this session → scores not applied. Re-assess when data
+     available.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Final Verdict
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  action:      watch (hold)
+  confidence:  68%
+
+  bull_case:
+    1. All 3 semiconductor holdings at +86~+169% cost return — cumulative
+       gains are thick; a -6~10% single-day drop is just giving back a portion.
+       No stop-loss trigger.
+    2. HBM/AI memory structural demand intact. SK Securities target raise
+       (2M→3MKRW), Korean memory monopoly (CXMT equipment/material block)
+       unchanged — structural bull case undamaged.
+    3. Cash ratio 52.1% very comfortable — ample staged-buy firepower on
+       further declines; no forced-sell trigger.
+    4. KOSPI 8,000 is a psychological support + sidecar = can serve as
+       self-correcting signal for short-term panic selling.
+
+  bear_case:
+    1. Foreigners 20-session streak + sidecar = supply/demand damage;
+       short-term recovery will be slow. If institutions/retail follow up,
+       additional -5~10% possible.
+    2. Broadcom-driven AI CapEx slowdown signal — if interpreted as HBM demand
+       re-assessment, capex_cut_signal -20 applies.
+    3. Semiconductor concentration 76.6% — sector-level shock fully transmits
+       to total portfolio. SK Hynix single name is 65% of holdings; single-stock
+       risk exceeds threshold.
+    4. KODEX AI Power Core Infra cost return -16.76%, 20d -30.5% — trend
+       damage confirmed. Deferring stop-loss/averaging-down decision widens
+       mark-to-market loss.
+
+  uncertainties:
+    - Whether Broadcom guidance expands to industry-wide CapEx slowdown vs.
+      one-off issue
+    - End date and cumulative sell volume of foreigners' 20-session streak
+      (next-day KRX disclosure needed)
+    - Follow-on schedule and validity of NVIDIA CEO Korea visit and prior
+      positive catalysts
+    - KRW/USD (not collected in this session)
+
+  risks:
+    - SK Hynix single-name weight 65% (holdings basis) — additional decline
+      directly hits total market value
+    - KODEX AI Power Core Infra cost return -16.76%; additional decline
+      widens quarterly losses
+    - If post-sidecar supply panic continues, gap-down risk on next open
+
+  entry_or_exit: null (maintain current positions; both add and sell on hold)
+                 — 52.1% cash is sufficient; ADVISOR cash<40% add-ban not
+                 triggered, but "price decline alone is not a sell signal"
+                 principle means selling is also deferred
+
+  next_trigger:
+    ① Foreign net selling ends (1~2 sessions of net buying) → review
+       staged semiconductor buy
+    ② KOSPI breaks below 8,000pt + sidecar re-fires → defensive check;
+       consider maintaining cash / increasing gold
+    ③ Broadcom follow-up / NVDA guidance / other big tech AI CapEx announcement
+       → re-verify capex_cut_signal validity
+    ④ KODEX AI Power Core Infra: -20% cost-basis hit → stop-loss/hold decision
+       trigger
+    ⑤ HBM spot price, DRAM fixed-transaction price next-week release →
+       confirm dram_price_up/down_2m signal
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Agent Commentary
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Today's KOSPI -5.54% plunge dealt a direct blow to the semiconductor sector
+representing 76.6% of held assets, but with cumulative cost-basis returns of
+SK Hynix +169%, Samsung Electronics +96%, and KODEX Semiconductor +86%, this
+is "giving back a portion of gains" rather than a loss-realization event.
+
+Two key checkpoints remain:
+
+1) Whether Broadcom-driven AI CapEx slowdown concerns materialize vs.
+   remain one-off noise.
+   - If realized: entering the late cycle of the semiconductor cycle →
+     weight reduction needed
+   - If noise: after foreign selling ends and KOSPI 8,000 support is
+     confirmed, staged-buy opportunity
+
+2) Resolving SK Hynix 65%-of-holdings single-stock risk.
+   - With an average cost of 768,347KRW and current price of 2,070,000KRW,
+     unrealized gains are very large; from a tax perspective (ISA non-taxable
+     limit), a separate [mode: rebalance] session is needed to review a
+     staged profit-taking strategy. No decision in this daily report.
+
+KODEX AI Power Core Infra is the only holding with a negative cost return,
+but with 20d -30.5% trend weakness now extended, there is no clear basis for
+either a stop-loss or additional buy. Watch mode through the -20% cost-basis
+threshold; if reached, recommend immediate re-analysis in a separate single mode.
+
+Today, "not acting" is the best action.

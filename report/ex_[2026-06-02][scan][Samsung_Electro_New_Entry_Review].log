@@ -1,0 +1,221 @@
+Date/Time: 2026-06-02
+Mode: scan
+Target: Samsung Electro-Mechanics (009150, KR / new entry review)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+User Question
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+How does this stock look? It's come down a lot — is this a new entry opportunity?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Portfolio Context (as of 2026-06-02)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Ticker                               | Status     | Note
+  ───────────────────────────────────────────────────────────────
+  SK Hynix (000660)                    | Held       | Semiconductor concentration ①
+  Samsung Electronics (005930)         | Held       | Semiconductor/Samsung concentration ②
+  KODEX Semiconductor (091160)         | Held       | Semiconductor concentration ③ (ETF overlap)
+  KODEX AI Power Core Infra (487240)   | Held       | AI infrastructure exposure
+  Samsung Electro-Mechanics (009150)   | Not held   | Current 1,825,000KRW | 20d: +98.80%
+
+  Cash ratio: 48.5% (sufficient room for new entry)
+  Sector concentration: KR semiconductor/electronic components overweight alert (3 holdings)
+  FX Rate (USD/KRW): 1,514.62
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚠️ Fact Correction — User's Premise Inconsistent with Data
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The user said "it's come down a lot," but the actual data shows the opposite.
+
+  Current price:    1,825,000KRW
+  20 days ago:        918,000KRW
+  20d return:         +98.80%  ← nearly doubled in 20 days
+  52-week high:     2,192,000KRW
+  52-week low:        120,200KRW
+  Current position: -16.7% from 52-week high (a short-term pullback from peak)
+
+The "it's come down a lot" perception appears to stem from the ~-17% pullback
+from the 52-week high (2,192,000KRW) to current (1,825,000KRW). However, this
+stock surged nearly 2× from 918,000KRW just 20 days ago. The current level is
+a post-surge peak correction, not a low-entry opportunity.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Market & Company Analysis / Fact-Check
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Analysis
+    ① Q1 2026 results: Revenue KRW 3.2091T (+17.2% YoY), OP KRW 280.6B (+39.9% YoY)
+       — Earnings beat confirmed; AI server demand beginning to reflect in results
+    ② KB Securities raises target to KRW 2.2M (from 1.6M)
+       — AI server MLCC/FCBGA structural demand growth reflected in target
+    ③ SK Securities: "World's only company with both MLCC and FCBGA"
+       — Differentiated positioning acknowledged vs. TDK, Murata
+    ④ AI server MLCC count per board surging → satellite/networking equipment
+       demand expanding
+    ⑤ External analysis 5/29: "Near 52-week high; recommend immediate sell or watch"
+       — Interpreted as short-term overheating signal; majority opinion limits
+         further upside
+    ⑥ Current price is at the 83rd percentile of 52-week range
+       (120,200KRW ~ 2,192,000KRW)
+    ⑦ Semiconductor/Samsung Group sector concentration: adding Samsung Electro
+       creates 4-way exposure alongside Samsung Electronics, SK Hynix, and
+       KODEX Semiconductor
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Signal Scoring (per ADVISOR.md)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Signal                   | Score | Basis
+  ───────────────────────────────────────────────────────────────
+  nvidia_guidance_up        |  +25  | NVIDIA AI server CapEx continues →
+                            |       | MLCC/FCBGA structural beneficiary (indirect)
+  short_interest_high       |  -15  | 2× surge + near 52-week high → rising
+                            |       | probability of short interest buildup
+  analyst_downgrade_3       |    0  | Opposite (upgrade): no negative signal,
+                            |       | treated as neutral
+  fomo_day (observation)    |    0  | Single-day +5% threshold unconfirmed →
+                            |       | no official deduction;
+                            |       | 20d cumulative +98.80% → overheating
+                            |       | risk zone noted separately
+  ───────────────────────────────────────────────────────────────
+  Total                     |  +10  | Neutral (no buy signal — overheating risk zone)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Scan Results — New Entry Candidate Evaluation
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+theme: AI infrastructure electronic components (MLCC / FCBGA) —
+       user-requested ticker review + alternatives
+
+portfolio_context:
+  KR semiconductor/electronics sector already concentrated in 3 holdings
+  (SK Hynix, Samsung Electronics, KODEX Semiconductor)
+  Cash 48.5% → entry headroom exists but sector diversification needed
+
+┌──────────────────────────────────────────────────────────────────┐
+│ Candidate 1: Samsung Electro-Mechanics (009150) — User requested  Priority: low │
+│ Type: Stock / KR / ISA·RP eligible                               │
+│ Current: 1,825,000KRW  |  20d: +98.80%  |  52-week high: 2,192,000KRW          │
+├──────────────────────────────────────────────────────────────────┤
+│ Selection rationale:                                             │
+│   - World's only company with both MLCC and FCBGA               │
+│   - Q1 OP +39.9% YoY; earnings momentum valid                   │
+│   - KB Securities target raised to KRW 2.2M — positive coverage │
+│   - AI server structural demand → MLCC unit price upside        │
+│                                                                  │
+│ Risks:                                                           │
+│   ① Near 52-week high (2,192,000KRW) — limited further upside   │
+│   ② Correcting from 20d +98.80% peak — "it's cheap" premise invalid│
+│   ③ Samsung Electronics cross-holding → Samsung group risk exposure│
+│   ④ 4-way semiconductor/electronics concentration risk           │
+│      (3 existing holdings + Samsung Electro)                    │
+│                                                                  │
+│ Signal score: +10 (Neutral)                                      │
+│ Recommended account: ISA (domestic stock tax-free limit)         │
+└──────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────┐
+│ Candidate 2: TTE (TIGER Global Innovation Blue-chip Active)  Priority: medium │
+│ Type: ETF / KR-listed (US stocks) / ISA eligible               │
+│ Selection rationale:                                            │
+│   - Diversified AI infrastructure theme (avoids single-sector  │
+│     semiconductor concentration)                               │
+│   - Covers the full AI value chain vs. Samsung Electro alone   │
+│     → sector risk diversification                              │
+│ Risk: FX-unhedged → reduced returns when KRW strengthens       │
+└──────────────────────────────────────────────────────────────────┘
+
+┌──────────────────────────────────────────────────────────────────┐
+│ Candidate 3: ACE KRX Gold Spot (411060) — Diversification hedge  Priority: low │
+│ Type: ETF / KR / ISA·IRP eligible                              │
+│ Selection rationale:                                           │
+│   - Defensive diversification for semiconductor-heavy portfolio │
+│   - Converting part of 48.5% cash to physical gold ETF provides│
+│     semiconductor downside hedge                               │
+│   - More practical portfolio need than Samsung Electro         │
+│ Risk: opportunity cost in a rising rate environment            │
+└──────────────────────────────────────────────────────────────────┘
+
+Excluded:
+  - Samsung Electronics (005930): already held
+  - SK Hynix (000660): already held
+  - KODEX Semiconductor (091160): already held
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Final Verdict
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  action:     watch
+  confidence: 73%
+
+  bull_case:
+    1. World's only MLCC + FCBGA — AI server board component demand growth
+       becoming visible as structural tailwind
+    2. Q1 2026 OP +39.9% YoY — earnings beat confirmed, KB Securities
+       target raised to KRW 2.2M
+    3. Cash 48.5% provides ample room — can execute immediately when
+       timing improves after correction
+    4. AI infra CapEx continues → MLCC replacement cycle shortening + unit
+       price upside, mid/long-term EPS growth outlook
+
+  bear_case:
+    1. Correcting from 20d +98.80% surge — "it's down" perception is
+       -17% from peak, but in absolute terms still near the top
+    2. +1,418% vs. 52-week low (120,200KRW) → earnings momentum already
+       significantly priced in
+    3. 4-way sector concentration: adding Samsung Electro to existing
+       Samsung Electronics / SK Hynix / KODEX Semiconductor is an additional risk
+    4. External 5/29 analysis "near high, sell or watch" — short-term
+       additional correction possible
+
+  uncertainties:
+    - Speed and duration of AI server MLCC demand growth (structural vs. cyclical peak)
+    - Possibility and timing of Chinese competitors (TDK, Murata) entering FCBGA
+    - Whether and when 52-week high (2,192,000KRW) will be re-tested
+    - Watch period/conditions of external analysis not disclosed ※ needs confirmation
+
+  risks:
+    - Potential -25%~-30% additional correction if entering at peak
+      (historical pattern for similar surge stocks)
+    - Samsung Electro entry → Samsung group risk + portfolio-wide hit
+      if semiconductors decline simultaneously
+    - Post-surge profit-taking supply overhang — short-term volatility
+      expansion period may continue
+
+  entry_or_exit:
+    Conditional entry: when price drops below 1,500,000KRW
+    (approx. -31% from current peak)
+    Or: after Q2 2026 preliminary results confirm (+35% YoY or above),
+    first tranche of staged buying
+    Immediate entry at current 1,825,000KRW is not recommended
+
+  next_trigger:
+    ① Short-term correction to 1,500,000KRW or below →
+       1st entry review (approx. -18% from current)
+    ② Q2 2026 preliminary results → confirm OP +35%+ YoY
+    ③ KB Securities further target raise or AI server order announcement →
+       re-evaluate early entry basis
+    ④ After reducing semiconductor weight in portfolio (partially selling
+       Samsung Electronics or SK Hynix) → re-evaluate
+
+  next_step: recommend re-analysis at [mode: single] when conditions are met
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Agent Commentary
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+A direct answer to "It's come down a lot — is this an entry opportunity?":
+
+The premise is wrong. Samsung Electro-Mechanics has surged nearly 2×
+from 918,000KRW 20 days ago to the current 1,825,000KRW. The current
+1,825,000KRW is not "down" — it is a ~-17% correction from the
+52-week high (2,192,000KRW).
+
+Samsung Electro's own fundamentals (MLCC + FCBGA structural tailwind,
+Q1 earnings beat) are positive. However, entering now means:
+  1. Buying near the peak after a 2× 20-day surge
+  2. Creating 4-way concentration in the semiconductor/Samsung sector
+
+The theme is correct. The timing is the problem.
+A correction to below 1,500,000KRW, or entry after Q2 results are
+confirmed, is a significantly more favorable entry zone.

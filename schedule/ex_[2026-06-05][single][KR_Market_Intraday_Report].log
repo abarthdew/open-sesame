@@ -1,0 +1,212 @@
+Date/Time: 2026-06-05 11:30 KST
+Mode: single
+Target: All KR holdings — RP / ISA / Pension / IRP accounts
+
+⚠️ This report is a snapshot taken at 11:30 KST (KR market intraday).
+   Prices are intraday figures, NOT closing prices; they may differ from
+   the 15:30 close. US holdings (GOOGL/NVDA/VOO/SMR) are excluded.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+User Question
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-06-05 KR intraday check (11:30 KST).
+KOSPI -3.67% sharp drop in the morning + sell-side sidecar triggered.
+Identify afternoon session action priorities for semiconductor
+(Samsung/Hynix/KODEX Semi) and AI power positions.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Portfolio Context (as of 2026-06-05 11:30 KST)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Ticker                                      | Qty | Acct   | Avg(KRW) | Intraday(KRW) | vs.Open | CostRet | 20d
+  ─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Samsung Electronics (005930)                |  ** | RP     |  167,835 |       340,000 |  +1.95% | +102.6% | +25.2%
+  SK Hynix (000660)                           |  ** | ISA    |  768,347 |     2,168,000 |  +1.21% | +182.2% | +31.1%
+  KODEX Semiconductor (091160)                |  ** | RP     |   84,446 |       158,180 |  -0.52% |  +87.3% | +11.3%
+  KODEX AI Power Core Infra (487240)          | ** | RP     |   52,082 |        42,615 |  -4.66% |  -18.2% | -31.6%
+  PLUS Global Humanoid Robot Active (0035T0)  | ** | RP     |   21,795 |        24,510 |  -2.35% |  +12.5% |  +9.3%
+  ACE KRX Gold Spot (411060)                  |  ** | RP     |   34,865 |        30,360 |  +0.81% |  -12.9% |  -1.6%
+  TIGER US NASDAQ 100 (133690)                |  ** | Pension|  145,221 |       205,685 |  +0.22% |  +41.6% | +11.7%
+  TIGER US NASDAQ 100 (133690)                |  ** | IRP    |  165,294 |       205,685 |  +0.22% |  +24.4% | +11.7%
+  TIGER US S&P500 (360750)                    | ** | Pension|   19,697 |        28,955 |  +0.64% |  +47.0% |  +9.1%
+  TIGER US S&P500 (360750)                    |  ** | IRP    |   24,795 |        28,955 |  +0.64% |  +16.8% |  +9.1%
+  ACE US S&P500/UST Blended 50 (438080)       |  ** | IRP    |   14,146 |        15,520 |  +1.44% |   +9.7% |  +7.6%
+  ACE US NASDAQ100/UST Blended 50 (438100)    |  ** | IRP    |   15,135 |        17,100 |  +0.53% |  +13.0% |  +9.2%
+
+  Indices (intraday):
+    KOSPI  : 8,322.34pt (open 8,323.20 / vs.prev -3.67% / vs.open -0.01% / 20d +11.1%)
+    KOSDAQ : 1,017.21pt (open 1,035.22 / vs.prev -3.10% / vs.open -1.74% / 20d -15.2%)
+
+  Cash (KR accounts only):
+    RP cash         **,***,***KRW
+    ISA cash         **,***,***KRW
+    Pension cash        ***,***KRW
+    IRP cash             ***,***KRW
+    Commercial paper ***,***,***KRW
+    → Cash ratio vs. KR holdings market value ≈ under 20% (equity value dominant;
+      incl. commercial paper ≈ 30~35% estimated)
+
+  Sector concentration (KR holdings, by market value):
+    Semiconductors (005930+000660+091160): overwhelming #1 (single sector 60%+)
+    AI Power (487240): 2nd largest weight
+    Global US index ETF (133690/360750/438080/438100): pension/IRP core
+    Commodity (411060), Humanoid (0035T0): satellite positions
+
+  FX (USD/KRW): not shown (KR-only report; FX excluded)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Market / Geopolitical Analysis & Fact-Check
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Analysis
+    ① KOSPI morning plunge + sell-side sidecar
+       - Opened -3.67% below previous close; sell-side sidecar triggered
+         (search confirmed).
+       - Short-term surge of prior days concentrated into profit-taking at
+         open — index is now nearly flat vs. open (-0.01%), forming a "gap-
+         down then sideways" pattern. Suggests profit-taking normalization
+         rather than panic.
+       - KOSDAQ -3.10% / vs. open -1.74% — KOSDAQ continued softening through
+         the morning; risk-off sentiment persists.
+
+    ② Semiconductor majors — green vs. open, red vs. prev (gap-down recovery pattern)
+       - Samsung Electronics: open 333,500 → intraday 340,000 (vs.open +1.95%,
+         vs.prev -3.27%). Large gap-down followed by buyer inflow.
+       - SK Hynix: open 2,142,000 → intraday 2,168,000 (vs.open +1.21%,
+         vs.prev -5.66%). Biggest decline but recovering in morning.
+       - Recent (5/31) MoneyToday: Samsung share buyback + HBM4E 12-stack
+         world-first delivery → market cap crossed KRW 2,000T. Structural
+         momentum unimpaired.
+         (Source: MoneyToday 5/31 / MBC NewsDesk 6/4)
+       - Today's plunge is "profit-taking + sidecar supply clearing" in
+         character, not structural damage.
+
+    ③ KODEX AI Power Core Infra (487240) — additional weakness, -4.66% vs. open
+       - 20d cumulative -31.6%, cost return -18.2%. Needs +22% to recover cost basis.
+       - Search: recent "Auto/semis parts strong … AI power/defense profit-taking
+         weak" (Week 4-5 April +16.5% surge → short-term excess reversal cycle)
+       - Trigger: less about AI infra theme itself and more about "near-term
+         excess reversal + index co-movement." No stand-alone news confirming
+         theme structure damage found.
+
+    ④ KODEX Semiconductor / PLUS Humanoid / ACE Gold Spot
+       - KODEX Semi: -0.52% vs. open vs. index -3.67% — recovery after gap-down;
+         sector relative strength holding.
+       - PLUS Humanoid: -2.35% vs. open, cost +12.5% — absorbing risk-off supply
+         above cost basis.
+       - ACE KRX Gold Spot: +0.81% vs. open — partial risk-off inflow signal.
+
+    ⑤ Pension / IRP US index ETFs (KR-listed)
+       - 133690 / 360750 / 438080 / 438100: all +0.2% ~ +1.4% vs. open.
+       - Reflecting prior US session (6/4) strength + FX.
+       - Long-term/tax-advantaged core positions — unrelated to morning KR
+         panic; no adjustment needed.
+
+    ⑥ Fact-check / unconfirmed
+       - Foreign 3-day net selling: unconfirmed in this session (no flow data).
+       - Margin balance ratio: unconfirmed.
+       - HBM spot price / DRAM spot price update: 6/5 refresh unconfirmed.
+       → These 3 items require afternoon re-verification with flow data.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Signal Scoring (per ADVISOR.md)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Signal                          | Score | Basis
+  ──────────────────────────────────────────────────────────────────────────────
+  hbm_supply_bottleneck           |  +20  | Samsung HBM4E 12-stack world-first
+                                  |       | delivery (5/31), HBM supply lead
+                                  |       | maintained
+  dram_price_up                   |    0  | 6/5 spot data unconfirmed →
+                                  |       | conservative 0
+  foreign_sell_3days              |  -25  | KOSPI -3.67% + sell sidecar →
+                                  |       | foreign selling strongly implied
+  fomo_day                        |    0  | no holdings +5% intraday
+                                  |       | (block condition not triggered)
+  kospi_drop_15pct                |    0  | -3.67%; -15% trigger not met
+  capex_cut_signal                |    0  | big tech capex cut signal unconfirmed
+  analyst_downgrade_3             |    0  | no additional downgrade confirmed
+                                  |       | as of 6/5
+  ──────────────────────────────────────────────────────────────────────────────
+  Total                           |   -5  | -29 ~ +29 range → Neutral / Hold
+
+  ※ Score requires recalculation when flow data (foreign/margin) updates.
+  ※ KODEX AI Power Core Infra: sector-specific signal table not defined in
+    ADVISOR.md; only common signals applied.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Final Verdict
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  action:      watch (Hold — all new trades deferred)
+  confidence:  62%
+
+  bull_case:
+    1. Semiconductor majors showing green vs. open after gap-down —
+       buyer recovery in progress, not panic selling
+    2. Samsung HBM4E 12-stack world-first + share buyback momentum
+       structurally valid
+    3. KODEX Semi -0.52% vs. open vs. index -3.67% → sector relative
+       strength maintained
+    4. ACE KRX Gold Spot +0.81% vs. open — hedge asset functioning
+       normally; portfolio diversification confirmed
+
+  bear_case:
+    1. KOSPI -3.67% + sidecar — short-term volatility explosion;
+       additional downside possible
+    2. SK Hynix vs.prev -5.66% — very high-profit zone (+182.2%
+       vs cost); profit-taking pressure accumulating
+    3. KODEX AI Power Core Infra -4.66% vs. open / 20d -31.6% —
+       sustained weakness; cost recovery is difficult
+    4. Foreign + margin data unconfirmed — downside monitoring incomplete
+
+  uncertainties:
+    - Foreign cumulative net sell/buy (3-session basis) unconfirmed
+    - Whether sidecar is lifted; whether post-sidecar afternoon selling
+      resumes
+    - US NFP (6/5 release after KR close) — risk appetite change possible
+    - KODEX AI Power Core Infra additional decline catalyst (ticker-specific
+      news) absent — unclear if pure profit-taking or trend reversal
+
+  risks:
+    - Sidecar = surge-and-normalize profit-taking likely predominant,
+      but if foreigners sell simultaneously, -5~-7% additional downside
+    - SK Hynix/Samsung cost gains very large (+182%/+103%) — own positions
+      are part of market supply pressure
+    - KODEX AI Power Core Infra needs +22% to recover cost — if decision
+      on add/stop-loss not made by ~14:30, it becomes a lagging action
+
+  entry_or_exit: null
+    (No intraday buy or sell. Confirm close trajectory after sidecar lift first.)
+
+  next_trigger:
+    ① 14:00 — sidecar lift / re-trigger check (if post-lift recovery →
+       possible relief rally)
+    ② 15:30 — final foreign/institutional net buy/sell confirmed
+    ③ If semiconductor ETFs + Samsung/Hynix close green vs. open →
+       panic confirmed as profit-taking only
+    ④ US NFP (post-KR close) — if beats, US rate concern → next week
+       KR open impact
+    ⑤ KODEX AI Power Core Infra: if additional -5% close → must pre-define
+       stop-loss/add-buy thresholds for next session
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Agent Commentary
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+The core question for this morning is whether the "sidecar-level profit-taking"
+hypothesis is confirmed or denied by today's closing data.
+
+Both semiconductor majors (005930/000660) are showing positive vs. open,
+confirming buyer recovery, and structural catalysts (HBM4E 12-stack,
+share buyback) were announced within days. Cost returns of +103% and +182%
+respectively mean there is no meaningful basis for adding, and equally,
+a single intraday plunge is not sufficient grounds for profit-taking.
+
+The position requiring the most urgent decision is KODEX AI Power Core Infra (487240):
+- Cost return -18.2%, 20d -31.6%; the weakness trend is extending,
+- No single negative catalyst found, but "profit-taking cycle" coverage persists.
+- Deferring add/stop-loss decisions to today's close is possible, but if
+  there is an additional -5% decline in subsequent sessions without a trend
+  reversal signal, stop-loss and add-buy levels must be pre-defined.
+
+The recommended follow-up: update this report with the 14:00 sidecar status
+and 15:30 closing data, plus confirmed foreign flow data.

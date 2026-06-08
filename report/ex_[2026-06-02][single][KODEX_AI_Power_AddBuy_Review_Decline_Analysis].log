@@ -1,0 +1,189 @@
+Date/Time: 2026-06-02
+Mode: single
+Target: KODEX AI Power Core Infrastructure (487240, KR / RP account)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+User Question
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+It's dropped a lot — should I buy more? Why did it fall?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Portfolio Context (2026-06-02)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Ticker                              | Qty | Acct | Avg Cost (KRW) | Current (KRW) | Return (%) | 20d (%)
+  ─────────────────────────────────────────────────────────────────────────────
+  KODEX AI Power Core Infra (487240)  | ** |  RP  |        52,082  |        46,300 |     -11.1  |  -20.66
+
+  Cash ratio: 48.8% (cash ***BKRW + USD **,***)
+  Total assets: ***,***,***KRW
+  FX Rate: 1,515.75 KRW/USD
+  ※ Stop-loss level 48,000KRW — breached on 2026-05-28; prior recommendation:
+    sell **shs immediately (not executed)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Market / Geopolitical Analysis & Fact-Check
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+① Why It Fell — 3 Reasons (WebSearch confirmed)
+
+  A. Sector-wide profit-taking (structural)
+     AI power infrastructure sector dropped ~20%+ since mid-May.
+     LS ELECTRIC -25.1%, HD Hyundai Electric -24.9%, Hyosung Heavy -22.4%.
+     Under a high-rate/strong-USD environment, high-PER theme stocks that had
+     already front-loaded mid/long-term expectations hit a valuation ceiling,
+     triggering broad profit-taking.
+     (Source: Daum News, 2026-05-20)
+
+  B. LS ELECTRIC disclosure amendment (direct shock)
+     2026-05-27: Order backlog corrected from KRW 2.3782T → KRW 23.8B
+     (100× overstatement). LS ELECTRIC has a large weight within the ETF 487240,
+     causing a direct hit. Disclosure credibility damage → sector-wide
+     investor sentiment deteriorated.
+
+  C. Bank of Korea hawkish MPB (macro)
+     2026-05-28: 5:2 hold vote with rate-hike support majority in dot plot.
+     Additional multiple-compression pressure on high-PER growth themes.
+
+② Structural Thesis Status
+
+  Demand side (positive): US power grid super-cycle continuing.
+    Extra-high-voltage transformer backlog 2~3 years — structural supply
+    bottleneck.
+    LS ELECTRIC North America orders continuing: data center KRW 170B,
+    $76M, $91.9M contracts confirmed.
+    AI data center power demand is unimpaired.
+
+  Supply side (negative): LS ELECTRIC disclosure credibility damaged.
+    Actual order scale itself has not shrunk — it was a recording error —
+    but institutional buying recovery will take time. (※ recovery timing
+    needs confirmation)
+
+③ Prior Report Recommendation vs. Current Situation
+
+  2026-05-28 recommendation: stop-loss 48,000KRW breach → sell **shs immediately.
+  Current status: **shs fully held (-11.1%). Recommendation not executed.
+  Current price 46,300KRW = additional -600KRW decline since the recommendation.
+
+  Important: Buying more when the stop-loss has already been breached is an
+  averaging-down strategy. Whether this is valid is the core judgment point.
+
+④ Suitability for Additional Purchase
+
+  Arguments for:
+    - Cash 48.8% > 40% → no buy restriction
+    - 20d return -20.66% → buy signal per ADVISOR.md
+    - 487240 weight within total assets: 2.0% → low portfolio weight
+    - AI power structural demand is unimpaired
+
+  Arguments against:
+    - Buying more after stop-loss (48,000KRW) is breached = nullifies
+      stop-loss discipline
+    - No clear rebound catalyst (※ needs confirmation)
+    - Rate direction uncertain (before FOMC June 17)
+    - Sector supply/demand recovery timing unconfirmed
+
+⑤ Macro Risks
+  - FOMC 2026-06-17: if hawkish tone continues, additional pressure on
+    high-PER sectors
+  - Bank of Korea July MPB: if rate hike possible, additional adjustment
+    risk for KR power theme
+  - KOSPI not in correction: buy signal (KOSPI -15%) not triggered →
+    no aggressive buy trigger
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Signal Scoring
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Signal                        | Score | Basis
+  ──────────────────────────────────────────────────────────
+  chg_20d ≤ -15% (buy rec)      |  +15  | -20.66% — buy condition met
+  us_10y_above_4_5              |   -7  | persistent high-rate concern near threshold
+  analyst_downgrade_3           |    0  | unconfirmed — neutral
+  sector_disclosure_risk        |  -15  | LS ELECTRIC disclosure amendment
+                                |       | damaged sector supply/demand
+  stop_loss_breached            |  -20  | 48,000KRW stop-loss triggered (5/28)
+  ──────────────────────────────────────────────────────────
+  Total                         |  -27  | Neutral zone lower bound (-29~+29)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Final Verdict
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  action:      hold (additional buy on hold)
+  confidence:  71%
+
+  bull_case:
+    1. AI data center power demand structural growth — US extra-high-voltage
+       transformer backlog 2~3 years; beneficiary continues until supply
+       bottleneck clears.
+    2. LS ELECTRIC actual orders are valid — disclosure was a recording error;
+       the order pipeline itself is unimpaired. North America contracts
+       continuing to be confirmed.
+    3. Cash 48.8% sufficient — can deploy immediately when a rebound catalyst
+       is confirmed.
+    4. Only 2.0% of total assets — room for additional allocation.
+
+  bear_case:
+    1. Stop-loss (48,000KRW) already breached — additional buy nullifies
+       stop-loss discipline. Averaging down while prior recommendation
+       (**shs sell) is unexecuted magnifies risk.
+    2. No rebound catalyst confirmed — sector supply/demand recovery timeline opaque.
+       Buying simply because "it's fallen a lot" is the inverse of FOMO.
+    3. Rate risk unresolved — additional multiple compression on high-PER themes
+       possible before FOMC June and BOK July decisions.
+    4. KOSPI correction signal not triggered — additional buying before
+       pre-set portfolio-wide buy trigger (KOSPI -15%) violates the
+       established rule.
+
+  uncertainties:
+    - LS ELECTRIC institutional buying recovery timing
+    - FOMC June dot-plot direction
+    - Change in component weight within 487240 ETF
+
+  risks:
+    - Averaging down then falling further → loss expands (current -11% →
+      potential -20%+)
+    - Prolonged high rates → AI power theme multiple re-rating continues
+    - Cumulative portfolio discipline erosion from stop-loss bypass
+
+  entry_or_exit:
+    Conditional wait — review only after one of the triggers below is met.
+    Immediate additional buy at current level: not recommended.
+    ※ Note: also recommend re-evaluating whether to execute prior recommendation
+      (**shs sell).
+
+  next_trigger:
+    ① FOMC 2026-06-17 → rate hold + dovish tone confirmed →
+       high-PER sector multiple compression easing → 1st additional buy review
+    ② LS ELECTRIC institutional net buying 3 consecutive days confirmed →
+       disclosure shock supply/demand absorbed → weight expansion re-evaluation
+    ③ KOSPI current level -15%+ correction →
+       pre-set buy trigger fires, deploy 30% of cash
+    ④ 487240 close at or below 43,000KRW →
+       re-apply stop-loss decision (re-evaluate handling of remaining **shs)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Agent Commentary
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+A direct answer to the core question.
+
+"Should I buy more?" — Not now.
+
+The reason is simple. The 2026-05-28 report recommended selling **shs
+immediately after the stop-loss (48,000KRW) was breached. That recommendation
+has not been executed. Buying more into a position whose stop-loss has been
+breached renders the stop-loss rule meaningless.
+
+"It's fallen a lot = buying opportunity" only holds when the structural thesis
+is intact. The structural demand for the AI power theme (US power grid, data
+centers) has not been impaired. However, the problem is that there is no
+immediate catalyst for a rebound right now. Rate direction is still uncertain,
+and the LS ELECTRIC supply/demand shock is still in progress.
+
+What should be done now:
+Before reviewing additional purchases, the sequence is to first decide whether
+to execute the prior recommendation (**shs sell). The choice is: honor the
+stop-loss, or hold because you believe in the structural thesis — one of these
+must be decided first. Both are rational choices, but buying more without
+deciding either one violates risk management principles.

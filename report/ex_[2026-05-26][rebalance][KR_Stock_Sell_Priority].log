@@ -1,0 +1,265 @@
+Date/Time: 2026-05-26
+Mode: rebalance
+Target: All KR Equities
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+User Question
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+I want to partially sell some Korean stocks. What should the priority order be?
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Portfolio Context (2026-05-26)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Ticker                                   | Qty  | Acct | Avg Cost (KRW) | Current (KRW) | Return (%) | 20d Return (%)
+  ─────────────────────────────────────────────────────────────────────────────────────────
+  SK Hynix (000660)                        |  ** | ISA  |       768,347  |     2,077,000 |   +170.3%  |      +70.0%
+  KODEX Semiconductor (091160)             |  ** | RP   |        84,446  |       163,280 |    +93.3%  |      +36.5%
+  KODEX Semiconductor (091160)             |  ** | ISA  |        74,213  |       163,280 |   +120.1%  |      +36.5%
+  Samsung Electronics (005930)             |  ** | RP   |       167,835  |       302,000 |    +79.9%  |      +37.6%
+  KODEX AI Power Core Infra (487240)       | ** | RP   |        52,082  |        55,270 |     +6.1%  |      +21.9%
+  PLUS Global Humanoid Robot (0035T0)      | ** | RP   |        21,795  |        25,710 |    +18.0%  |      +25.1%
+  ACE KRX Gold Spot (411060)               |  ** | RP   |        34,865  |        **,*** |    -13.2%  |       -2.6%
+  ─────────────────────────────────────────────────────────────────────────────────────────
+
+  KR Equity Market Value:  ***,***,***KRW (40.7% of total assets ~***,***,***KRW)
+  Cash:                    ***,***,***KRW (49.0%)
+  FX Rate (USD/KRW):       1,507.08
+
+  Semiconductor Sector (within KR equities):
+    SK Hynix       ***,***,***KRW (62.5%)
+    KODEX Semi RP   **,***,***KRW  (6.8%)
+    KODEX Semi ISA  **,***,***KRW  (3.2%)
+    Samsung Elec    **,***,***KRW  (4.3%)
+    Semis subtotal ***,***,***KRW → 76.7% of KR equities / 31.3% of total assets
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Portfolio Risk Diagnosis
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[Risk 1] Semiconductor sector at 76.7% — 26.7%p above 50% threshold
+  Within KR equities, semiconductor exposure is 76.7%, exceeding the ADVISOR.md
+  50% limit by 26.7%p. Post-May surge of +36~+70% on 20d returns has caused
+  natural weight expansion.
+  SK Hynix alone accounts for 25.4% of total assets, within 4.6%p of the 30% cap.
+  If the price continues rising, a single holding may breach 30% of total assets.
+
+[Risk 2] SK Hynix ISA unrealized gain **,***,***KRW → exceeding ISA tax-free limit
+  Gain at cost: (2,077,000 - 768,347) × ** = **,***,***KRW
+  The ISA general-type tax-free limit of KRW 4M has already been exhausted.
+  Approx. **,***,***KRW of current gain falls in the 9.9% separate-tax bracket.
+  Estimated tax: **,***,*** × 9.9% ≈ **,***,***KRW (if sold now)
+  Note: selling inside an ISA is treated as intra-account realized P&L, so
+  taxation is deferred until ISA termination.
+
+[Risk 3] Short-term overheating signal — 20d return +70% (SK Hynix)
+  SK Hynix 20d +70.0% is a short-term surge entering reversal-risk territory.
+  Samsung Electronics +37.6% and KODEX Semiconductor +36.5% are also
+  simultaneously near peaks.
+  A dual macro event — Bank of Korea rate decision + US PCE release — is just
+  two days away on 2026-05-28.
+  ※ KOSPI index for the day unconfirmed (API no response). Finalize timing
+    after confirming KOSPI data.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sell Priority
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+──────────────────────────────────────────────────────────────
+Priority 1 — KODEX Semiconductor ISA (091160, ISA account)
+──────────────────────────────────────────────────────────────
+  Position: **shs / Current 163,280KRW / Market value **,***,***KRW / Return +120.1%
+  Suggested qty: **shs full position (**,***,***KRW)
+
+  Sell rationale (3 reasons):
+  1. ISA tax-space inefficiency — same-sector duplicate with SK Hynix in ISA.
+     Using scarce ISA annual contribution limit (KRW 20M/yr) on a sector duplicate
+     is wasteful from a tax-efficiency standpoint. RP account **shs is sufficient.
+  2. Same ETF dual-account cleanup — RP **shs + ISA **shs = **shs total. RP alone is enough.
+  3. KODEX Semiconductor 20d +36.5% at peak — realize gains in ISA first
+     to free up headroom for re-contribution.
+
+  Tax treatment:
+  - ISA account: no immediate capital gains tax on sale.
+  - P&L inside ISA is aggregated and taxed at account termination. (No tax now.)
+  - Transaction tax 0.18% (KOSPI ETF): **,***,*** × 0.18% ≈ *,***KRW
+  - No annual limit recovery on cash held inside ISA → can redeploy proceeds
+    within the ISA account.
+
+──────────────────────────────────────────────────────────────
+Priority 2 — KODEX Semiconductor RP partial (091160, RP account)
+──────────────────────────────────────────────────────────────
+  Position: **shs / Current 163,280KRW / Market value **,***,***KRW / Return +93.3%
+  Suggested qty: **~**shs (30~50% partial sell / **,***,***KRW ~ **,***,***KRW)
+
+  Sell rationale:
+  1. Reduce sector concentration — after Priority 1 liquidation, semiconductor
+     weight will still be elevated; additional trimming needed.
+     After ISA fully cleared + RP **shs sold, semiconductor subtotal:
+     SK Hynix ***,***,*** + KODEX Semi RP **shs×163,280 + Samsung **,***,***
+     = ***,***,*** + **,***,*** + **,***,*** = ***,***,***KRW
+     → Semiconductor within KR equities ≈ 74% (still high, but Samsung justified)
+  2. RP account transaction tax 0.18% — minimize tax by selling ISA first.
+
+  Tax treatment:
+  - RP (general brokerage) minority shareholder: no capital gains tax
+    (domestic listed stock).
+  - Transaction tax 0.18%: **shs basis **,***,*** × 0.18% ≈ *,***KRW
+
+  ※ Adjustment basis: SK Hynix 30% total-asset threshold control is the
+    top priority. If semiconductor weight still exceeds 70% after other RP
+    positions are trimmed, further reduction warranted.
+
+──────────────────────────────────────────────────────────────
+Priority 3 — KODEX AI Power Core Infra partial (487240, RP account)
+──────────────────────────────────────────────────────────────
+  Position: **shs / Current 55,270KRW / Market value **,***,***KRW / Return +6.1%
+  Suggested qty: **~**shs (30~45% partial sell / 2,763,500KRW ~ **,***,***KRW)
+
+  Sell rationale:
+  1. Relatively low return — 20d return +21.9% but cost-basis return only +6.1%;
+     materially lower than other holdings. Profit contribution is small
+     relative to hold period.
+  2. Sector importance vs semiconductors — AI power is complementary to semis,
+     but if rebalancing capital is needed, trimming lower-returning positions first
+     is rational.
+  3. RP position sizing — if KODEX Semi RP is partially sold but AI power remains
+     at **shs (9.7M scale), the single-position share in RP will still be excessive.
+
+  Tax treatment:
+  - RP (general brokerage) minority shareholder: no capital gains tax.
+  - Transaction tax 0.18%: **shs basis **,***,*** × 0.18% ≈ *,***KRW
+
+  ※ If conviction in the AI power infrastructure theme is strong, this can be
+    deferred. In that case, trim KODEX Semiconductor RP more aggressively.
+
+──────────────────────────────────────────────────────────────
+Priority 4 — ACE KRX Gold Spot full position (411060, RP account)
+──────────────────────────────────────────────────────────────
+  Position: **shs / Current **,***KRW / Market value **,***KRW / Return -13.2%
+  Suggested qty: **shs full position (**,***KRW)
+
+  Sell rationale:
+  1. Position is immaterial — **shs at **,***KRW is 0.008% of total assets ~***B.
+     No hedge effect whatsoever; zero practical contribution to the portfolio.
+  2. Loss can be crystallized — -13.2% loss but only -*,***KRW in dollar terms.
+     Crystallizing the loss simplifies portfolio management.
+
+  Tax treatment:
+  - RP (general brokerage) minority shareholder: no capital gains tax.
+  - Loss realized: -*,***KRW (no tax issue; negligible amount)
+  - Transaction tax 0.18%: **,*** × 0.18% ≈ 55KRW
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Do Not Sell
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[Hold 1] SK Hynix (000660, ISA account) — Core holding
+  Rationale:
+  - The ISA account is the most tax-efficient structure (non-taxable + separate
+    taxation) and SK Hynix is its core holding.
+  - 20d return +70.0% signals short-term overheating, but SK Securities target
+    price KRW 500,000 (raised May), HBM cycle continuation and AI infra trend
+    remain valid.
+  - At 25.4% of total assets, still 4.6%p below the 30% threshold. Hold until
+    further upside materializes.
+  - Sell triggers (review if conditions met):
+    ① SK Hynix single-stock total-asset share exceeds 30%
+    ② Two consecutive months of DRAM price decline confirmed
+    ③ Target price KRW 500,000 hit with no further upside revision
+
+[Hold 2] Samsung Electronics (005930, RP account) — Target price upgrade momentum
+  Rationale:
+  - SK Securities target raised KRW 400,000 → KRW 500,000 (confirmed May 2026).
+  - Current price 302,000 implies 65.6% upside to target.
+  - RP account minority shareholder: no capital gains tax. Low holding cost.
+  - Rational to hold through estimated 2026-07-08 Samsung Q2 preliminary results.
+  - Market value **,***,***KRW (1.7% of total assets) — too small to pose
+    concentration risk.
+
+[Hold 3] PLUS Global Humanoid Robot (0035T0, RP account) — Small thematic position
+  Rationale:
+  - Market value **,***,***KRW (0.6% of total assets). Size too small for
+    concentration risk.
+  - 20d return +25.1% and cost return +18.0% — momentum second only to semis.
+  - Humanoid robotics theme has low correlation to semiconductors; provides
+    diversification.
+  - Selling in RP requires immediate realization; re-entry faces bid-ask
+    uncertainty.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Target Portfolio After Sell / Next Review Date
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+■ Scenario A — Minimal adjustment (Priority 1 only)
+  Sell KODEX Semiconductor ISA **shs full (**,***,***KRW)
+
+  Post-execution semiconductor subtotal:
+    SK Hynix (ISA)       ***,***,***
+    KODEX Semi (RP)       **,***,***
+    Samsung Elec (RP)     **,***,***
+    Subtotal             ***,***,***KRW
+
+  Remaining KR equity total ≈ ***,***,***KRW (excl. gold)
+  → Semiconductor within KR equities: ***,***,*** ÷ ***,***,*** ≈ 75.9%
+    (Still above threshold; sector weight improvement is limited.)
+    ISA tax optimization effect is definitive.
+
+■ Scenario B — Aggressive adjustment (Priorities 1~3)
+  KODEX Semi ISA **shs full (**,***,***KRW)
+  KODEX Semi RP **shs (**,***,***KRW)
+  KODEX AI Power RP **shs (**,***,***KRW)
+  ACE Gold Spot **shs (**,***KRW)
+  Total proceeds: approx. **,***,***KRW
+
+  Post-execution KR equities:
+    SK Hynix (ISA)          ***,***,***
+    KODEX Semi (RP)           **,***,***  (**shs remaining)
+    Samsung Elec (RP)          **,***,***
+    KODEX AI Power (RP)      5,305,920  (**shs remaining)
+    PLUS Humanoid (RP)        **,***,***
+    KR equity total:         ***,***,***KRW
+
+  → KR equity % of total assets: ***,***,*** ÷ ~***,***,*** ≈ 30.5%
+  → Semiconductor within KR equities:
+    (***,***,*** + **,***,*** + **,***,***) ÷ ***,***,*** ≈ 93.6%
+    (Note: including Samsung pushes semiconductor ratio to extreme appearance.)
+    However, total semiconductor incl. SK Hynix ***,***,***KRW = 28.6% of total
+    assets — manageable.
+  → Cash ratio: (***,***,*** + **,***,***) ÷ ~***,***,*** ≈ 50.8%
+
+  ※ Proceeds from KR equity reduction: deploy to commercial paper (CMA)
+    or consider US index ETF allocation within ISA (TIGER US NASDAQ 100 etc.).
+
+■ Target Portfolio Weights (post Scenario B)
+  Category                    | Current       | Target
+  KR equities (% total)       | 40.7%         | 30~33%
+  US equities (% total)       | ~10.3%        | 10~12% (maintain)
+  Cash (% total)              | 49.0%         | 52~55% (temp increase, pending redeploy)
+  Semiconductor (% KR equity) | 76.7%         | <75% (incl. Samsung)
+  SK Hynix single-stock       | 25.4% (total) | ≤25% maintained
+
+■ Sell Timing Considerations
+  - Complete Priorities 1–2 before 2026-05-28 Bank of Korea rate decision
+    (current 2.50%).
+  - Rate hold → KRW strengthens → marginal headwind for exporters (semis).
+  - Rate cut → markets rally → wider sell window (watch for overextension).
+  - 2026-05-28 US PCE: above-consensus reading may cause KOSPI pullback.
+  - → Recommend completing Priorities 1–2 before the event; execute Priority 3
+    after confirming the outcome.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Next Rebalancing Review Date
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Scheduled review: 2026-07-10 (after Samsung Q2 preliminary results)
+
+Early triggers (immediate review if reached):
+  ① SK Hynix total-asset weight breaches 30%
+     (at current price: 2,077,000 × ** ÷ total assets = 25.4%)
+     → price ~2,448,000KRW triggers 30% threshold
+  ② Semiconductor within KR equities exceeds 80%
+  ③ 2026-05-28 Bank of Korea surprise (cut or hike)
+  ④ 2026-06-17 FOMC result — if hold + hawkish comments, review US weight
+  ⑤ After confirming KOSPI level that day — sharp drop → pause sell plan;
+     sharp rally → execute immediately

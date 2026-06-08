@@ -1,0 +1,297 @@
+Date/Time: 2026-06-06
+Mode: macro (30-day medium-term)
+Target: Macro Environment (CPI · FOMC · USD/KRW) → Impact on AI / Semiconductors
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+User Question
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Review all currently available data and help me prepare for the direction of
+CPI / FOMC / USD/KRW exchange rate, and their impact on the AI sector and
+semiconductor stock prices.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Portfolio Context (2026-06-06)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Total assets:    ***,***,***KRW
+  Cash ratio:      50.4% (KRW ***,***,*** + USD **,***.** )
+  KR equity:       39.2%
+  US equity:       10.3%
+  FX (USD/KRW):    1,558.84 (highest level since March 2009)
+
+  Semiconductor exposure (combined): ~32%
+    - SK Hynix (000660):           25.5% (+169.41%, 20d +25.15%, rec=sell)
+    - Samsung Electronics (005930): 1.9%  (+96.03%, 20d +21.18%, rec=sell)
+    - KODEX Semiconductor (091160): 2.7%  (+86.13%, 20d +10.61%, rec=hold)
+    - NVDA:                         2.2%  (+12.57%, 20d  -3.03%, rec=hold)
+
+  AI power exposure:
+    - KODEX AI Power Core Infra (487240): 1.9% (-16.76%, 20d -30.39%, rec=buy)
+
+  US index (FX buffer):  6.7% (TIGER US NASDAQ 100 / S&P500 etc.)
+  Safe haven:            ~0.01% (ACE KRX Gold Spot 411060, 20d -2.2%)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Macro Environment Summary Score
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Analysis period:  30 days
+  risk_score:       -28
+  regime:           Neutral (cautious — Risk-off bias)
+
+  Core judgment:
+    CPI direction is uncertain until the 6/10 release. FOMC faces hawkish SEP
+    risk as Chair Warsh's first meeting. USD/KRW breaking above 1,558 sustains
+    additional strong-dollar pressure. All three axes are entering a period of
+    elevated short-term volatility — neutral to negative for semiconductors and AI.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6-Axis Factor Scorecard (30-day equal weight)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ┌──────┬──────────────────────────────┬──────┬────────┬───────────────────────┐
+  │ Axis │ Current State                │ Dir  │ Impact │ Basis (confirmed fact)│
+  ├──────┼──────────────────────────────┼──────┼────────┼───────────────────────┤
+  │  A   │ US 10Y 4.48% (near 4.5%)    │  ↑  │   -    │ Warsh first SEP       │
+  │ Rate │ FOMC hold 65~96%, SEP hawk  │      │        │ hawkish expectations, │
+  │      │                              │      │        │ Powell→Warsh          │
+  ├──────┼──────────────────────────────┼──────┼────────┼───────────────────────┤
+  │  B   │ May CPI 6/10, PCE 6/25,     │  →  │   0    │ Schedule fixed;       │
+  │Price │ NFP 7/2 — data gap then     │      │        │ consensus unconfirmed │
+  │      │ cluster                      │      │        │ (※ unconfirmed)       │
+  ├──────┼──────────────────────────────┼──────┼────────┼───────────────────────┤
+  │  C   │ VIX 16.05 stable. 6/5 KR   │  →  │   0    │ VIX stable; active    │
+  │Flow  │ semis foreign selling +      │      │        │ signals 0/8 unchecked │
+  │      │ circuit breaker             │      │        │                       │
+  ├──────┼──────────────────────────────┼──────┼────────┼───────────────────────┤
+  │  D   │ Iran-Israel tension re-     │  ↑  │   -    │ Iran Kuwait airport   │
+  │Geo   │ ignites; oil↑+USD↑ direct   │      │        │ attack; Israel        │
+  │      │ causality confirmed          │      │        │ additional attack     │
+  ├──────┼──────────────────────────────┼──────┼────────┼───────────────────────┤
+  │  E   │ SpaceX IPO 6/12 ($75B)      │  ↓  │   -    │ JPM $950B siphon;    │
+  │Liqd  │ Passive $950B tech rebalan. │      │        │ 6/5 semis selloff     │
+  │      │                              │      │        │ 1st wave              │
+  ├──────┼──────────────────────────────┼──────┼────────┼───────────────────────┤
+  │  F   │ Mid-East oil rise, DRAM     │  ↑  │   -    │ DRAM not triggered;   │
+  │Commd │ signal not fired, gold 20d  │      │        │ gold spot 20d -2.2%   │
+  │      │ -2.2%                        │      │        │                       │
+  └──────┴──────────────────────────────┴──────┴────────┴───────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+① CPI Direction (2026-06-10 release)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Direction:  Mixed (both deceleration and upside scenarios remain open)
+  Key variables:
+    - Headline vs. consensus (specific consensus ※ unconfirmed)
+    - Potential oil-driven upside surprise (Mid-East tensions may feed
+      into May data)
+    - Whether core CPI deceleration continues
+
+  AI / Semiconductor impact:
+    [Above consensus] → 10Y breaks 4.5% threshold → high-val AI/semis multiple
+                 compression. Direct hit to SK Hynix PER premium; NVDA/Rubin
+                 valuation further conservatized.
+    [Deceleration]    → 6/17 FOMC dovish SEP expectations → semiconductor/AI
+                 rebound trigger. KODEX Semiconductor + AI power recovery momentum.
+    [Mixed]           → Range-bound through 6/17 FOMC. Ticker-specific stories
+                 (SOCAMM rumors etc.) dominate.
+
+  Volatility expansion 48h pre-release → additional positions after release recommended.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+② FOMC Direction (2026-06-16~17, Chair Warsh's first meeting)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Chair:            Kevin Warsh (took office after Powell's term ended 2026-05-15)
+  Base scenario:    Hold
+  SEP dot plot:     Hawkish bias (Mar SEP inflation↑/GDP↓ + Warsh hawkish tendency)
+  Market pricing:   Hold probability 65~96% (varies by source)
+
+  AI / Semiconductor impact:
+    [Hawkish SEP — 2026 cuts 1→0]
+      → 10Y breaks 4.5% + USD accelerates
+      → Semiconductor/AI multiple further compressed
+      → Largest risk scenario. SK Hynix 25.5% single-stock weight is
+        the maximum risk.
+    [Warsh market-friendly tone — acknowledges employment slowdown]
+      → Short-term big tech/semis rebound
+      → NVDA/KODEX Semiconductor V-shaped base formation
+    [Hold + hawkish SEP maintained (Base)]
+      → Range-bound immediately post 6/17; direction deferred to July NFP
+
+  Warsh's first SEP tone is in a zone markets cannot pre-assess —
+  maximum volatility may be reached immediately after release.
+  Avoid additional buys ahead of 6/17; confirm reaction post-announcement.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+③ USD/KRW Direction (current 1,558.84)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Current:     1,558.84 KRW (DB basis)
+  Background:  6/3 1,532.25 → 6/4 1,539.1 → DB point 1,558 — short-term
+               acceleration
+  Level:       Highest since March 2009
+  Direction:   Additional strong-dollar pressure
+
+  Drivers (confirmed):
+    - Mid-East tension re-ignition → oil price rise → USD safe-haven demand
+    - Foreign selling of KR semis on 6/5 → KRW selling pressure continues
+    - Warsh hawkish SEP risk → US-Korea rate differential widening expectations
+    - SpaceX IPO fund absorption → global USD demand
+
+  AI / Semiconductor impact:
+    [KR semis holdings — negative]
+      - SK Hynix 25.5% solo → additional foreign selling pressure
+      - Samsung/KODEX Semiconductor KRW assets → additional FX loss risk
+    [US assets — positive / FX buffer]
+      - TIGER US NASDAQ 100/S&P500 (6.7%) → FX gains accruing
+      - NVDA 2.2% FX buffer
+    [Critical levels]
+      - If 1,570 breached: FX authority intervention possible →
+        short-term volatility surge
+      - If 1,580 breached: Bear scenario acceleration
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Scenario Matrix
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ┌──────────┬──────┬──────────────────────────────┬───────────────────────────┐
+  │ Scenario │ Prob │ Key Triggers                 │ Portfolio/AI/Semis Impact │
+  ├──────────┼──────┼──────────────────────────────┼───────────────────────────┤
+  │ Base     │  55% │ CPI meets consensus + FOMC   │ 50.4% cash appropriate.   │
+  │          │      │ hold + hawkish SEP + USD/KRW │ Semis 32% sideways.       │
+  │          │      │ 1540~1580 range + Mid-East   │ SOCAMM rumor unresolved   │
+  │          │      │ steady                        │ → volatility continues.   │
+  │          │      │                              │ AI power further downside.│
+  ├──────────┼──────┼──────────────────────────────┼───────────────────────────┤
+  │ Bull     │  20% │ CPI misses + Warsh dovish +  │ 10Y <4.4% → AI/semis      │
+  │          │      │ Mid-East ceasefire → USD/KRW │ multiple expansion.        │
+  │          │      │ returns to 1,520 + post-     │ SK Hynix rebound, NVDA    │
+  │          │      │ SpaceX big tech buying        │ strength, KODEX Semi      │
+  │          │      │                              │ recovery. 50% cash =      │
+  │          │      │                              │ opportunity cost.         │
+  ├──────────┼──────┼──────────────────────────────┼───────────────────────────┤
+  │ Bear     │  25% │ CPI beats (oil-driven) +     │ 10Y >4.5% → AI/semis      │
+  │          │      │ Warsh hawkish SEP 0 cuts +   │ multiple compression. SK  │
+  │          │      │ Israel direct Iran attack +  │ Hynix 25.5% max risk.     │
+  │          │      │ USD/KRW 1,580↑ + post-       │ KODEX AI power -20%+      │
+  │          │      │ SpaceX passive selling        │ possible.                 │
+  └──────────┴──────┴──────────────────────────────┴───────────────────────────┘
+
+  Probabilities sum to 100% (Base 55 + Bull 20 + Bear 25)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Scenario-Level Sector & Asset Impact
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ┌──────────────┬──────────┬──────────┬──────────┐
+  │ Asset Class  │ Base     │ Bull     │ Bear     │
+  ├──────────────┼──────────┼──────────┼──────────┤
+  │ Semis        │  →      │  ++     │  --      │
+  │ AI Power     │  -       │  +      │  --      │
+  │ Big Tech(US) │  →      │  +      │  -       │
+  │ Gold         │  +       │  -      │  ++      │
+  │ KRW assets   │  -       │  +      │  --      │
+  │ USD assets   │  +       │  -      │  ++      │
+  └──────────────┴──────────┴──────────┴──────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sector Diagnosis
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Semiconductors (32%):
+    32% exposure is excessive relative to current macro risks (hawkish FOMC +
+    strong USD + SpaceX siphon). SK Hynix 25.5% single-stock compounds ticker
+    concentration with macro risk.
+
+  AI Power (1.9%):
+    KODEX AI Power Core Infra -16.76% / 20d -30.39% deep losses. Check
+    loss limits first before additional buys. Re-evaluate after 6/17 FOMC.
+
+  Big Tech US (2.2% NVDA + 6.7% index):
+    NVDA serves as FX buffer. Short-term passive selling exposure post SpaceX IPO;
+    Rubin SOCAMM rumor unresolved risk.
+
+  Safe Haven (0.01%):
+    Gold spot (ACE 411060) 20d -2.2% weakening but valid as Bear-scenario (25%)
+    hedge candidate. Worth considering staged entry while VIX is at 16 (stable).
+
+  KRW assets:
+    At USD/KRW 1,558, KRW assets face additional FX loss risk. KR 39.2% weight
+    warrants review of non-semiconductor names as well.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Portfolio Recommendations (no individual security trades)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Cash management:
+    →  Current 50.4% → maintain 50~52% target
+       Preserve dry powder through 6/10 CPI · 6/17 FOMC
+
+  FX hedging (USD exposure, currently ~13~14%):
+    →  Maintain US index 6.7% + USD cash + NVDA (FX buffer)
+    →  Additional USD buying after 1,560 is not recommended (risk of chasing)
+    →  If USD/KRW enters the 1,570 intervention zone, consider partial
+       profit-taking on USD assets
+
+  Sector rebalancing:
+    →  Semiconductors 32% → reduce to 26~28% (Bear 25% contingency)
+    →  SK Hynix 25.5% solo → target ≤20% (ticker + macro risk overlap)
+    →  AI power 1.9% additional buy frozen (re-evaluate after 6/17 FOMC)
+    →  Gold spot 0.01% → staged entry to 2~3% (Bear hedge)
+    →  US index 6.7% maintain (FX buffer)
+
+  Follow-up mode recommendations:
+    →  /open-sesame [mode: rebalance][question: SK Hynix 25.5% reduction
+       path and gold spot 2~3% entry weight specifics]
+    →  /open-sesame [mode: single][target: KODEX AI Power Core Infra
+       (487240)][question: loss limit / hold vs. exit decision]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Upcoming Event Calendar (event-driven triggers)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ┌──────────┬──────────────────────────┬────────────────────┬───────────────────────────┐
+  │ Date     │ Event                    │ Key Variable       │ Action on Trigger         │
+  ├──────────┼──────────────────────────┼────────────────────┼───────────────────────────┤
+  │ 6/10     │ US May CPI (9:30 PM KST) │ Headline vs consen,│ Beat → add semis sell     │
+  │          │                          │ oil-driven upside  │ + monitor 10Y 4.5%.       │
+  │          │                          │ surprise,          │ Miss → bet on FOMC        │
+  │          │                          │ core deceleration  │ dovish, stage entry.      │
+  ├──────────┼──────────────────────────┼────────────────────┼───────────────────────────┤
+  │ 6/12     │ SpaceX IPO launch        │ Passive $950B      │ If broad selloff, hold    │
+  │          │ ($75B raise · $1.75T)    │ rebalancing        │ NVDA add-buy; accelerate  │
+  │          │                          │ intensity;         │ semis reduction.          │
+  │          │                          │ big tech/NVDA flow │                           │
+  ├──────────┼──────────────────────────┼────────────────────┼───────────────────────────┤
+  │ 6/17     │ FOMC + SEP               │ Hold/cut, dot plot │ Hawkish SEP (0 cuts) →    │
+  │          │ (Warsh's first meeting)  │ cut count, Warsh's │ reduce semis + enter gold │
+  │          │                          │ first tone         │ hedge. Dovish tone →      │
+  │          │                          │                    │ cash portion → big tech/  │
+  │          │                          │                    │ semis.                    │
+  ├──────────┼──────────────────────────┼────────────────────┼───────────────────────────┤
+  │ 6/25     │ US May PCE               │ Core PCE 2.0%,     │ Beat → strong USD accel., │
+  │          │                          │ post-FOMC tone     │ USD/KRW 1,580↑ response.  │
+  │          │                          │ reconfirmed        │ Miss → KRW asset rebound. │
+  ├──────────┼──────────────────────────┼────────────────────┼───────────────────────────┤
+  │ 7/2      │ US June NFP (adjusted    │ Employment         │ Slowdown → July FOMC cut  │
+  │          │ for 7/4 holiday)         │ slowdown,          │ expectations → AI/semis   │
+  │          │                          │ Warsh dovish pivot │ re-entry signal.          │
+  │          │                          │ basis forming      │                           │
+  └──────────┴──────────────────────────┴────────────────────┴───────────────────────────┘
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Sources (WebSearch verified)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- US CPI schedule (6/10): investing.com, earlyhong.com
+- FOMC 6/16-17, SEP/dot-plot mechanics: federalreserve.gov, finance.yahoo.com
+- Powell → Kevin Warsh transition, market hold probability 65~96%:
+  yahoo.com (Fed live), polymarket.com
+- March SEP hawkish bias (inflation↑, GDP↓): ishares.com, americancentury.com
+- USD/KRW 1,539~1,558, highest since March 2009: kr.investing.com,
+  kbthink.com (2026 FX outlook), tradingeconomics.com
+- US 10Y 4.48%, VIX 16.05: cnbc.com (US10Y), streetstats.finance (VIX)
+- Mid-East tensions (Iran Kuwait airport attack, Israel further attack prep):
+  cited in FX search results
