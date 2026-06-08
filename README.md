@@ -1,5 +1,10 @@
 # ✦✳︎✦✳︎✦ Open Sesame ✦✳︎✦✳︎✦
 
+<table><tr>
+  <td><img src="static/favicon.png" width="80"></td>
+  <td valign="middle"><b>클로드 코드만 있으면 모든 기능을 사용할 수 있어요!</b></td>
+</tr></table>
+
 **AI-powered investment advisor & dashboard for Claude Code**  
 KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI command
 
