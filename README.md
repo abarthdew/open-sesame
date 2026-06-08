@@ -97,11 +97,11 @@ Analysis logs are saved to `report/[YYYY-MM-DD][mode][title].log` (gitignored).
 
 | Mode | Topic | Report |
 |---|---|---|
-| `multi` | Semis & SOXL plunge — fact-check & profit-taking judgment | [View →](report/ex_%5B2026-06-06%5D%5Bmulti%5D%5BSemis_SOXL_Plunge_Factcheck_Profit_Taking%5D.log) |
-| `single` | PLTR new entry — OS framework & political risk | [View →](report/ex_%5B2026-05-28%5D%5Bsingle%5D%5BPLTR_New_Entry_OS_Framework_Political_Risk%5D.log) |
-| `rebalance` | KR stock sell priority | [View →](report/ex_%5B2026-05-26%5D%5Brebalance%5D%5BKR_Stock_Sell_Priority%5D.log) |
-| `scan` | Samsung Electro new entry review | [View →](report/ex_%5B2026-06-02%5D%5Bscan%5D%5BSamsung_Electro_New_Entry_Review%5D.log) |
-| `macro` | 30d CPI · FOMC · FX · AI semis impact | [View →](report/ex_%5B2026-06-06%5D%5Bmacro%5D%5B30d_CPI_FOMC_FX_AI_Semis_Impact%5D.log) |
+| `multi` | Semis & SOXL plunge — fact-check & profit-taking judgment | [📋 View →](report/ex_%5B2026-06-06%5D%5Bmulti%5D%5BSemis_SOXL_Plunge_Factcheck_Profit_Taking%5D.log) |
+| `single` | PLTR new entry — OS framework & political risk | [📋 View →](report/ex_%5B2026-05-28%5D%5Bsingle%5D%5BPLTR_New_Entry_OS_Framework_Political_Risk%5D.log) |
+| `rebalance` | KR stock sell priority | [📋 View →](report/ex_%5B2026-05-26%5D%5Brebalance%5D%5BKR_Stock_Sell_Priority%5D.log) |
+| `scan` | Samsung Electro new entry review | [📋 View →](report/ex_%5B2026-06-02%5D%5Bscan%5D%5BSamsung_Electro_New_Entry_Review%5D.log) |
+| `macro` | 30d CPI · FOMC · FX · AI semis impact | [📋 View →](report/ex_%5B2026-06-06%5D%5Bmacro%5D%5B30d_CPI_FOMC_FX_AI_Semis_Impact%5D.log) |
 
 ---
 
