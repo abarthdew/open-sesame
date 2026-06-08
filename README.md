@@ -171,9 +171,9 @@ See `schedule/ROUTINES.md` for full setup instructions and cron expressions.
 
 | Routine | Report |
 |---|---|
-| KR market close daily | 🤖 [View →](schedule/ex_%5B2026-06-05%5D%5Bsingle%5D%5BKR_Market_Close_Daily_Report%5D.log) |
-| KR market intraday | 🤖 [View →](schedule/ex_%5B2026-06-05%5D%5Bsingle%5D%5BKR_Market_Intraday_Report%5D.log) |
-| US market close daily | 🤖 [View →](schedule/ex_%5B2026-06-04%5D%5Bsingle%5D%5BUS_Market_Close_Daily_Report%5D.log) |
+| KR market close daily | 📡 [View →](schedule/ex_%5B2026-06-05%5D%5Bsingle%5D%5BKR_Market_Close_Daily_Report%5D.log) |
+| KR market intraday | 📡 [View →](schedule/ex_%5B2026-06-05%5D%5Bsingle%5D%5BKR_Market_Intraday_Report%5D.log) |
+| US market close daily | 📡 [View →](schedule/ex_%5B2026-06-04%5D%5Bsingle%5D%5BUS_Market_Close_Daily_Report%5D.log) |
 
 ---
 
