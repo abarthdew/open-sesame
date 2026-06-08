@@ -7,7 +7,7 @@ KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI com
 
 ---
 
-## What It Does
+## ✨ What It Does
 
 Open Sesame turns Claude Code into a personal investment advisor. You describe a situation — a stock move, a portfolio question, a macro event — and `/open-sesame` calls a structured multi-agent analysis pipeline that reads your actual portfolio data and returns a scored, actionable recommendation.
 
@@ -28,7 +28,7 @@ Open Sesame turns Claude Code into a personal investment advisor. You describe a
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 ### 1. Clone
 
@@ -66,7 +66,7 @@ python3 app.py
 
 ---
 
-## Investment Advisor CLI
+## 🤖 Investment Advisor CLI
 
 **Prerequisite:** [Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code) installed
 
@@ -95,7 +95,7 @@ Analysis logs are saved to `report/[YYYY-MM-DD][mode][title].log` (gitignored).
 
 ---
 
-## Dashboard
+## 📊 Dashboard
 
 | Tab | Description |
 |---|---|
@@ -108,7 +108,7 @@ Edit `history/portfolio.toml` to update your holdings, then hit **Reload** in th
 
 ---
 
-## Automated Briefings (GitHub Actions)
+## 📬 Automated Briefings (GitHub Actions)
 
 `.github/workflows/briefing.yml` sends Slack messages on a schedule.
 
@@ -135,7 +135,7 @@ python3 -m briefing.briefing weekly    # Weekly review
 
 ---
 
-## Scheduled Routines (Claude Code Routines)
+## 🕐 Scheduled Routines (Claude Code Routines)
 
 `schedule/` contains prompt files for **Claude Code Remote Agents** — cloud-based agents that run automatically on a schedule, without your local machine.
 
@@ -159,13 +159,13 @@ See `schedule/ROUTINES.md` for full setup instructions and cron expressions.
 
 ---
 
-## File Structure
+## 📁 File Structure
 
 See [CLAUDE.md](CLAUDE.md#file-structure) for the full file structure.
 
 ---
 
-## API Keys
+## 🔑 API Keys
 
 | Key | Purpose | Free tier |
 |---|---|---|
@@ -176,12 +176,12 @@ See [CLAUDE.md](CLAUDE.md#file-structure) for the full file structure.
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 Issues and PRs welcome. This project is primarily built with and for [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
 
 ---
 
-## License
+## 📄 License
 
 MIT
