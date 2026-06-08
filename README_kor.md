@@ -28,13 +28,20 @@ Open Sesame은 Claude Code를 개인 투자 자문가로 전환합니다. 상황
 
 ## 빠른 시작
 
-### 1. 설치
+### 1. 클론
+
+```bash
+git clone https://github.com/abarthdew/open-sesame.git
+cd open-sesame
+```
+
+### 2. 설치
 
 ```bash
 pip3 install flask pykrx yfinance python-dotenv tomli
 ```
 
-### 2. 설정
+### 3. 설정
 
 `.env.example`을 `.env`로 복사하고 API 키를 입력합니다:
 
@@ -44,7 +51,7 @@ cp .env.example .env
 
 `history/portfolio.toml`을 보유 종목으로 편집합니다. 샘플 파일에 올바른 구조가 있습니다.
 
-### 3. 실행
+### 4. 실행
 
 ```bash
 python3 app.py

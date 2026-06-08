@@ -28,13 +28,20 @@ Open Sesame turns Claude Code into a personal investment advisor. You describe a
 
 ## Quick Start
 
-### 1. Install
+### 1. Clone
+
+```bash
+git clone https://github.com/abarthdew/open-sesame.git
+cd open-sesame
+```
+
+### 2. Install
 
 ```bash
 pip3 install flask pykrx yfinance python-dotenv tomli
 ```
 
-### 2. Configure
+### 3. Configure
 
 Copy `.env.example` to `.env` and fill in your API keys:
 
@@ -44,7 +51,7 @@ cp .env.example .env
 
 Edit `history/portfolio.toml` with your holdings. The sample file has the correct structure.
 
-### 3. Run
+### 4. Run
 
 ```bash
 python3 app.py
