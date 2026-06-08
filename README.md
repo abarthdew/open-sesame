@@ -2,7 +2,7 @@
 
 <img src="static/favicon.png" width="80" align="left" hspace="10">
 <img src="static/claude-logo.svg" width="80" align="left" hspace="15">
-<b>AI-powered investment advisor & dashboard for Claude Code</b>  <br/>
+<b>Multi-Agent investment advisor & dashboard for Claude Code</b>  <br/>
 KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI command
 <br/>
 <br/>
