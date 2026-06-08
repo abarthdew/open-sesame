@@ -2,10 +2,10 @@
 
 <img src="static/favicon.png" width="80" align="left" hspace="10">
 <img src="static/claude-logo.svg" width="80" align="left" hspace="15">
-**AI-powered investment advisor & dashboard for Claude Code**  <br/>
+<b>AI-powered investment advisor & dashboard for Claude Code</b>  <br/>
 KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI command
 <br/>
-All features work with **<font color="#DA7756">✳︎ Claude Code ✳︎</font>** — no extra setup required!
+All features work with <b><font color="#DA7756">✳︎ Claude Code ✳︎</font></b> — no extra setup required!
 
 ---
 
