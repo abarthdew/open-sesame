@@ -2,11 +2,12 @@
 
 <table><tr>
   <td><img src="static/favicon.png" width="80"></td>
-  <td valign="middle"><b>All features work with Claude Code — no extra setup required!</b></td>
+  <td valign="middle">
+    <b>AI-powered investment advisor & dashboard for Claude Code</b><br/>  
+    KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI command<br/>
+    <b>All features work with Claude Code — no extra setup required!</b>
+  </td>
 </tr></table>
-
-**AI-powered investment advisor & dashboard for Claude Code**  
-KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI command
 
 ![Open Sesame Dashboard](static/open-sesame-main.png)
 
