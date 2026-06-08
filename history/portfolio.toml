@@ -42,7 +42,7 @@
 # ══════════════════════════════════════════════════════════════════════════════
 
 [meta]
-updated      = "2026-01-01" # required
+updated      = "2026-01-02" # required
 salary_krw   = 0
 spending_krw = 0
 tax_krw      = 0
@@ -63,20 +63,6 @@ name      = "NVIDIA"
 market    = "US"
 qty       = 10
 avg_price = 120.00
-
-[[accounts."overseas".holdings]]
-ticker    = "GOOGL"
-name      = "Alphabet A"
-market    = "US"
-qty       = 5
-avg_price = 170.00
-
-[[accounts."overseas".holdings]]
-ticker    = "VOO"
-name      = "VOO"
-market    = "US"
-qty       = 3
-avg_price = 500.00
 
 [accounts."overseas".cash]
 USD  = 1000.00
@@ -100,43 +86,8 @@ market    = "KR"
 qty       = 10
 avg_price = 200000
 
-[[accounts.ISA.holdings]]
-ticker    = "005930"
-name      = "Samsung Electronics"
-market    = "KR"
-qty       = 20
-avg_price = 70000
-
 [accounts.ISA.cash]
 KRW  = 1000000
-memo = "Sample data"
-
-# ── Pension Account ──────────────────────────────────────────────────────────
-
-[accounts."pension"]
-number       = "3456-0"
-broker       = "Brokerage Name"
-type         = "pension-savings"
-opened       = "2023-01-01"
-annual_limit = 6000000
-note         = "Pension / tax-advantaged account"
-
-[[accounts."pension".holdings]]
-ticker    = "133690"
-name      = "TIGER US NASDAQ 100"
-market    = "KR"
-qty       = 10
-avg_price = 100000
-
-[[accounts."pension".holdings]]
-ticker    = "360750"
-name      = "TIGER US S&P500"
-market    = "KR"
-qty       = 20
-avg_price = 15000
-
-[accounts."pension".cash]
-KRW  = 500000
 memo = "Sample data"
 
 # ── Closed Positions ─────────────────────────────────────────────────────────
