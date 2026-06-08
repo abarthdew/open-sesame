@@ -1,14 +1,13 @@
 # ✦✳︎✦✳︎✦ Open Sesame ✦✳︎✦✳︎✦
 
-<table border="0"><tr>
-  <td><img src="static/favicon.png" width="80"></td>
-  <td valign="middle">
-    <b>AI-powered investment advisor & dashboard for Claude Code</b><br/>  
-    KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI command<br/>
-    <br/>
-    All features work with <b>✳︎ Claude Code ✳︎</b> — no extra setup required!
-  </td>
-</tr></table>
+<img src="static/favicon.png" width="80" align="left" hspace="15">
+
+**AI-powered investment advisor & dashboard for Claude Code**  
+KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI command
+
+All features work with **✳︎ <font color="#DA7756">Claude Code</font> ✳︎** — no extra setup required!
+
+<br clear="left">
 
 ![Open Sesame Dashboard](static/open-sesame-main.png)
 
