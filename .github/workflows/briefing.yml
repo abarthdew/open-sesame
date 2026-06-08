@@ -1,0 +1,99 @@
+name: Open Sesame 브리핑
+
+on:
+  # GitHub Actions schedule 트리거는 정시 실행을 보장하지 않으며 플랫폼 부하에 따라
+  # 수십 분~수 시간의 지연이 발생할 수 있습니다. 정시성이 중요한 금융 브리핑 특성상
+  # cron-job.org에서 workflow_dispatch로 트리거하는 방식으로 교체했습니다.
+  # 아래 cron 설정은 참조용으로 보존합니다.
+  #
+  # schedule:
+  #   - cron: '0 22 * * 0-4'  # KST 07:00 평일 (모닝)
+  #   - cron: '35 6 * * 1-5'  # KST 15:35 평일 (한국 마감)
+  #   - cron: '0 13 * * 1-5'  # KST 22:00 평일 (미국 개시)
+  #   - cron: '0 9 * * 0'     # KST 18:00 일요일 (주간 회고)
+  workflow_dispatch:
+    inputs:
+      type:
+        description: 'Briefing type'
+        required: true
+        default: morning
+        type: choice
+        options: [morning, kr_close, us_open, weekly]
+
+jobs:
+  morning:
+    if: |
+      github.event.schedule == '0 22 * * 0-4' ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.type == 'morning')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m briefing.briefing morning
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  kr_close:
+    if: |
+      github.event.schedule == '35 6 * * 1-5' ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.type == 'kr_close')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m briefing.briefing kr_close
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          KRX_ID: ${{ secrets.KRX_ID }}
+          KRX_PW: ${{ secrets.KRX_PW }}
+
+  us_open:
+    if: |
+      github.event.schedule == '0 13 * * 1-5' ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.type == 'us_open')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m briefing.briefing us_open
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+
+  weekly:
+    if: |
+      github.event.schedule == '0 9 * * 0' ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.type == 'weekly')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m briefing.briefing weekly
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
+          DART_API_KEY:      ${{ secrets.DART_API_KEY }}
+      - name: Commit api_cache.json if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add history/api_cache.json
+          git diff --cached --quiet || git commit -m "data: update api_cache.json [skip ci]"
+          git push

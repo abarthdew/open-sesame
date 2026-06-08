@@ -1,0 +1,6 @@
+flask
+requests
+pykrx
+yfinance
+python-dotenv
+tomli; python_version < "3.11"

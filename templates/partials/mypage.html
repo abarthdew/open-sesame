@@ -1,0 +1,30 @@
+<div id="mypage" class="panel">
+  <div class="section">
+    <p class="section-title">
+      계좌 현황
+      <button class="refresh-btn" onclick="reloadSnapshots()">재로드</button>
+    </p>
+    <div class="date-filter-row">
+      <input type="date" id="mp-from" class="date-input" placeholder="시작일">
+      <span class="date-sep">~</span>
+      <input type="date" id="mp-to"   class="date-input" placeholder="종료일">
+      <button class="date-query-btn" onclick="queryMypage()">조회</button>
+    </div>
+    <div id="mypage-table"><div class="loading">로딩 중…</div></div>
+  </div>
+
+  <div class="section">
+    <p class="section-title">계좌별 잔고 추이 (스택 바)</p>
+    <div id="mypage-bar"></div>
+  </div>
+
+  <div class="section">
+    <p class="section-title">총합 · 급여 · 소비 · 순저축 추이</p>
+    <div id="mypage-line"></div>
+  </div>
+
+  <div class="section">
+    <p class="section-title">매도 내역</p>
+    <div id="trades-table"><div class="loading">로딩 중…</div></div>
+  </div>
+</div>

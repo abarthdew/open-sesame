@@ -1,0 +1,203 @@
+[[events]]
+date       = "2026-06-03"
+importance = "LOW"
+name       = "한국 지방선거"
+scenarios  = "역사적으로 코스피 영향 없거나 소폭 하락\n→ 매수/매도 근거로 사용 금지"
+
+[[events]]
+date       = "2026-06-05"
+importance = "MID"
+name       = "미국 5월 고용지표 발표 (비농업 고용)"
+scenarios  = "A: 예상 상회 → 경기 견조, 금리 인하 기대 약화 → 성장주 단기 약세\nB: 예상 하회 → 침체 우려 + 금리 인하 기대 강화 → 혼조"
+
+[[events]]
+date       = "2026-06-10"
+importance = "MID"
+name       = "미국 5월 CPI 발표"
+scenarios  = "A: 둔화 → 금리 인하 기대 강화 → 기술주·채권 강세\nB: 예상 상회 → 인플레 재점화 우려 → 성장주 약세"
+
+[[events]]
+date       = "2026-06-17"
+importance = "HIGH"
+name       = "FOMC 금리 결정 (6월, 경제전망 포함)"
+scenarios  = "A: 금리 동결 + 비둘기 스탠스 → 달러 약세, 성장주 강세\nB: 매파 전망 상향 → 달러 강세, 반도체 조정\n6월은 경제전망(SEP) 발표 포함 회의"
+
+[[events]]
+date       = "2026-06-25"
+importance = "MID"
+name       = "미국 5월 PCE 발표"
+scenarios  = "A: 코어 PCE 둔화 → 연준 9월 인하 확률 상승\nB: 상승 → 금리 인하 경로 지연 우려\n연준 목표치: 코어 PCE 2.0%"
+
+[[events]]
+date       = "2026-07-02"
+importance = "MID"
+name       = "미국 6월 고용지표 발표 (비농업 고용)"
+scenarios  = "A: 강한 고용 → 경기 견조, 성장주 혼조\nB: 실업 급증 → 침체 신호, 금리 인하 기대 급등\n※ 7/4 독립기념일 관련 7/3 공휴일 조정으로 7/2(목) 발표"
+
+[[events]]
+date       = "2026-07-08"
+importance = "HIGH"
+name       = "삼성전자 2분기 잠정실적 발표 (추정)"
+scenarios  = "A: HBM3E 출하 증가 + DS부문 흑자 확인 → 반도체 섹터 강세, KODEX 반도체 상승\nB: 파운드리 적자 지속·HBM 수율 부진 → 삼성전자·KODEX 반도체 실망 매도\n공식 실적 발표(7월 말) 전 시장 방향 결정하는 선행 이벤트"
+
+[[events]]
+date       = "2026-07-10"
+importance = "MID"
+name       = "미국 6월 CPI 발표 (추정)"
+scenarios  = "A: 인플레 2% 근접 → 9월 인하 기정사실화, 기술주 강세\nB: 재반등 → 인하 기대 후퇴, 성장주 조정"
+
+[[events]]
+date       = "2026-07-16"
+importance = "MID"
+name       = "한국은행 금통위 기준금리 결정 (7월)"
+scenarios  = "A: 금리 동결 → 원화 안정, 외국인 수급 우호\nB: 금리 인하 단행 → 원화 약세 압력, 성장주 우호\n7월은 수정 경제전망 포함"
+
+[[events]]
+date       = "2026-07-23"
+importance = "HIGH"
+name       = "삼성전자 2분기 실적 발표"
+scenarios  = "A: HBM3E 출하 증가 확인 → 반도체 섹터 반등\nB: 파운드리 적자 지속·모바일 부진 → 실망 매도\n확인 항목: DS부문 영업익 턴어라운드 여부"
+
+[[events]]
+date       = "2026-07-28"
+importance = "HIGH"
+name       = "Google(Alphabet) 2분기 실적 발표"
+scenarios  = "A: 클라우드·AI 광고 매출 성장 → GOOGL 강세\nB: AI 투자 비용 증가로 마진 압박 → 실망 매도"
+
+[[events]]
+date       = "2026-07-29"
+importance = "HIGH"
+name       = "SK하이닉스 2분기 실적 발표 + FOMC 금리 결정 (7월)"
+scenarios  = "하이닉스: HBM 매출 비중 40%+ 여부, HBM4 수율 목표 달성 확인\nFOMC: 7월은 경제전망 미포함 회의 — 9월 인하 시그널 여부 주목\nA (양호): 하이닉스 서프라이즈 + FOMC 비둘기 → 반도체 강세\nB (혼조): 한쪽 실망 시 상쇄 가능성"
+
+[[events]]
+date       = "2026-07-30"
+importance = "MID"
+name       = "미국 6월 PCE 발표"
+scenarios  = "A: 코어 PCE 둔화 → 연준 9월 인하 확률 상승, 기술주 우호\nB: 예상 상회 → 연준 매파 기조 재강화, 성장주 단기 약세"
+
+[[events]]
+date       = "2026-08-07"
+importance = "MID"
+name       = "미국 7월 고용지표 발표 (비농업 고용) (추정)"
+scenarios  = "A: 강한 고용 → 경기 견조, 9월 인하 기대 소폭 약화 → 성장주 혼조\nB: 약한 고용 → 침체 우려 + 9월 인하 확률 급등 → 혼조"
+
+[[events]]
+date       = "2026-08-12"
+importance = "HIGH"
+name       = "NuScale Power (SMR) 2분기 실적 발표"
+scenarios  = "A: ENTRA1 PMA 마일스톤 진행 확인 + 계약 파이프라인 확대 → SMR 강세\nB: 추가 파트너십 지연·자금 소진 우려 → 급락 리스크\n확인 항목: PMA 2차 마일스톤 인식 여부, 현금 런웨이"
+
+[[events]]
+date       = "2026-08-12"
+importance = "MID"
+name       = "미국 7월 CPI 발표 (추정)"
+scenarios  = "A: 둔화 → 잭슨홀 금리 인하 기대 강화 → 기술주·채권 강세\nB: 상승 → 잭슨홀 매파 발언 우려 → 성장주 사전 조정"
+
+[[events]]
+date       = "2026-08-26"
+importance = "HIGH"
+name       = "엔비디아 Q2 FY27 실적 발표"
+scenarios  = "A: Blackwell 풀 가동 확인, 데이터센터 수요 지속 → HBM 추가 수요 확인, SK하이닉스·KODEX 반도체 강세\nB: 공급망 차질·중국 수출 제한 현실화 → AI 테마 조정\n잭슨홀 전날 발표 — 시장 방향성에 더블 이벤트 영향"
+
+[[events]]
+date       = "2026-08-26"
+importance = "MID"
+name       = "미국 7월 PCE 발표"
+scenarios  = "A: 코어 PCE 2% 달성 → 잭슨홀 9월 인하 선언 기대, 기술주 강세\nB: 재반등 → 잭슨홀 의장 매파 발언 가능성 → 시장 급락 리스크\n엔비디아 실적 + 잭슨홀 전야 — 삼중 이벤트 집중"
+
+[[events]]
+date       = "2026-08-27"
+importance = "MID"
+name       = "한국은행 금통위 기준금리 결정 (8월)"
+scenarios  = "A: 금리 인하 단행 → 잭슨홀과 맞물려 글로벌 완화 기대 강화, 코스피 강세\nB: 동결 → 원화 방향 불투명, 잭슨홀 연준 발언에 시장 집중\n잭슨홀 심포지엄 개막 당일 — 글로벌 이벤트 겹침"
+
+[[events]]
+date       = "2026-08-27"
+importance = "HIGH"
+name       = "잭슨홀 심포지엄 (8/27~29)"
+scenarios  = "A: 연준 의장 금리 인하 시사 → 달러 약세, 기술주·신흥국 강세\nB: 인플레 우려 강조 → 달러 강세, 성장주 조정\n케빈 워시 의장 취임 후 첫 잭슨홀 — 신임 의장 정책 방향 힌트"
+
+[[events]]
+date       = "2026-09-04"
+importance = "MID"
+name       = "미국 8월 고용지표 발표 (비농업 고용) (추정)"
+scenarios  = "A: 강한 고용 → 9월 FOMC 인하 기대 소폭 약화\nB: 약한 고용 → 9월 FOMC 0.50%p 대폭 인하 기대"
+
+[[events]]
+date       = "2026-09-10"
+importance = "MID"
+name       = "미국 8월 CPI 발표 (추정)"
+scenarios  = "A: 인플레 2% 근접 → 9월 FOMC 인하 기정사실화, 기술주 강세\nB: 재반등 → 9월 FOMC 동결 가능성, 성장주 급격 조정"
+
+[[events]]
+date       = "2026-09-16"
+importance = "HIGH"
+name       = "FOMC 금리 결정 (9월, 경제전망 포함)"
+scenarios  = "A: 금리 인하 단행 → 달러 약세, 원화 강세, 성장주 랠리\nB: 동결 + 매파 전망 → 시장 실망 조정\n9월은 경제전망(SEP) 발표 포함 — 연내 인하 횟수 경로 확인"
+
+[[events]]
+date       = "2026-09-25"
+importance = "MID"
+name       = "미국 8월 PCE 발표 (추정)"
+scenarios  = "A: 코어 PCE 둔화 → 연내 추가 인하 기대 강화, 기술주 우호\nB: 예상 상회 → 10월 FOMC 동결 가능성 부상, 성장주 단기 약세"
+
+[[events]]
+date       = "2026-10-02"
+importance = "MID"
+name       = "미국 9월 고용지표 발표 (비농업 고용) (추정)"
+scenarios  = "A: 강한 고용 → 10월 FOMC 동결 우세, 성장주 혼조\nB: 약한 고용 → 침체 우려 + 12월 추가 인하 기대"
+
+[[events]]
+date       = "2026-10-13"
+importance = "MID"
+name       = "미국 9월 CPI 발표 (추정)"
+scenarios  = "A: 인플레 목표치 달성 → 12월 추가 인하 기대, 기술주 강세\nB: 재반등 → 12월 FOMC 동결 우려, 성장주 조정"
+
+[[events]]
+date       = "2026-10-22"
+importance = "MID"
+name       = "한국은행 금통위 기준금리 결정 (10월)"
+scenarios  = "A: 금리 인하 단행 → 원화 약세·성장주 우호, 코스피 강세 기대\nB: 동결 → 내수 회복 지연 우려, 시장 실망 가능"
+
+[[events]]
+date       = "2026-10-28"
+importance = "MID"
+name       = "FOMC 금리 결정 (10월)"
+scenarios  = "A: 9월 인하 후속 추가 인하 → 완화 사이클 진입 확인\nB: 동결 → 인플레 재점화, 매파 신중론 재부각"
+
+[[events]]
+date       = "2026-10-29"
+importance = "MID"
+name       = "미국 9월 PCE 발표 (추정)"
+scenarios  = "A: 코어 PCE 목표 달성 → 연준 12월 인하 확률 상승\nB: 예상 상회 → 12월 FOMC 동결 전망 부상, 성장주 약세"
+
+[[events]]
+date       = "2026-11-06"
+importance = "MID"
+name       = "미국 10월 고용지표 발표 (비농업 고용) (추정)"
+scenarios  = "A: 강한 고용 → 연준 12월 동결 가능성 상승\nB: 약한 고용 → 12월 인하 기대 강화"
+
+[[events]]
+date       = "2026-11-10"
+importance = "HIGH"
+name       = "미·중 Affiliates Rule 효력 복원 (반도체 수출 제한)"
+scenarios  = "A: 협상 타결·면제 연장 → 엔비디아·AMD 중국향 칩 매출 유지, 반도체 섹터 안도\nB: 효력 복원 → H20 등 중국 수출 재차 금지, SK하이닉스 HBM 수요 타격·AI 테마 조정"
+
+[[events]]
+date       = "2026-11-12"
+importance = "MID"
+name       = "미국 10월 CPI 발표 (추정)"
+scenarios  = "A: 둔화 → 12월 FOMC 인하 기정사실화, 연말 랠리 기대\nB: 상승 → 12월 동결 우려, 성장주 연말 조정"
+
+[[events]]
+date       = "2026-11-26"
+importance = "MID"
+name       = "한국은행 금통위 기준금리 결정 (11월)"
+scenarios  = "A: 금리 인하 단행 → 원화 약세·성장주 우호, 코스피 반등 기대\nB: 동결 → 내수 부진 우려 지속, 외국인 수급 관망"
+
+[[events]]
+date       = "2026-12-09"
+importance = "HIGH"
+name       = "FOMC 금리 결정 (12월, 경제전망 포함)"
+scenarios  = "A: 연 2회 이상 인하 확인 → 2027년 완화 기대 강화\nB: 동결 → 인플레 재점화 우려, 인하 경로 불투명"

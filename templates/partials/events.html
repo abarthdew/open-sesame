@@ -1,0 +1,20 @@
+<div id="events" class="panel">
+  <div class="section">
+    <p class="section-title">
+      주요 이벤트
+      <button class="refresh-btn" onclick="reloadEvents()">재로드</button>
+    </p>
+    <div class="date-filter-row">
+      <input type="date" id="ev-from" class="date-input" placeholder="시작일">
+      <span class="date-sep">~</span>
+      <input type="date" id="ev-to"   class="date-input" placeholder="종료일">
+      <button class="date-query-btn" onclick="queryEvents()">조회</button>
+    </div>
+    <div id="events-list"><div class="loading">로딩 중…</div></div>
+  </div>
+
+  <div class="section">
+    <p class="section-title">이번 주 뉴스 감성 <span class="section-title-meta">Alpha Vantage · 주간 브리핑 자동 갱신</span></p>
+    <div id="news-sentiment-list"><div class="loading">로딩 중…</div></div>
+  </div>
+</div>

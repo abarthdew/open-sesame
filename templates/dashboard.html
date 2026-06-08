@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Open Sesame</title>
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+</head>
+<body>
+
+<h1>Open Sesame</h1>
+
+<div class="tabs">
+  <button class="tab active" onclick="showTab('overview', this)">포트폴리오</button>
+  <button class="tab" onclick="showTab('signals', this)">매수/매도 조건</button>
+  <button class="tab" onclick="showTab('events', this)">이벤트 캘린더</button>
+  <button class="tab" onclick="showTab('mypage', this); loadMypage()">마이페이지</button>
+</div>
+
+{% include 'partials/overview.html' %}
+{% include 'partials/signals.html' %}
+{% include 'partials/events.html' %}
+{% include 'partials/mypage.html' %}
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+<script src="{{ url_for('static', filename='js/overview.js') }}"></script>
+<script src="{{ url_for('static', filename='js/signals.js') }}"></script>
+<script src="{{ url_for('static', filename='js/events.js') }}"></script>
+<script src="{{ url_for('static', filename='js/mypage.js') }}"></script>
+
+</body>
+</html>

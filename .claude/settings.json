@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(*)",
+      "WebSearch(*)",
+      "Bash(git *)",
+      "Bash(gh *)",
+      "Bash(curl *)",
+      "Bash(pip3 *)",
+      "Bash(python3 *)",
+      "Bash(ls *)",
+      "Bash(mkdir *)",
+      "Bash(date *)",
+      "Read(*)",
+      "Write(*)",
+      "Edit(*)",
+      "MultiEdit(*)",
+      "TodoWrite(*)"
+    ]
+  },
+  "experimental": {
+    "agentTeams": true
+  }
+}
