@@ -10,8 +10,6 @@ All features work with **✳︎ <font color="#DA7756">Claude Code</font> ✳︎*
 
 <br clear="left">
 
----
-
 ## ✨ What It Does
 
 Open Sesame turns Claude Code into a personal investment advisor. You describe a situation — a stock move, a portfolio question, a macro event — and `/open-sesame` calls a structured multi-agent analysis pipeline that reads your actual portfolio data and returns a scored, actionable recommendation.
