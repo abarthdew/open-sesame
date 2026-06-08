@@ -1,6 +1,6 @@
 # ✦✳︎✦✳︎✦ Open Sesame ✦✳︎✦✳︎✦
 
-<table><tr>
+<table border="0"><tr>
   <td><img src="static/favicon.png" width="80"></td>
   <td valign="middle">
     <b>AI-powered investment advisor & dashboard for Claude Code</b><br/>  
