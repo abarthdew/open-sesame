@@ -2,16 +2,32 @@
 
 <img src="static/favicon.png" width="80" align="left" hspace="10">
 <img src="static/claude-logo.svg" width="80" align="left" hspace="15">
-
-**AI-powered investment advisor & dashboard for Claude Code**  
+**AI-powered investment advisor & dashboard for Claude Code**  <br/>
 KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI command
 
-All features work with **✳︎ <font color="#DA7756">Claude Code</font> ✳︎** — no extra setup required!
+All features work with **<font color="#DA7756">✳︎ Claude Code ✳︎</font>** — no extra setup required!
 
 <br clear="left">
 
+---
+
 ## ✨ What It Does
 
+**`multi` mode — how the pipeline works:**
+```
+Portfolio + Signals + News
+        │
+   ┌────┴────┐
+   ▼         ▼
+[Bull]     [Bear]        ← parallel execution, isolated context (no shared reasoning)
+bull_case  bear_case
+   └────┬────┘
+        ▼
+    [Arbiter]            ← no raw data, isolated context (no shared reasoning)
+ action / confidence / entry_or_exit / next_trigger
+        ▼
+    Final decision by user
+```
 Open Sesame turns Claude Code into a personal investment advisor. You describe a situation — a stock move, a portfolio question, a macro event — and `/open-sesame` calls a structured multi-agent analysis pipeline that reads your actual portfolio data and returns a scored, actionable recommendation.
 
 **5 analysis modes:**
