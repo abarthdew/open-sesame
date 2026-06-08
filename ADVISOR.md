@@ -134,7 +134,8 @@ Data collection is handled by the **main session** (see `.claude/commands/open-s
 
 ### Report Saving
 
-After analysis completes, save the full report in `Korean`:
+After analysis completes, save the full report in **the user's language**
+(Korean if the question was in Korean; English otherwise):
 
 ```text
 report/[YYYY-MM-DD][mode][title].log
@@ -142,7 +143,7 @@ report/[YYYY-MM-DD][mode][title].log
 
 - `YYYY-MM-DD`: analysis date
 - `mode`: mode parameter
-- `title`: short Korean description
+- `title`: short description in the user's language
 - Saved contents:
   portfolio data + signal scores + final judgment
 

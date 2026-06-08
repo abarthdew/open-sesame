@@ -1,99 +1,103 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-거시 환경 종합 점수
+Macro Environment Summary
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  분석 기간:     30일
-  risk_score:    -25
-  regime:        Risk-off (경계 수준)
+  Analysis period: 30d
+  risk_score:      -25
+  regime:          Risk-off (caution level)
 
-  핵심 판단:
-    Broadcom 가이던스發 AI CapEx 정점론 + SpaceX IPO siphon effect로
-    단기 수급 충격 진행 중. 6/17 FOMC SEP 톤이 결정적 분기점.
+  Key verdict:
+    Short-term flow shock underway driven by Broadcom guidance-triggered AI CapEx
+    peak thesis + SpaceX IPO siphon effect. 6/17 FOMC SEP tone is the decisive pivot.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-6축 요인 스코어카드
+Six-Axis Factor Scorecard
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
   ┌────┬──────────────────┬────────┬────────┬──────────────────────────────┐
-  │ 축 │ 현재 상태        │ 방향   │ 임팩트 │ 근거 (확정 사실)             │
+  │ Ax │ Current State    │ Dir    │ Impact │ Basis (confirmed facts)      │
   ├────┼──────────────────┼────────┼────────┼──────────────────────────────┤
-  │ A  │ FOMC 6/17 대기   │  →    │   0    │ 점도표(SEP) 포함, 시장은     │
-  │    │ US 10Y ~4.3%     │        │        │ 9월 인하 가격에 50% 반영     │
-  │ B  │ 디스인플레 진행  │  ↓    │   +    │ 6/10 CPI, 6/25 PCE 임박     │
-  │ C  │ VIX 상승, 외인   │  ↑    │   -    │ 6/5 코스피 -6%+, 서킷         │
-  │    │ 대규모 매도      │        │        │ 브레이커 부분 발동           │
-  │ D  │ 미중 갈등 잠복   │  →    │   0    │ 신규 관세 없음, 수출통제      │
-  │    │                  │        │        │ 추가 조치 미발표             │
-  │ E  │ SpaceX IPO 6/12  │  ↑    │   -    │ $75B 모집·$1.75T 가치,       │
-  │    │ siphon effect    │        │        │ JPM $950B 리밸런싱 추산      │
-  │ F  │ DRAM 현물가 안정 │  →    │   0    │ 2개월 연속 하락 미확인       │
+  │ A  │ Awaiting FOMC    │  →    │   0    │ SEP included; market pricing │
+  │    │ 6/17, US 10Y ~4.3│        │        │ 50% probability Sept cut     │
+  │ B  │ Disinflation     │  ↓    │   +    │ 6/10 CPI, 6/25 PCE imminent  │
+  │    │ in progress      │        │        │                              │
+  │ C  │ VIX rising,      │  ↑    │   -    │ 6/5 KOSPI -6%+, circuit      │
+  │    │ heavy foreign    │        │        │ breaker partially triggered  │
+  │    │ selling          │        │        │                              │
+  │ D  │ US-China latent  │  →    │   0    │ No new tariffs; no additional │
+  │    │ tensions         │        │        │ export control announcements  │
+  │ E  │ SpaceX IPO 6/12  │  ↑    │   -    │ $75B raise / $1.75T val;     │
+  │    │ siphon effect    │        │        │ JPM estimates $950B rebalance │
+  │ F  │ DRAM spot stable │  →    │   0    │ 2-month consecutive decline  │
+  │    │                  │        │        │ not confirmed                │
   └────┴──────────────────┴────────┴────────┴──────────────────────────────┘
 
-  기간 30일 가중치: 균등 적용
+  Period 30d weighting: equal applied
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-시나리오 매트릭스
+Scenario Matrix
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
   ┌────────┬───────┬──────────────────────────┬─────────────────────────────┐
-  │ 시나리오│ 확률  │ 핵심 트리거               │ 포트폴리오 영향             │
+  │Scenario│ Prob  │ Key Triggers              │ Portfolio Impact            │
   ├────────┼───────┼──────────────────────────┼─────────────────────────────┤
-  │ Base   │  50%  │ FOMC 동결 + 매파 무난,   │ 박스권. 반도체 -5%~+5%,    │
-  │        │       │ CPI 둔화 확인             │ 현금 유지가 안정적         │
-  │ Bull   │  25%  │ CPI 둔화 + FOMC 비둘기   │ 성장주 V자 반등. 반도체    │
-  │        │       │ + Rubin 루머 공식 부인    │ +10~+15%, USD 약세         │
-  │ Bear   │  25%  │ CPI 재반등 + FOMC 매파   │ 추가 -10~-15%. 외인 추가   │
-  │        │       │ + 외국인 3일 연속 매도    │ 매도로 KRX 추가 충격       │
+  │ Base   │  50%  │ FOMC hold + mild hawkish, │ Range-bound. Semis -5%~+5%, │
+  │        │       │ CPI slowdown confirmed    │ holding cash is stable      │
+  │ Bull   │  25%  │ CPI slows + FOMC dovish  │ Growth stocks V-bounce.     │
+  │        │       │ + Rubin rumor denied      │ Semis +10~+15%, USD weak    │
+  │ Bear   │  25%  │ CPI re-accelerates +      │ Additional -10~-15%.        │
+  │        │       │ FOMC hawkish + foreign    │ Foreign selling adds KRX    │
+  │        │       │ 3-day selling             │ shock on top                │
   └────────┴───────┴──────────────────────────┴─────────────────────────────┘
 
-  확률 합: 100%
+  Probabilities sum: 100%
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-시나리오별 섹터·자산 영향
+Scenario Asset Impact
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
   ┌──────────────┬──────────┬──────────┬──────────┐
-  │ 자산군       │ Base     │ Bull     │ Bear     │
+  │ Asset        │ Base     │ Bull     │ Bear     │
   ├──────────────┼──────────┼──────────┼──────────┤
-  │ 반도체       │  →      │  ++     │  --      │
-  │ AI 전력      │  -       │  +      │  --      │
-  │ 빅테크       │  →      │  +      │  -       │
-  │ 안전자산(금)│  +       │  -      │  ++      │
-  │ 원화 자산    │  -       │  +      │  --      │
+  │ Semiconductors│  →      │  ++     │  --      │
+  │ AI Power     │  -       │  +      │  --      │
+  │ Big Tech     │  →      │  +      │  -       │
+  │ Safe Assets  │  +       │  -      │  ++      │
+  │ KRW Assets   │  -       │  +      │  --      │
   └──────────────┴──────────┴──────────┴──────────┘
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-포트폴리오 권고 (개별 종목 매매 없음)
+Portfolio Recommendations (no individual stock orders)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  현금 비중 조정:
-    →  현재 50.4% → 목표 55~60% (6/17 FOMC 전까지)
-       Bear 시나리오 대비 + 매수 실탄 보강
+  Cash ratio adjustment:
+    →  Current 50.4% → target 55~60% (hold until 6/17 FOMC)
+       Bear scenario buffer + buying power reserve
 
-  환헤지 (USD 익스포저):
-    →  USD/KRW 1,558로 고점권. US 주식 신규 매수 보류 (환차 손실 회피)
-       USD 현금 12,870은 IPO 통과 후 비둘기 시그널 확인 시 활용
+  FX hedge (USD exposure):
+    →  USD/KRW 1,558 at peak zone. Hold off new US stock purchases (avoid FX loss)
+       USD cash $12,870 to be deployed after IPO clears + dovish signal confirmed
 
-  섹터 리밸런싱:
-    →  반도체 32% → 25% 축소 (집중도 임계 + Broadcom 가이던스 리스크)
-    →  안전자산(금) 0.01% → 3~5% 신규 진입 검토 (Bear 헤지)
-    →  AI 전력 1.9% → 유지 (추가 매수 보류, 6/17 후 재평가)
+  Sector rebalancing:
+    →  Semiconductors 32% → trim to 25% (concentration threshold + Broadcom guidance risk)
+    →  Safe assets (gold) 0.01% → consider new 3~5% position (Bear hedge)
+    →  AI Power 1.9% → hold (defer additional buying; reassess after 6/17)
 
-  후속 mode 추천:
-    →  /open-sesame [mode: multi][SK하이닉스] — 단일종목 25.5% 집중에 대한 액션
-    →  /open-sesame [mode: rebalance] — 섹터 25% 목표 도달 경로 설계
+  Follow-up mode:
+    →  /open-sesame [mode: multi][SK hynix] — action on 25.5% single-stock concentration
+    →  /open-sesame [mode: rebalance] — design path to 25% sector target
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-임박 이벤트 캘린더 (event-driven trigger)
+Upcoming Event Calendar (event-driven triggers)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
   ┌──────────┬──────────────────────────┬──────────────────┬──────────────────┐
-  │ 날짜     │ 이벤트                    │ 주목 변수        │ 발생 시 액션     │
+  │ Date     │ Event                     │ Key Variable     │ Action if occurs │
   ├──────────┼──────────────────────────┼──────────────────┼──────────────────┤
-  │ 6/10     │ 미 5월 CPI               │ 코어 둔화 여부   │ 둔화 → Bull 가중 │
-  │ 6/12     │ SpaceX IPO 본격화        │ 2차 리밸런싱매물 │ 외인 -3일 시 매도│
-  │ 6/17     │ FOMC + SEP               │ 점도표 9월 인하  │ 비둘기 → 분할매수│
-  │ 6/25     │ 미 5월 PCE               │ 코어 PCE 2% 근접 │ 둔화 → 추가 매수 │
-  │ 7/8      │ 삼성 2Q 잠정실적         │ HBM 출하 추세    │ HBM+ → 보유 강화 │
-  │ 7/29     │ SK하이닉스 2Q + FOMC 7월 │ HBM4 수율, 시그널│ 동시 양호 시 적극│
+  │ 6/10     │ US May CPI               │ Core slowdown    │ Slows → Bull wt  │
+  │ 6/12     │ SpaceX IPO ramps up      │ Secondary rebal  │ Fgn -3d → sell   │
+  │ 6/17     │ FOMC + SEP               │ Dot plot Sept cut│ Dovish → phased  │
+  │ 6/25     │ US May PCE               │ Core PCE near 2% │ Slows → add      │
+  │ 7/8      │ Samsung Q2 prelim        │ HBM shipment     │ HBM+ → hold firm │
+  │ 7/29     │ SK hynix Q2 + FOMC Jul   │ HBM4 yield, sig  │ Both good → aggr │
   └──────────┴──────────────────────────┴──────────────────┴──────────────────┘

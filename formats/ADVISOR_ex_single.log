@@ -1,47 +1,58 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-최종 판단
+Final Judgment
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  action:      관망
+  action:      watch
   confidence:  67%
 
   bull_case:
-    1. AI 수요 구조 지정학 무관 유지 — 중동 공급 차질이 HBM 가격 강화로 역설적 수혜
-    2. H200 조건부 허용 → 중국 AI 수요 일부 회복, KODEX 반도체 구성 종목 직접 수혜 가능
-    3. decoupling 지속 → CXMT 장비·소재 공급 차단 유지, 한국 메모리 독점 지위 연장
-    4. 당일 -3.6% 하락으로 단기 과열 해소 진행 중, 저점 매수 기회 형성 가능성
+    1. AI demand structure remains geopolitics-independent — Middle East supply disruption
+       paradoxically strengthens HBM pricing
+    2. H200 conditional approval → partial recovery of China AI demand,
+       direct benefit to KODEX Semiconductor component stocks
+    3. Continued decoupling → CXMT equipment/materials supply block maintained,
+       Korean memory monopoly position extended
+    4. Today's -3.6% decline working off short-term overheating,
+       possible formation of a dip-buying opportunity
 
   bear_case:
-    1. 미중 회담 기대 이하 → 단기 상승 촉매 부재, 실망 매물 출회
-    2. 이란 재확전 시 헬륨·브롬 추가 붕괴 → 삼성·SK하이닉스 생산 직접 차질
-    3. 20일 수익률 +27.4%, SELL 기준 초과 → 20일 기준가(약 110,000원)까지 -22% 잠재 하락
-    4. 중동 인플레 → 미 10년물 상승 → 고PER 기술주 멀티플 압축 리스크
+    1. US-China summit disappoints → no short-term catalyst, disappointed selling pressure
+    2. Iran re-escalation → additional helium/bromine collapse → direct Samsung/SK hynix
+       production disruption
+    3. 20-day return +27.4% exceeds SELL threshold → potential -22% drawdown
+       to 20-day base (~KRW 110,000)
+    4. Middle East inflation → US 10Y yield rise → high-PER tech multiple compression risk
 
   uncertainties:
-    - 이란 휴전 협상 타임라인 불투명 (트럼프 "1% 생존" 발언)
-    - 미중 화이트리스트 실제 발효 여부 및 범위
-    - 중국의 보복적 갈륨·게르마늄 추가 수출 규제 가능성
+    - Iran ceasefire negotiation timeline unclear (Trump "1% survival" comment)
+    - Actual enforcement scope of US-China whitelist
+    - China's possible retaliatory gallium/germanium export control escalation
 
   risks:
-    - 헬륨 Shortage 5.0 — 카타르 생산 중단 장기화 시 국내 팹 생산 감소 현실화
-    - KOSPI 반도체 비중 51.5% — 섹터 하락 시 시장 전체 연동
-    - 반도체 + 이란 뉴스 중첩 시 외국인 매도 트리거 가능
+    - Helium Shortage 5.0 — prolonged Qatar production halt could materialize
+      domestic fab output reduction
+    - KOSPI semiconductor weight 51.5% — sector decline triggers full-market correlation
+    - Semiconductor + Iran news overlap could trigger foreign selling
 
-  entry_or_exit: null (현 포지션 100주 유지)
+  entry_or_exit: null (hold current 100-share position)
 
   next_trigger:
-    ① 이란 휴전 협상 구체화 OR 재확전 — 방향 결정 시 즉시 재검토
-    ② 20일 기준가 대비 +15% 이하 (약 126,500원) 눌림 확인 시 분할 매수 검토
-    ③ 미중 화이트리스트 실제 발효 + 중국 빅테크 수주 확인 시 추가 매수 근거 형성
+    ① Iran ceasefire progress OR re-escalation — immediate re-evaluation upon resolution
+    ② Pullback to within +15% of 20-day base (~KRW 126,500) → consider phased buying
+    ③ US-China whitelist actually enacted + China Big Tech orders confirmed
+       → additional buy case established
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-에이전트 보충 의견
+Agent Supplementary Opinion
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-"분할 매수를 계속해도 좋은 이익을 기대할 수 있을까?"에 대한 솔직한 답:
+Honest answer to "Can continued phased buying still yield good returns?":
 
-지금 시점에서는 근거 불충분입니다.
+Insufficient basis at this point.
 
-구조적 테마(AI 전력 인프라)의 방향성 자체는 부정하기 어렵습니다.
-그러나 5/15 급락의 원인이 불명확한 상태에서 분할 매수를 지속하는 것은
-"테마가 맞으니 결국 오를 것"이라는 확증 편향에 기대는 행동입니다.
-현재 포지션이 이미 평단 근처이므로 현금 보유로 인한 기회비용이 크지 않습니다.
-급락 원인 파악과 기술적 방향 확인이 분할 매수 재개보다 우선입니다.
+The structural theme (AI power infrastructure) direction itself is hard to deny.
+However, continuing phased buying while the cause of the 5/15 plunge remains unclear
+is behavior that relies on the confirmation bias of "the theme is right, so it will
+eventually recover."
+The current position is already near break-even, so opportunity cost of holding cash
+is not significant.
+Identifying the cause of the plunge and confirming technical direction should
+take priority over resuming phased buying.

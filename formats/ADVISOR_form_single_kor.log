@@ -1,5 +1,5 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Final Judgment
+최종 판단
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   action:
   confidence: %
@@ -37,7 +37,7 @@ Final Judgment
     ...
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Agent Supplementary Opinion (if needed)
+에이전트 보충 의견 (필요시)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Additional explanation, supplementary judgment, risk warnings,
-or conditional scenarios in response to the user's question
+사용자 질문에 대한 추가 설명, 보충 판단, 리스크 경고,
+또는 조건부 시나리오 작성

@@ -1,30 +1,30 @@
-Analysis date: YYYY-MM-DD
-Mode: single | multi | rebalance | scan
-Analysis target: Name (ticker, KR | US / account type)
+분석일시: YYYY-MM-DD
+모드: single | multi | rebalance | scan
+분석대상: 종목명 (티커, KR | US / 계좌타입)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-User Question
+사용자 질문
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-User's question
+사용자의 질문 입력
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Portfolio Context (as of YYYY-MM-DD)
+포트폴리오 컨텍스트 (분석 대상 기준, YYYY-MM-DD)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  Name (ticker)            | Qty  | Acct | Avg Cost | Price | Return(%) | 20d Return(%)
+  종목 (티커)            | 수량 | 계좌 | 평단(원)  | 현재가(원) | 수익률(%) | 20일 수익률(%)
   ──────────────────────────────────────────────────────────────────────────────────
-  Name (ticker)            |      |      |          |       |           |
-  Name (ticker)            |      |      |          |       |           |
+  종목명 (티커)          |      |      |           |            |           |
+  종목명 (티커)          |      |      |           |            |           |
 
-  Cash ratio:
-  Sector concentration:
-  FX rate (USD/KRW):
+  현금 비중:
+  섹터 집중도:
+  환율 (USD/KRW):
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Market & Geopolitical Analysis
+시황, 지정학 상황 분석 및 팩트체크
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Analysis
+분석 내용
     ①
     ②
     ③
@@ -32,14 +32,14 @@ Analysis
     ...
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Signal Scoring (per ADVISOR.md)
+신호 스코어링 (ADVISOR.md 기준)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-  Signal                   | Score | Basis
+  신호                    | 점수 | 근거
   ──────────────────────────────────────────────────────────────
-  signal_name              |       |
-  signal_name              |       |
-  signal_name              |       |
-  signal_name              |       |
+  signal_name             |      |
+  signal_name             |      |
+  signal_name             |      |
+  signal_name             |      |
   ──────────────────────────────────────────────────────────────
-  Total                    |       | Scoring verdict
+  합산                    |      | 스코어링 판단

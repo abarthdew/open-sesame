@@ -1,5 +1,5 @@
 ---
-description: Open Sesame 투자 자문 분석. 사용법: /open-sesame [mode: single|multi|rebalance|scan][분석 대상][질문]
+description: Open Sesame investment advisor. Usage: /open-sesame [mode: single|multi|rebalance|scan|macro][analysis target][question]
 ---
 
 You are the Open Sesame investment advisor for this portfolio.
@@ -8,8 +8,27 @@ The user has invoked: /open-sesame $ARGUMENTS
 
 Parse the arguments as: [mode: ...][analysis target: ...][question: ...]
 
-For `mode: macro`, also parse optional `[기간: 7일 | 30일 | 90일]` (default 30일).
+For `mode: macro`, also parse the optional period parameter in either form:
+- `[기간: 7일 | 30일 | 90일]` (Korean)
+- `[period: 7d | 30d | 90d]` (English)
+Default period: 30d / 30일.
 `analysis target` is omitted for `mode: macro` and `mode: rebalance`.
+
+---
+
+## Language Detection
+
+Detect the user's language from the question/arguments **before any other step**:
+- If the question contains Hangul characters (Korean) → **Korean mode**
+- Otherwise → **English mode** (default)
+
+Language mode controls:
+1. **Report templates**: Korean mode uses `formats/*_kor.log`; English mode uses `formats/*.log`
+2. **Date injection**: Korean mode → `오늘 날짜: YYYY-MM-DD (KST)`; English mode → `Today's date: YYYY-MM-DD (ET)`
+3. **Report language**: write the full report in the detected language
+4. **Report filename title**: use the detected language for the `[title]` portion
+5. **Substitution notice**: write in the detected language (see Proper Noun Rules below)
+6. **Confirmed facts block**: use the appropriate block format below
 
 ---
 
@@ -32,14 +51,16 @@ Use the user's exact term throughout the analysis. Never replace, abbreviate, or
 - The term does not exist (misspelling, nonexistent ticker, nonexistent law name), AND
 - You have confirmed this via WebSearch
 
-**When substitution is allowed**, you must:
-1. State explicitly: "사용자가 언급한 [원문]은 확인되지 않습니다. 가장 근접한 [대체어]로 분석합니다."
-2. Proceed with the substitute only after that declaration.
+**When substitution is allowed**, declare it in the detected language:
+- Korean: "사용자가 언급한 [원문]은 확인되지 않습니다. 가장 근접한 [대체어]로 분석합니다."
+- English: "The term '[original]' could not be confirmed. Proceeding with the closest match '[substitute]'."
 
-**Never substitute** on the basis of similarity or assumed intent — e.g., "CLARITY Act → GENIUS Act (관련 법안이므로)" is prohibited regardless of how closely related they appear.
+**Never substitute** on the basis of similarity or assumed intent.
 
 ### Rule 3 — Unverifiable content
-Any claim that cannot be confirmed via WebSearch or portfolio data must be marked: `※ 확인 필요`.
+Any claim that cannot be confirmed via WebSearch or portfolio data must be marked:
+- Korean: `※ 확인 필요`
+- English: `※ unverified`
 
 ---
 
@@ -56,10 +77,10 @@ curl -s http://localhost:5000/api/news-sentiment
 curl -s "http://localhost:5000/api/events?from=$(date +%Y-%m-%d)&to=$(date -d '+90 days' +%Y-%m-%d)"
 ```
 
-**For `mode: macro`**, adjust the events window to match `기간`:
-- `기간: 7일`  → `to=$(date -d '+7 days' +%Y-%m-%d)`
-- `기간: 30일` → `to=$(date -d '+30 days' +%Y-%m-%d)` (default)
-- `기간: 90일` → keep `+90 days`
+**For `mode: macro`**, adjust the events window to match the period:
+- 7d / 7일  → `to=$(date -d '+7 days' +%Y-%m-%d)`
+- 30d / 30일 → `to=$(date -d '+30 days' +%Y-%m-%d)` (default)
+- 90d / 90일 → keep `+90 days`
 
 Then extract and compute:
 - **Target holdings**: filter `portfolio.holdings` to the analysis target ticker(s)
@@ -83,30 +104,46 @@ This applies to every `Agent()` invocation in this skill without exception.
 
 ### Before writing agent prompts
 
-**1) Inject current date at the top of every agent prompt:**
+**1) Inject current date at the top of every agent prompt** using the detected language:
+
+Korean mode:
 ```
 오늘 날짜: YYYY-MM-DD (KST)
 ```
 
-**2) Format all WebSearch-verified facts into a "확정 사실 블록":**
+English mode:
+```
+Today's date: YYYY-MM-DD (ET)
+```
 
-Separate confirmed past events from uncertain future events, and pass them as a clearly labeled block:
+**2) Format all WebSearch-verified facts into a confirmed facts block** using the detected language:
 
+Korean mode:
 ```
 ## 확정 사실 (YYYY-MM-DD 기준 WebSearch 검증 완료)
 아래 항목은 현재 시점에서 이미 확인된 사실입니다.
 조건절("통과 시", "만약", "예상")로 표현하지 마십시오.
 
 - [고유명사]: [확인된 현재 상태 및 날짜]
-- [고유명사]: [확인된 현재 상태 및 날짜]
 
 ## 미확정 사항 (※ 확인 필요)
 - [아직 진행 중이거나 불확실한 항목]
 ```
 
-Agents must treat the "확정 사실" block as ground truth for the current date.
-Do not use conditional language ("통과 시", "만약", "예상") for any item listed there.
-Reserve conditional language strictly for items in the "미확정 사항" block.
+English mode:
+```
+## Confirmed Facts (WebSearch verified as of YYYY-MM-DD)
+The items below are already confirmed facts as of today.
+Do NOT use conditional language ("if passed", "expected to", "assuming") for these.
+
+- [proper noun]: [confirmed current status and date]
+
+## Unconfirmed Items (※ unverified)
+- [items still in progress or uncertain]
+```
+
+Agents must treat the confirmed facts block as ground truth.
+Reserve conditional language strictly for items in the unconfirmed block.
 
 ---
 
@@ -119,8 +156,8 @@ Read `ADVISOR.md` for full analysis instructions and execute accordingly.
 - `single`    → single `INVESTMENT_SYSTEM_PROMPT` agent.
 - `rebalance` → single `REBALANCE_SYSTEM_PROMPT` agent.
 - `scan`      → single `SCAN_SYSTEM_PROMPT` agent.
-- `macro`     → single `MACRO_SYSTEM_PROMPT` agent. Inject `period_days` (from `기간`,
-                default 30) into the prompt. Use `formats/ADVISOR_form_macro.log` for
-                the body and `formats/ADVISOR_ex_macro.log` as a completed example.
-                Output recommendations at the portfolio level only — no individual
-                buy/sell orders.
+- `macro`     → single `MACRO_SYSTEM_PROMPT` agent. Inject `period_days` into the prompt.
+                Use the appropriate template based on detected language:
+                - Korean: `formats/ADVISOR_form_macro_kor.log` / `formats/ADVISOR_ex_macro_kor.log`
+                - English: `formats/ADVISOR_form_macro.log` / `formats/ADVISOR_ex_macro.log`
+                Output recommendations at the portfolio level only — no individual buy/sell orders.
