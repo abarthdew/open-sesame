@@ -1,6 +1,7 @@
 # ✦✳︎✦✳︎✦ Open Sesame ✦✳︎✦✳︎✦
 
 <img src="static/favicon.png" width="80" align="left" hspace="10">
+<img src="static/claude-mascot.svg" width="80" align="left" hspace="10">
 <img src="static/claude-logo.svg" width="80" align="left" hspace="15">
 
 **AI-powered investment advisor & dashboard for Claude Code**  
