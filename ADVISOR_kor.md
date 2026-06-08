@@ -156,7 +156,7 @@ report/[YYYY-MM-DD][mode][제목].log
 ```bash
 git add report/
 git commit -m "data: [mode] [한국어 제목]"
-git push origin HEAD:main
+git push origin HEAD:main  # 메인 브랜치 보호를 원할 시 수정할 것
 ```
 
 - 커밋 메시지 prefix: 항상 `data:`

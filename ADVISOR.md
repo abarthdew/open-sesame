@@ -157,7 +157,7 @@ After saving the report file, immediately commit and push:
 ```bash
 git add report/
 git commit -m "data: [mode] [title in Korean]"
-git push origin HEAD:main
+git push origin HEAD:main  # Modify this if you want to protect the main branch
 ```
 
 - Commit message prefix: always `data:`
