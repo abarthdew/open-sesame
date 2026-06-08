@@ -1,0 +1,153 @@
+# portfolio.toml — 포트폴리오 & 계좌 상태 (샘플 데이터)
+# 구조: 계좌 > 종목(holdings) > 예수금(cash)
+# 업데이트 규칙: avg_price(평단가)와 qty(수량)만 관리. 평가금액/수익률은 시스템 자동 계산.
+#
+# ══════════════════════════════════════════════════════════════════════════════
+# 파라미터 안내
+# ══════════════════════════════════════════════════════════════════════════════
+#
+# [accounts.<별칭>]          ← 계좌 메타데이터
+#   number       : 계좌번호
+#   broker       : 증권사명
+#   type         : "일반" | "해외" | "RP" | "국내_발행어음" | "ISA" | "연금저축" | "IRP" | "금현물" | "주택" | "기타"
+#   isa_type     : (ISA만) "일반형" | "서민형" | "농어민형"
+#   opened       : 개설일 "YYYY-MM-DD"
+#   annual_limit : 연간 납입 한도 (원) — ISA 20,000,000 / 연금+IRP 18,000,000
+#   note         : 자유 메모
+#
+# [[trades]]                    ← 매도 완료 종목 (배열, 여러 개 가능)
+#   ticker     : 종목코드
+#   name       : 표시명
+#   market     : "KR" | "US"
+#   account    : 계좌 별칭 (예: "ISA", "RP", "해외")
+#   qty        : 매도 수량
+#   avg_price  : 매입 단가 (KR: 원, US: 달러)
+#   sell_price : 매도 단가 (KR: 원, US: 달러)
+#   sell_date  : "YYYY-MM-DD"
+#   tax        : 납부 세금 (원) — 생략 시 0
+#
+# [[accounts.<별칭>.holdings]]   ← 보유 종목 (배열, 여러 개 가능)
+#   ticker       : 종목코드 (KR: 6자리 숫자 | US: 알파벳 심볼)
+#   name         : 표시명
+#   market       : "KR" | "US"
+#   qty          : 보유 수량 (주/좌)
+#   avg_price    : 평균 매입가 (1주당 | KR: 원화, US: 달러)
+#   total_cost   : qty 미상일 때만 — 총 매입금액 대체 (원화)
+#
+# [accounts.<별칭>.cash]         ← 예수금
+#   KRW          : 원화 잔액
+#   USD          : 달러 잔액
+#   memo         : 메모
+#
+# ══════════════════════════════════════════════════════════════════════════════
+
+[meta]
+updated      = "2026-01-01" # 필수값
+salary_krw   = 0
+spending_krw = 0
+tax_krw      = 0
+
+# ── 해외 일반 주식 계좌 ─────────────────────────────────────────────────────────────────
+
+[accounts."해외"]
+number       = "1234-0"
+broker       = "증권사명"
+type         = "해외"
+opened       = "2025-01-01"
+annual_limit = 0
+note         = "해외주식 투자/달러 매입용"
+
+[[accounts."해외".holdings]]
+ticker    = "NVDA"
+name      = "엔비디아"
+market    = "US"
+qty       = 10
+avg_price = 120.00
+
+[[accounts."해외".holdings]]
+ticker    = "GOOGL"
+name      = "알파벳 A"
+market    = "US"
+qty       = 5
+avg_price = 170.00
+
+[[accounts."해외".holdings]]
+ticker    = "VOO"
+name      = "VOO"
+market    = "US"
+qty       = 3
+avg_price = 500.00
+
+[accounts."해외".cash]
+USD  = 1000.00
+memo = "샘플 데이터"
+
+# ── ISA 계좌 ───────────────────────────────────────
+
+[accounts.ISA]
+number       = "2345-0"
+broker       = "증권사명"
+type         = "ISA"
+isa_type     = "일반형"
+opened       = "2025-01-01"
+annual_limit = 20000000
+note         = "국내주식 투자/절세용"
+
+[[accounts.ISA.holdings]]
+ticker    = "000660"
+name      = "SK하이닉스"
+market    = "KR"
+qty       = 10
+avg_price = 200000
+
+[[accounts.ISA.holdings]]
+ticker    = "005930"
+name      = "삼성전자"
+market    = "KR"
+qty       = 20
+avg_price = 70000
+
+[accounts.ISA.cash]
+KRW  = 1000000
+memo = "샘플 데이터"
+
+# ── 연금 계좌 ─────────────────────────────────────────────────────────────────
+
+[accounts."연금"]
+number       = "3456-0"
+broker       = "증권사명"
+type         = "연금저축"
+opened       = "2023-01-01"
+annual_limit = 6000000
+note         = "연금/절세용"
+
+[[accounts."연금".holdings]]
+ticker    = "133690"
+name      = "TIGER 미국나스닥100"
+market    = "KR"
+qty       = 10
+avg_price = 100000
+
+[[accounts."연금".holdings]]
+ticker    = "360750"
+name      = "TIGER 미국S&P500"
+market    = "KR"
+qty       = 20
+avg_price = 15000
+
+[accounts."연금".cash]
+KRW  = 500000
+memo = "샘플 데이터"
+
+# ── 매도 내역 ─────────────────────────────────────────────────────────────────
+
+[[trades]]
+ticker     = "000660"
+name       = "SK하이닉스"
+market     = "KR"
+account    = "ISA"
+qty        = 5
+avg_price  = 150000
+sell_price = 200000
+sell_date  = "2026-01-15"
+tax        = 0

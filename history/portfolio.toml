@@ -1,149 +1,149 @@
-# portfolio.toml — 포트폴리오 & 계좌 상태 (샘플 데이터)
-# 구조: 계좌 > 종목(holdings) > 예수금(cash)
-# 업데이트 규칙: avg_price(평단가)와 qty(수량)만 관리. 평가금액/수익률은 시스템 자동 계산.
+# portfolio.toml — Portfolio & Account State (Sample Data)
+# Structure: account > holdings > cash
+# Update rules: manage avg_price and qty only. Valuation and returns are calculated automatically.
 #
 # ══════════════════════════════════════════════════════════════════════════════
-# 파라미터 안내
+# Parameter Reference
 # ══════════════════════════════════════════════════════════════════════════════
 #
-# [accounts.<별칭>]          ← 계좌 메타데이터
-#   number       : 계좌번호
-#   broker       : 증권사명
-#   type         : "일반" | "해외" | "RP" | "국내_발행어음" | "ISA" | "연금저축" | "IRP" | "금현물" | "주택" | "기타"
-#   isa_type     : (ISA만) "일반형" | "서민형" | "농어민형"
-#   opened       : 개설일 "YYYY-MM-DD"
-#   annual_limit : 연간 납입 한도 (원) — ISA 20,000,000 / 연금+IRP 18,000,000
-#   note         : 자유 메모
+# [accounts.<alias>]         ← Account metadata
+#   number       : Account number
+#   broker       : Brokerage name
+#   type         : "general" | "overseas" | "RP" | "domestic-note" | "ISA" | "pension-savings" | "IRP" | "gold-spot" | "housing" | "other"
+#   isa_type     : (ISA only) "general" | "working-class" | "farmer-fisherman"
+#   opened       : Opening date "YYYY-MM-DD"
+#   annual_limit : Annual contribution limit (KRW) — ISA 20,000,000 / pension+IRP 18,000,000
+#   note         : Free memo
 #
-# [[trades]]                    ← 매도 완료 종목 (배열, 여러 개 가능)
-#   ticker     : 종목코드
-#   name       : 표시명
+# [[trades]]                    ← Closed positions (array, multiple allowed)
+#   ticker     : Ticker code
+#   name       : Display name
 #   market     : "KR" | "US"
-#   account    : 계좌 별칭 (예: "ISA", "RP", "해외")
-#   qty        : 매도 수량
-#   avg_price  : 매입 단가 (KR: 원, US: 달러)
-#   sell_price : 매도 단가 (KR: 원, US: 달러)
+#   account    : Account alias (e.g. "ISA", "RP", "overseas")
+#   qty        : Sold quantity
+#   avg_price  : Purchase price per share (KR: KRW, US: USD)
+#   sell_price : Sell price per share (KR: KRW, US: USD)
 #   sell_date  : "YYYY-MM-DD"
-#   tax        : 납부 세금 (원) — 생략 시 0
+#   tax        : Tax paid (KRW) — 0 if omitted
 #
-# [[accounts.<별칭>.holdings]]   ← 보유 종목 (배열, 여러 개 가능)
-#   ticker       : 종목코드 (KR: 6자리 숫자 | US: 알파벳 심볼)
-#   name         : 표시명
+# [[accounts.<alias>.holdings]]  ← Holdings (array, multiple allowed)
+#   ticker       : Ticker code (KR: 6-digit number | US: symbol)
+#   name         : Display name
 #   market       : "KR" | "US"
-#   qty          : 보유 수량 (주/좌)
-#   avg_price    : 평균 매입가 (1주당 | KR: 원화, US: 달러)
-#   total_cost   : qty 미상일 때만 — 총 매입금액 대체 (원화)
+#   qty          : Quantity held (shares / units)
+#   avg_price    : Average purchase price per share (KR: KRW, US: USD)
+#   total_cost   : Use only when qty is unknown — total purchase amount (KRW)
 #
-# [accounts.<별칭>.cash]         ← 예수금
-#   KRW          : 원화 잔액
-#   USD          : 달러 잔액
-#   memo         : 메모
+# [accounts.<alias>.cash]        ← Cash balance
+#   KRW          : KRW balance
+#   USD          : USD balance
+#   memo         : Memo
 #
 # ══════════════════════════════════════════════════════════════════════════════
 
 [meta]
-updated      = "2026-01-01" # 필수값
+updated      = "2026-01-01" # required
 salary_krw   = 0
 spending_krw = 0
 tax_krw      = 0
 
-# ── 해외 일반 주식 계좌 ─────────────────────────────────────────────────────────────────
+# ── Overseas General Account ────────────────────────────────────────────────
 
-[accounts."해외"]
+[accounts."overseas"]
 number       = "1234-0"
-broker       = "증권사명"
-type         = "해외"
+broker       = "Brokerage Name"
+type         = "overseas"
 opened       = "2025-01-01"
 annual_limit = 0
-note         = "해외주식 투자/달러 매입용"
+note         = "Foreign stock investment / USD purchase account"
 
-[[accounts."해외".holdings]]
+[[accounts."overseas".holdings]]
 ticker    = "NVDA"
-name      = "엔비디아"
+name      = "NVIDIA"
 market    = "US"
 qty       = 10
 avg_price = 120.00
 
-[[accounts."해외".holdings]]
+[[accounts."overseas".holdings]]
 ticker    = "GOOGL"
-name      = "알파벳 A"
+name      = "Alphabet A"
 market    = "US"
 qty       = 5
 avg_price = 170.00
 
-[[accounts."해외".holdings]]
+[[accounts."overseas".holdings]]
 ticker    = "VOO"
 name      = "VOO"
 market    = "US"
 qty       = 3
 avg_price = 500.00
 
-[accounts."해외".cash]
+[accounts."overseas".cash]
 USD  = 1000.00
-memo = "샘플 데이터"
+memo = "Sample data"
 
-# ── ISA 계좌 ───────────────────────────────────────
+# ── ISA Account ─────────────────────────────────────────────────────────────
 
 [accounts.ISA]
 number       = "2345-0"
-broker       = "증권사명"
+broker       = "Brokerage Name"
 type         = "ISA"
-isa_type     = "일반형"
+isa_type     = "general"
 opened       = "2025-01-01"
 annual_limit = 20000000
-note         = "국내주식 투자/절세용"
+note         = "Domestic stock investment / tax-advantaged account"
 
 [[accounts.ISA.holdings]]
 ticker    = "000660"
-name      = "SK하이닉스"
+name      = "SK hynix"
 market    = "KR"
 qty       = 10
 avg_price = 200000
 
 [[accounts.ISA.holdings]]
 ticker    = "005930"
-name      = "삼성전자"
+name      = "Samsung Electronics"
 market    = "KR"
 qty       = 20
 avg_price = 70000
 
 [accounts.ISA.cash]
 KRW  = 1000000
-memo = "샘플 데이터"
+memo = "Sample data"
 
-# ── 연금 계좌 ─────────────────────────────────────────────────────────────────
+# ── Pension Account ──────────────────────────────────────────────────────────
 
-[accounts."연금"]
+[accounts."pension"]
 number       = "3456-0"
-broker       = "증권사명"
-type         = "연금저축"
+broker       = "Brokerage Name"
+type         = "pension-savings"
 opened       = "2023-01-01"
 annual_limit = 6000000
-note         = "연금/절세용"
+note         = "Pension / tax-advantaged account"
 
-[[accounts."연금".holdings]]
+[[accounts."pension".holdings]]
 ticker    = "133690"
-name      = "TIGER 미국나스닥100"
+name      = "TIGER US NASDAQ 100"
 market    = "KR"
 qty       = 10
 avg_price = 100000
 
-[[accounts."연금".holdings]]
+[[accounts."pension".holdings]]
 ticker    = "360750"
-name      = "TIGER 미국S&P500"
+name      = "TIGER US S&P500"
 market    = "KR"
 qty       = 20
 avg_price = 15000
 
-[accounts."연금".cash]
+[accounts."pension".cash]
 KRW  = 500000
-memo = "샘플 데이터"
+memo = "Sample data"
 
-# ── 매도 내역 ─────────────────────────────────────────────────────────────────
+# ── Closed Positions ─────────────────────────────────────────────────────────
 
 [[trades]]
 ticker     = "000660"
-name       = "SK하이닉스"
+name       = "SK hynix"
 market     = "KR"
 account    = "ISA"
 qty        = 5
