@@ -202,4 +202,4 @@ Issues and PRs welcome. This project is primarily built with and for [Claude Cod
 
 ## 👩‍🎓 License
 
-MIT
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
