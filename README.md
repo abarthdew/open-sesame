@@ -61,19 +61,19 @@ Run from the project directory:
 
 ```bash
 # Multi-agent analysis (recommended)
-/open-sesame [mode: multi][분석 대상: SK하이닉스 (000660)][질문: 추가 매수 타이밍인지 판단해줘.]
+/open-sesame [mode: multi][analysis target: SK hynix (000660)][question: Should I add to my position now?]
 
 # Quick single-agent opinion
-/open-sesame [mode: single][분석 대상: NVDA][질문: 실적 발표 전날, 보유 유지해도 될까?]
+/open-sesame [mode: single][analysis target: NVDA][question: Should I hold through the earnings release tomorrow?]
 
 # Portfolio rebalance check
-/open-sesame [mode: rebalance][질문: 현재 포트폴리오 비중 점검해줘.]
+/open-sesame [mode: rebalance][question: Review my current portfolio allocation.]
 
 # Sector scan for new candidates
-/open-sesame [mode: scan][테마: AI 인프라][질문: 현재 포트폴리오와 겹치지 않는 ETF나 개별주 후보를 찾아줘]
+/open-sesame [mode: scan][theme: AI infrastructure][question: Find ETFs or stocks that do not overlap with my current portfolio]
 
 # Macro analysis
-/open-sesame [mode: macro][기간: 30일][질문: FOMC 전 포트폴리오 점검]
+/open-sesame [mode: macro][period: 30d][question: Portfolio check before FOMC]
 ```
 
 The agent reads your actual portfolio (avg price, P&L, cash ratio) from the local DB and applies the scoring framework in `ADVISOR.md`.
@@ -149,7 +149,7 @@ open-sesame/
 |---|---|---|
 | `SLACK_WEBHOOK_URL` | Briefing notifications | Free |
 | `ALPHA_VANTAGE_KEY` | News sentiment (weekly only) | 25 req/day |
-| `DART_API_KEY` | Korean disclosure (공시) | Free |
+| `DART_API_KEY` | Korean public disclosure (DART) | Free |
 | `KRX_ID` / `KRX_PW` | KRX login for pykrx | Free |
 
 ---
