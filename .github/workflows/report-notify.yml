@@ -1,4 +1,4 @@
-name: Slack 보고서 알림
+name: Slack Report Notification
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
   notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Slack 알림 전송
+      - name: Send Slack notification
         run: |
           curl -s -X POST "${{ secrets.SLACK_WEBHOOK_URL_ERR }}" \
             -H 'Content-type: application/json' \

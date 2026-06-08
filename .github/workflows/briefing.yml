@@ -1,16 +1,16 @@
-name: Open Sesame 브리핑
+name: Open Sesame Briefing
 
 on:
-  # GitHub Actions schedule 트리거는 정시 실행을 보장하지 않으며 플랫폼 부하에 따라
-  # 수십 분~수 시간의 지연이 발생할 수 있습니다. 정시성이 중요한 금융 브리핑 특성상
-  # cron-job.org에서 workflow_dispatch로 트리거하는 방식으로 교체했습니다.
-  # 아래 cron 설정은 참조용으로 보존합니다.
+  # GitHub Actions schedule trigger does not guarantee on-time execution —
+  # platform load can cause delays of minutes to hours. For time-sensitive
+  # financial briefings, we use cron-job.org → workflow_dispatch instead.
+  # The cron expressions below are kept for reference only.
   #
   # schedule:
-  #   - cron: '0 22 * * 0-4'  # KST 07:00 평일 (모닝)
-  #   - cron: '35 6 * * 1-5'  # KST 15:35 평일 (한국 마감)
-  #   - cron: '0 13 * * 1-5'  # KST 22:00 평일 (미국 개시)
-  #   - cron: '0 9 * * 0'     # KST 18:00 일요일 (주간 회고)
+  #   - cron: '0 22 * * 0-4'  # KST 07:00 weekdays (morning)
+  #   - cron: '35 6 * * 1-5'  # KST 15:35 weekdays (KR close)
+  #   - cron: '0 13 * * 1-5'  # KST 22:00 weekdays (US open)
+  #   - cron: '0 9 * * 0'     # KST 18:00 Sunday (weekly review)
   workflow_dispatch:
     inputs:
       type:
