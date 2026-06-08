@@ -40,19 +40,6 @@ python3 app.py   # → http://localhost:5000
 - **커밋 단위**: 의미 있는 변경마다 즉시 커밋
 - **커밋 메시지**: 영어, 간결하게  
   (prefix: `feat:`, `fix:`, `refactor:`, `docs:`, `data:` 등)
-- **Push**: main 브랜치로 자동 push (`git push origin HEAD:main`)
+- **Push**: main 브랜치로 자동 push (`git push origin HEAD:main`)  
+  *(메인 브랜치 보호를 원할 시 수정할 것)*
 - **Force push 금지**: `--force` 사용 불가
-
-## 투자 자문
-- 지시사항: `ADVISOR.md` 참조
-- 포맷:
-  - 고정 헤더: `formats/ADVISOR_form_common.log` 참조
-  - 본문:
-      - `formats/ADVISOR_form_[mode].log` 참조
-      - 해당 모드의 파일이 없으면 템플릿 없이 본문 작성
-- 예시:
-  - `formats/ADVISOR_ex_[mode].log` 참조
-- CLI 명령어:
-  ```text
-  /open-sesame [mode][분석 대상][질문]
-  ```

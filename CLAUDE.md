@@ -40,19 +40,6 @@ python3 app.py   # → http://localhost:5000
 - **Commit unit**: Commit immediately for each meaningful change
 - **Commit message**: English only, concise, essential only  
   (prefix: `feat:`, `fix:`, `refactor:`, `docs:`, `data:` etc.)
-- **Push**: Auto-push to main branch (`git push origin HEAD:main`)
+- **Push**: Auto-push to main branch (`git push origin HEAD:main`)  
+  *(Modify this if you want to protect the main branch)*
 - **No force push**: Never use `--force`
-
-## Investment Advisor
-- Instruction: see `ADVISOR.md`
-- Format:
-  - Fixed header: refer to `formats/ADVISOR_form_common.log`
-  - Body:
-      - refer to `formats/ADVISOR_form_[mode].log`
-      - if no file exists for the current mode, write the body without a dedicated template.
-- Example:
-  - refer to `formats/ADVISOR_ex_[mode].log`
-- CLI command:
-  ```text
-  /open-sesame [mode][analysis target][question]
-  ```
