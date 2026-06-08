@@ -2,7 +2,7 @@
 
 <table><tr>
   <td><img src="static/favicon.png" width="80"></td>
-  <td valign="middle"><b>클로드 코드만 있으면 모든 기능을 사용할 수 있어요!</b></td>
+  <td valign="middle"><b>All features work with Claude Code — no extra setup required!</b></td>
 </tr></table>
 
 **AI-powered investment advisor & dashboard for Claude Code**  
