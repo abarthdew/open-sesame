@@ -31,20 +31,18 @@ Open Sesame turns Claude Code into a personal investment advisor. You describe a
 
 **5 analysis modes:**
 
-| Mode | Description | Time |
-|---|---|---|
-| `multi` (default) | Bull agent vs Bear agent → Arbiter verdict | ~60s |
-| `single` | Single agent, fast opinion | ~15s |
-| `rebalance` | Full portfolio weight/account/sector review | ~30s |
-| `scan` | New candidate discovery by theme/sector | ~30s |
-| `macro` | 6-axis macro diagnosis → portfolio positioning (7d/30d/90d) | ~30s |
+| Mode | Description | Time | Sample |
+|---|---|---|---|
+| `multi` (default) | Bull agent vs Bear agent → Arbiter verdict | ~60s | 📋 [ View →](report/ex_%5B2026-06-06%5D%5Bmulti%5D%5BSemis_SOXL_Plunge_Factcheck_Profit_Taking%5D.log) |
+| `single` | Single agent, fast opinion | ~15s |📋 [ View →](report/ex_%5B2026-05-28%5D%5Bsingle%5D%5BPLTR_New_Entry_OS_Framework_Political_Risk%5D.log) |
+| `rebalance` | Full portfolio weight/account/sector review | ~30s |📋 [ View →](report/ex_%5B2026-05-26%5D%5Brebalance%5D%5BKR_Stock_Sell_Priority%5D.log) |
+| `scan` | New candidate discovery by theme/sector | ~30s |📋 [ View →](report/ex_%5B2026-06-02%5D%5Bscan%5D%5BSamsung_Electro_New_Entry_Review%5D.log) |
+| `macro` | 6-axis macro diagnosis → portfolio positioning (7d/30d/90d) | ~30s |📋 [ View →](report/ex_%5B2026-06-06%5D%5Bmacro%5D%5B30d_CPI_FOMC_FX_AI_Semis_Impact%5D.log) |
 
 **Other features:**
 - Flask dashboard with portfolio overview, signals, event calendar, and snapshot history
 - Automated Slack briefings (morning / KR close / US open / weekly) via GitHub Actions
 - Remote agent scheduled reports (Claude AI routines)
-
-> 📋 See real analysis reports → [Jump to examples ↓](#-investment-advisor-cli)
 
 ---
 
