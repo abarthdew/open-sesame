@@ -5,6 +5,7 @@
 <b>AI-powered investment advisor & dashboard for Claude Code</b>  <br/>
 KR/US stock portfolio tracking + multi-agent analysis via `/open-sesame` CLI command
 <br/>
+<br/>
 All features work with <b><font color="#DA7756">✳︎ Claude Code ✳︎</font></b> — no extra setup required!
 
 ---
@@ -42,6 +43,8 @@ Open Sesame turns Claude Code into a personal investment advisor. You describe a
 - Flask dashboard with portfolio overview, signals, event calendar, and snapshot history
 - Automated Slack briefings (morning / KR close / US open / weekly) via GitHub Actions
 - Remote agent scheduled reports (Claude AI routines)
+
+> 📋 See real analysis reports → [Jump to examples ↓](#-investment-advisor-cli)
 
 ---
 
