@@ -53,7 +53,7 @@
 
 ### Step 4 — 클라우드 환경 설정
 
-루틴 등록 전, **https://claude.ai/code/settings** 에서 클라우드 환경을 설정합니다.
+루틴 등록 전, **개별 루틴 창** 에서 클라우드 환경을 설정합니다.
 
 **Network access:** Custom
 
