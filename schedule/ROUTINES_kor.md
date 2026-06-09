@@ -55,24 +55,28 @@
 
 루틴 등록 전, **개별 루틴 창** 에서 클라우드 환경을 설정합니다.
 
-**Network access:** Custom
+| 설정 | 값 |
+|---|---|
+| **Network access** | Custom |
 
 **Allowed domains:**
-```
-data.krx.co.kr
-marketdata.krx.co.kr
-fchart.stock.naver.com
-query1.finance.yahoo.com
-query2.finance.yahoo.com
-hooks.slack.com
-```
+
+| 도메인 |
+|---|
+| `data.krx.co.kr` |
+| `marketdata.krx.co.kr` |
+| `fchart.stock.naver.com` |
+| `query1.finance.yahoo.com` |
+| `query2.finance.yahoo.com` |
+| `hooks.slack.com` |
 
 **Environment variables:**
-```
-KRX_ID=               # 본인 계정 입력
-KRX_PW=               # 본인 계정 입력
-SLACK_WEBHOOK_URL_ERR= # 본인 Webhook URL 입력
-```
+
+| 변수 | 값 |
+|---|---|
+| `KRX_ID` | 본인 KRX 계정 ID |
+| `KRX_PW` | 본인 KRX 계정 비밀번호 |
+| `SLACK_WEBHOOK_URL_ERR` | 본인 Slack Webhook URL |
 
 **Setup script** (실행마다 패키지 재설치를 막아 토큰 절약):
 ```bash

@@ -57,24 +57,28 @@ Recommended cron expressions (KST = UTC+9):
 
 Go to **each routine window** and update the cloud environment before registering routines.
 
-**Network access:** Custom
+| Setting | Value |
+|---|---|
+| **Network access** | Custom |
 
 **Allowed domains:**
-```
-data.krx.co.kr
-marketdata.krx.co.kr
-fchart.stock.naver.com
-query1.finance.yahoo.com
-query2.finance.yahoo.com
-hooks.slack.com
-```
+
+| Domain |
+|---|
+| `data.krx.co.kr` |
+| `marketdata.krx.co.kr` |
+| `fchart.stock.naver.com` |
+| `query1.finance.yahoo.com` |
+| `query2.finance.yahoo.com` |
+| `hooks.slack.com` |
 
 **Environment variables:**
-```
-KRX_ID=               # fill yours
-KRX_PW=               # fill yours
-SLACK_WEBHOOK_URL_ERR= # fill yours
-```
+
+| Variable | Value |
+|---|---|
+| `KRX_ID` | your KRX account ID |
+| `KRX_PW` | your KRX account password |
+| `SLACK_WEBHOOK_URL_ERR` | your Slack Webhook URL |
 
 **Setup script** (pre-installs dependencies to save tokens per run):
 ```bash
