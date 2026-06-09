@@ -53,15 +53,38 @@ Recommended cron expressions (KST = UTC+9):
 > [cron-job.org](https://cron-job.org) → `workflow_dispatch` is more reliable for
 > time-sensitive reports. Claude Code Routines run directly without this limitation.
 
-### Step 4 — Configure Environment Variables
+### Step 4 — Configure Cloud Environment
 
-The routines use these environment variables for Slack failure alerts:
+Go to **https://claude.ai/code/settings** and update the cloud environment before registering routines.
 
+**Network access:** Custom
+
+**Allowed domains:**
 ```
-SLACK_WEBHOOK_URL_ERR=https://hooks.slack.com/services/YOUR/WEBHOOK/URL
+data.krx.co.kr
+marketdata.krx.co.kr
+fchart.stock.naver.com
+query1.finance.yahoo.com
+query2.finance.yahoo.com
+hooks.slack.com
 ```
 
-Set these in the routine's environment settings or in your repo's GitHub Secrets.
+**Environment variables:**
+```
+KRX_ID=               # fill yours
+KRX_PW=               # fill yours
+SLACK_WEBHOOK_URL_ERR= # fill yours
+```
+
+**Setup script** (pre-installs dependencies to save tokens per run):
+```bash
+pip install yfinance python-dotenv requests
+pip install pykrx || true
+git config --global user.name "claude"
+git config --global user.email "claude@open-sesame.local"
+```
+
+Save changes → then select this environment in the **Edit Routine** window.
 
 ### Step 5 — Update Ticker Lists
 

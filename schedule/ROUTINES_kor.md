@@ -51,15 +51,38 @@
 
 > **참고:** GitHub Actions 내장 `schedule:` 트리거는 수 시간 지연이 발생합니다. 시간에 민감한 보고서에는 [cron-job.org](https://cron-job.org) → `workflow_dispatch` 방식이 더 안정적입니다. Claude Code Routines는 이 제한 없이 직접 실행됩니다.
 
-### Step 4 — 환경 변수 설정
+### Step 4 — 클라우드 환경 설정
 
-루틴은 Slack 오류 알림에 다음 환경 변수를 사용합니다:
+루틴 등록 전, **https://claude.ai/code/settings** 에서 클라우드 환경을 설정합니다.
 
+**Network access:** Custom
+
+**Allowed domains:**
 ```
-SLACK_WEBHOOK_URL_ERR=https://hooks.slack.com/services/YOUR/WEBHOOK/URL
+data.krx.co.kr
+marketdata.krx.co.kr
+fchart.stock.naver.com
+query1.finance.yahoo.com
+query2.finance.yahoo.com
+hooks.slack.com
 ```
 
-루틴의 환경 설정 또는 GitHub Secrets에 등록하세요.
+**Environment variables:**
+```
+KRX_ID=               # 본인 계정 입력
+KRX_PW=               # 본인 계정 입력
+SLACK_WEBHOOK_URL_ERR= # 본인 Webhook URL 입력
+```
+
+**Setup script** (실행마다 패키지 재설치를 막아 토큰 절약):
+```bash
+pip install yfinance python-dotenv requests
+pip install pykrx || true
+git config --global user.name "claude"
+git config --global user.email "claude@open-sesame.local"
+```
+
+저장 후 → **Edit Routine** 창에서 이 환경을 선택합니다.
 
 ### Step 5 — 티커 목록 업데이트
 
