@@ -58,33 +58,9 @@
 | 설정 | 값 |
 |---|---|
 | **Network access** | Custom |
-
-**Allowed domains:**
-
-| 도메인 |
-|---|
-| `data.krx.co.kr` |
-| `marketdata.krx.co.kr` |
-| `fchart.stock.naver.com` |
-| `query1.finance.yahoo.com` |
-| `query2.finance.yahoo.com` |
-| `hooks.slack.com` |
-
-**Environment variables:**
-
-| 변수 | 값 |
-|---|---|
-| `KRX_ID` | 본인 KRX 계정 ID |
-| `KRX_PW` | 본인 KRX 계정 비밀번호 |
-| `SLACK_WEBHOOK_URL_ERR` | 본인 Slack Webhook URL |
-
-**Setup script** (실행마다 패키지 재설치를 막아 토큰 절약):
-```bash
-pip install yfinance python-dotenv requests
-pip install pykrx || true
-git config --global user.name "claude"
-git config --global user.email "claude@open-sesame.local"
-```
+| **Allowed domains** | `data.krx.co.kr`<br>`marketdata.krx.co.kr`<br>`fchart.stock.naver.com`<br>`query1.finance.yahoo.com`<br>`query2.finance.yahoo.com`<br>`hooks.slack.com` |
+| **Environment variables** | `KRX_ID` = 본인 KRX 계정 ID<br>`KRX_PW` = 본인 KRX 계정 비밀번호<br>`SLACK_WEBHOOK_URL_ERR` = 본인 Slack Webhook URL |
+| **Setup script** | `pip install yfinance python-dotenv requests`<br>`pip install pykrx \|\| true`<br>`git config --global user.name "claude"`<br>`git config --global user.email "claude@open-sesame.local"` |
 
 저장 후 → **Edit Routine** 창에서 이 환경을 선택합니다.
 
