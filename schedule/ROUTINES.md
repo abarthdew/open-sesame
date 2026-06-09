@@ -55,7 +55,7 @@ Recommended cron expressions (KST = UTC+9):
 
 ### Step 4 — Configure Cloud Environment
 
-Go to **https://claude.ai/code/settings** and update the cloud environment before registering routines.
+Go to **each routine window** and update the cloud environment before registering routines.
 
 **Network access:** Custom
 
